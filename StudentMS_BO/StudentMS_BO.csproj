@@ -47,9 +47,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Base.cs" />
+    <Compile Include="ClassesBO.cs" />
+    <Compile Include="CoursesBO.cs" />
+    <Compile Include="ParentsBO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RolesBO.cs" />
+    <Compile Include="StudentsBO.cs" />
     <Compile Include="TeacherBO.cs" />
+    <Compile Include="UserRolesBO.cs" />
+    <Compile Include="UsersBO.cs" />
+    <Compile Include="VleresimetBO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
