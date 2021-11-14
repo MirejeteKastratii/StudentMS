@@ -30,6 +30,7 @@ namespace StudentMS.Teachers
         private void InitializeComponent()
         {
             this.btnViewStaff = new System.Windows.Forms.Button();
+            this.btnAddTeachers = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnViewStaff
@@ -42,11 +43,22 @@ namespace StudentMS.Teachers
             this.btnViewStaff.UseVisualStyleBackColor = true;
             this.btnViewStaff.Click += new System.EventHandler(this.btnViewStaff_Click);
             // 
+            // btnAddTeachers
+            // 
+            this.btnAddTeachers.Location = new System.Drawing.Point(0, 66);
+            this.btnAddTeachers.Name = "btnAddTeachers";
+            this.btnAddTeachers.Size = new System.Drawing.Size(194, 60);
+            this.btnAddTeachers.TabIndex = 0;
+            this.btnAddTeachers.Text = "Shto Profesor";
+            this.btnAddTeachers.UseVisualStyleBackColor = true;
+            this.btnAddTeachers.Click += new System.EventHandler(this.btnViewStaff_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAddTeachers);
             this.Controls.Add(this.btnViewStaff);
             this.Name = "Home";
             this.Text = "Home";
@@ -57,5 +69,6 @@ namespace StudentMS.Teachers
         #endregion
 
         private System.Windows.Forms.Button btnViewStaff;
+        private System.Windows.Forms.Button btnAddTeachers;
     }
 }

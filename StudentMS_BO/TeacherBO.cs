@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentMS_BO
 {
-  public  class TeacherBO:Base
+    public class TeacherBO : Base
     {
         public int TeacherID { get; set; }
         public byte[] Foto { get; set; }
@@ -18,5 +18,23 @@ namespace StudentMS_BO
         public string Vendbanimi { get; set; }
         public string Specializimi { get; set; }
         public int WeeklyWorkingHr { get; set; }
+
+        public TeacherBO()
+        {
+
+        }
+        public TeacherBO(byte[] foto, string emri, string mbiemri, string gjinia, string email, string nrTel,
+            string vendbanimi, string specializimi, int orePune)
+        {
+            Foto = foto;
+            Emri = emri;
+            Mbiemri = mbiemri;
+            Gjinia = gjinia;
+            Email = email;
+            NrTel = nrTel;
+            Vendbanimi = vendbanimi;
+            Specializimi = specializimi;
+            WeeklyWorkingHr = orePune;
+        }
     }
 }
