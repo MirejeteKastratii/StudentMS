@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using StudentMS_BLL;
+using StudentMS_BO;
 
 namespace StudentMS.Teachers
 {
@@ -23,6 +24,12 @@ namespace StudentMS.Teachers
             TeacherBLL teacherBLL = new TeacherBLL();
             DataTable list = teacherBLL.ShowTeachers();
             dgvTeachers.DataSource = list;
+        }
+
+        private void btnAddTeacher_Click(object sender, EventArgs e)
+        {
+            AddTeacher addTeacherForm = new AddTeacher();
+            addTeacherForm.Show();
         }
     }
 }
