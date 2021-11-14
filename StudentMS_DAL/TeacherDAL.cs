@@ -17,7 +17,7 @@ namespace StudentMS_DAL
             using (DbConn.conn = new SqlConnection(DbConn.connString))
             {
                 //E lidh databazen edhe projektin tone permes adapterit na vijne te dhanat ne nje format qe ne e percaktojme
-                DbConn.dataAdapter = new SqlDataAdapter("usp_GetStaffList", DbConn.conn);
+                DbConn.dataAdapter = new SqlDataAdapter("usp_TeachersList", DbConn.conn);
                 //strukture e ngjashme me datatable te sql e cila behet map shume lehte me datagridin
                 DataTable dt = new DataTable();
                 DbConn.dataAdapter.Fill(dt);
