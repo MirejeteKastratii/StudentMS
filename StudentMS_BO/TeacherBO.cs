@@ -18,13 +18,14 @@ namespace StudentMS_BO
         public string Vendbanimi { get; set; }
         public string Specializimi { get; set; }
         public int WeeklyWorkingHr { get; set; }
+        public DateTime Birthdate { get; set; }
 
         public TeacherBO()
         {
 
         }
         public TeacherBO(byte[] foto, string emri, string mbiemri, string gjinia, string email, string nrTel,
-            string vendbanimi, string specializimi, int orePune)
+            string vendbanimi, string specializimi, int orePune, DateTime birthdate)
         {
             Foto = foto;
             Emri = emri;
@@ -35,6 +36,23 @@ namespace StudentMS_BO
             Vendbanimi = vendbanimi;
             Specializimi = specializimi;
             WeeklyWorkingHr = orePune;
+            Birthdate = birthdate;
+
+
+        }
+        public TeacherBO( string emri, string mbiemri, string gjinia, string email, string nrTel,
+           string vendbanimi, string specializimi, int orePune, DateTime birthdate)
+        {
+    
+            Emri = emri;
+            Mbiemri = mbiemri;
+            Gjinia = gjinia;
+            Email = email;
+            NrTel = nrTel;
+            Vendbanimi = vendbanimi;
+            Specializimi = specializimi;
+            WeeklyWorkingHr = orePune;
+            Birthdate = birthdate;
         }
     }
 }

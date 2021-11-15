@@ -33,31 +33,33 @@ namespace StudentMS.Teachers
             this.lblSurname = new System.Windows.Forms.Label();
             this.lblGender = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.pbTchImg = new System.Windows.Forms.PictureBox();
             this.btnAddTchImg = new System.Windows.Forms.Button();
             this.lblNrTel = new System.Windows.Forms.Label();
             this.lblVendbanimi = new System.Windows.Forms.Label();
             this.lblSpecializim = new System.Windows.Forms.Label();
             this.lblhr = new System.Windows.Forms.Label();
             this.lblBirthDate = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtEmri = new System.Windows.Forms.TextBox();
+            this.txtMbiemri = new System.Windows.Forms.TextBox();
+            this.txtVendbanimi = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNrTel = new System.Windows.Forms.TextBox();
+            this.txtSpecializimi = new System.Windows.Forms.TextBox();
+            this.txtOrePune = new System.Windows.Forms.TextBox();
+            this.dtDitelindja = new System.Windows.Forms.DateTimePicker();
+            this.rdMale = new System.Windows.Forms.RadioButton();
             this.rdFemale = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.lblInWeek = new System.Windows.Forms.Label();
+            this.btnAddTeacher = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.pbTchImg = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbTchImg)).BeginInit();
             this.SuspendLayout();
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Location = new System.Drawing.Point(49, 262);
+            this.lblName.Location = new System.Drawing.Point(49, 229);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(30, 13);
             this.lblName.TabIndex = 0;
@@ -66,7 +68,7 @@ namespace StudentMS.Teachers
             // lblSurname
             // 
             this.lblSurname.AutoSize = true;
-            this.lblSurname.Location = new System.Drawing.Point(33, 301);
+            this.lblSurname.Location = new System.Drawing.Point(33, 268);
             this.lblSurname.Name = "lblSurname";
             this.lblSurname.Size = new System.Drawing.Size(46, 13);
             this.lblSurname.TabIndex = 1;
@@ -75,7 +77,7 @@ namespace StudentMS.Teachers
             // lblGender
             // 
             this.lblGender.AutoSize = true;
-            this.lblGender.Location = new System.Drawing.Point(43, 341);
+            this.lblGender.Location = new System.Drawing.Point(43, 308);
             this.lblGender.Name = "lblGender";
             this.lblGender.Size = new System.Drawing.Size(36, 13);
             this.lblGender.TabIndex = 0;
@@ -84,33 +86,25 @@ namespace StudentMS.Teachers
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(354, 217);
+            this.lblEmail.Location = new System.Drawing.Point(354, 184);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(35, 13);
             this.lblEmail.TabIndex = 1;
             this.lblEmail.Text = "Email:";
             // 
-            // pbTchImg
-            // 
-            this.pbTchImg.Location = new System.Drawing.Point(90, 107);
-            this.pbTchImg.Name = "pbTchImg";
-            this.pbTchImg.Size = new System.Drawing.Size(142, 93);
-            this.pbTchImg.TabIndex = 2;
-            this.pbTchImg.TabStop = false;
-            // 
             // btnAddTchImg
             // 
-            this.btnAddTchImg.Location = new System.Drawing.Point(89, 217);
+            this.btnAddTchImg.Location = new System.Drawing.Point(89, 184);
             this.btnAddTchImg.Name = "btnAddTchImg";
             this.btnAddTchImg.Size = new System.Drawing.Size(143, 21);
-            this.btnAddTchImg.TabIndex = 3;
+            this.btnAddTchImg.TabIndex = 0;
             this.btnAddTchImg.Text = "button1";
             this.btnAddTchImg.UseVisualStyleBackColor = true;
             // 
             // lblNrTel
             // 
             this.lblNrTel.AutoSize = true;
-            this.lblNrTel.Location = new System.Drawing.Point(303, 262);
+            this.lblNrTel.Location = new System.Drawing.Point(303, 229);
             this.lblNrTel.Name = "lblNrTel";
             this.lblNrTel.Size = new System.Drawing.Size(86, 13);
             this.lblNrTel.TabIndex = 1;
@@ -119,7 +113,7 @@ namespace StudentMS.Teachers
             // lblVendbanimi
             // 
             this.lblVendbanimi.AutoSize = true;
-            this.lblVendbanimi.Location = new System.Drawing.Point(324, 171);
+            this.lblVendbanimi.Location = new System.Drawing.Point(324, 138);
             this.lblVendbanimi.Name = "lblVendbanimi";
             this.lblVendbanimi.Size = new System.Drawing.Size(65, 13);
             this.lblVendbanimi.TabIndex = 1;
@@ -128,7 +122,7 @@ namespace StudentMS.Teachers
             // lblSpecializim
             // 
             this.lblSpecializim.AutoSize = true;
-            this.lblSpecializim.Location = new System.Drawing.Point(325, 301);
+            this.lblSpecializim.Location = new System.Drawing.Point(325, 268);
             this.lblSpecializim.Name = "lblSpecializim";
             this.lblSpecializim.Size = new System.Drawing.Size(64, 13);
             this.lblSpecializim.TabIndex = 1;
@@ -137,7 +131,7 @@ namespace StudentMS.Teachers
             // lblhr
             // 
             this.lblhr.AutoSize = true;
-            this.lblhr.Location = new System.Drawing.Point(332, 341);
+            this.lblhr.Location = new System.Drawing.Point(332, 308);
             this.lblhr.Name = "lblhr";
             this.lblhr.Size = new System.Drawing.Size(51, 13);
             this.lblhr.TabIndex = 1;
@@ -146,114 +140,147 @@ namespace StudentMS.Teachers
             // lblBirthDate
             // 
             this.lblBirthDate.AutoSize = true;
-            this.lblBirthDate.Location = new System.Drawing.Point(332, 134);
+            this.lblBirthDate.Location = new System.Drawing.Point(332, 101);
             this.lblBirthDate.Name = "lblBirthDate";
             this.lblBirthDate.Size = new System.Drawing.Size(57, 13);
             this.lblBirthDate.TabIndex = 1;
             this.lblBirthDate.Text = "Datëlindja:";
             // 
-            // textBox1
+            // txtEmri
             // 
-            this.textBox1.Location = new System.Drawing.Point(89, 259);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(143, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtEmri.Location = new System.Drawing.Point(89, 226);
+            this.txtEmri.Name = "txtEmri";
+            this.txtEmri.Size = new System.Drawing.Size(143, 20);
+            this.txtEmri.TabIndex = 1;
             // 
-            // textBox2
+            // txtMbiemri
             // 
-            this.textBox2.Location = new System.Drawing.Point(89, 298);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(143, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtMbiemri.Location = new System.Drawing.Point(89, 265);
+            this.txtMbiemri.Name = "txtMbiemri";
+            this.txtMbiemri.Size = new System.Drawing.Size(143, 20);
+            this.txtMbiemri.TabIndex = 2;
             // 
-            // textBox3
+            // txtVendbanimi
             // 
-            this.textBox3.Location = new System.Drawing.Point(395, 171);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(143, 20);
-            this.textBox3.TabIndex = 4;
+            this.txtVendbanimi.Location = new System.Drawing.Point(395, 138);
+            this.txtVendbanimi.Name = "txtVendbanimi";
+            this.txtVendbanimi.Size = new System.Drawing.Size(143, 20);
+            this.txtVendbanimi.TabIndex = 6;
             // 
-            // textBox4
+            // txtEmail
             // 
-            this.textBox4.Location = new System.Drawing.Point(395, 218);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(143, 20);
-            this.textBox4.TabIndex = 4;
+            this.txtEmail.Location = new System.Drawing.Point(395, 185);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(143, 20);
+            this.txtEmail.TabIndex = 7;
             // 
-            // textBox5
+            // txtNrTel
             // 
-            this.textBox5.Location = new System.Drawing.Point(395, 262);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(143, 20);
-            this.textBox5.TabIndex = 4;
+            this.txtNrTel.Location = new System.Drawing.Point(395, 229);
+            this.txtNrTel.Name = "txtNrTel";
+            this.txtNrTel.Size = new System.Drawing.Size(143, 20);
+            this.txtNrTel.TabIndex = 8;
             // 
-            // textBox6
+            // txtSpecializimi
             // 
-            this.textBox6.Location = new System.Drawing.Point(395, 298);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(143, 20);
-            this.textBox6.TabIndex = 4;
+            this.txtSpecializimi.Location = new System.Drawing.Point(395, 265);
+            this.txtSpecializimi.Name = "txtSpecializimi";
+            this.txtSpecializimi.Size = new System.Drawing.Size(143, 20);
+            this.txtSpecializimi.TabIndex = 9;
             // 
-            // textBox7
+            // txtOrePune
             // 
-            this.textBox7.Location = new System.Drawing.Point(395, 341);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(64, 20);
-            this.textBox7.TabIndex = 4;
+            this.txtOrePune.Location = new System.Drawing.Point(395, 308);
+            this.txtOrePune.Name = "txtOrePune";
+            this.txtOrePune.Size = new System.Drawing.Size(64, 20);
+            this.txtOrePune.TabIndex = 10;
             // 
-            // dateTimePicker1
+            // dtDitelindja
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(395, 128);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(143, 20);
-            this.dateTimePicker1.TabIndex = 5;
+            this.dtDitelindja.Location = new System.Drawing.Point(395, 95);
+            this.dtDitelindja.Name = "dtDitelindja";
+            this.dtDitelindja.Size = new System.Drawing.Size(143, 20);
+            this.dtDitelindja.TabIndex = 5;
+            // 
+            // rdMale
+            // 
+            this.rdMale.AutoSize = true;
+            this.rdMale.Location = new System.Drawing.Point(148, 309);
+            this.rdMale.Name = "rdMale";
+            this.rdMale.Size = new System.Drawing.Size(34, 17);
+            this.rdMale.TabIndex = 4;
+            this.rdMale.TabStop = true;
+            this.rdMale.Text = "M";
+            this.rdMale.UseVisualStyleBackColor = true;
             // 
             // rdFemale
             // 
             this.rdFemale.AutoSize = true;
-            this.rdFemale.Location = new System.Drawing.Point(148, 342);
+            this.rdFemale.Location = new System.Drawing.Point(101, 309);
             this.rdFemale.Name = "rdFemale";
-            this.rdFemale.Size = new System.Drawing.Size(34, 17);
-            this.rdFemale.TabIndex = 6;
+            this.rdFemale.Size = new System.Drawing.Size(31, 17);
+            this.rdFemale.TabIndex = 3;
             this.rdFemale.TabStop = true;
-            this.rdFemale.Text = "M";
+            this.rdFemale.Text = "F";
             this.rdFemale.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(101, 342);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(31, 17);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "F";
-            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // lblInWeek
             // 
             this.lblInWeek.AutoSize = true;
-            this.lblInWeek.Location = new System.Drawing.Point(482, 344);
+            this.lblInWeek.Location = new System.Drawing.Point(482, 311);
             this.lblInWeek.Name = "lblInWeek";
             this.lblInWeek.Size = new System.Drawing.Size(45, 13);
             this.lblInWeek.TabIndex = 1;
             this.lblInWeek.Text = "në javë.";
             // 
+            // btnAddTeacher
+            // 
+            this.btnAddTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddTeacher.Location = new System.Drawing.Point(362, 375);
+            this.btnAddTeacher.Name = "btnAddTeacher";
+            this.btnAddTeacher.Size = new System.Drawing.Size(85, 34);
+            this.btnAddTeacher.TabIndex = 11;
+            this.btnAddTeacher.Text = "Ruaj";
+            this.btnAddTeacher.UseVisualStyleBackColor = true;
+            this.btnAddTeacher.Click += new System.EventHandler(this.btnAddTeacher_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Location = new System.Drawing.Point(453, 375);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(85, 34);
+            this.btnClose.TabIndex = 0;
+            this.btnClose.Text = "Dil";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // pbTchImg
+            // 
+            this.pbTchImg.Location = new System.Drawing.Point(90, 74);
+            this.pbTchImg.Name = "pbTchImg";
+            this.pbTchImg.Size = new System.Drawing.Size(142, 93);
+            this.pbTchImg.TabIndex = 2;
+            this.pbTchImg.TabStop = false;
+            // 
             // AddTeacher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(603, 449);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnAddTeacher);
             this.Controls.Add(this.rdFemale);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.rdMale);
+            this.Controls.Add(this.dtDitelindja);
+            this.Controls.Add(this.txtOrePune);
+            this.Controls.Add(this.txtSpecializimi);
+            this.Controls.Add(this.txtNrTel);
+            this.Controls.Add(this.txtEmail);
+            this.Controls.Add(this.txtVendbanimi);
+            this.Controls.Add(this.txtMbiemri);
+            this.Controls.Add(this.txtEmri);
             this.Controls.Add(this.btnAddTchImg);
             this.Controls.Add(this.pbTchImg);
             this.Controls.Add(this.lblInWeek);
@@ -269,7 +296,6 @@ namespace StudentMS.Teachers
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddTeacher";
             this.Text = "AddTeacher";
-            this.Load += new System.EventHandler(this.AddTeacher_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbTchImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -289,16 +315,18 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Label lblSpecializim;
         private System.Windows.Forms.Label lblhr;
         private System.Windows.Forms.Label lblBirthDate;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox txtEmri;
+        private System.Windows.Forms.TextBox txtMbiemri;
+        private System.Windows.Forms.TextBox txtVendbanimi;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.TextBox txtNrTel;
+        private System.Windows.Forms.TextBox txtSpecializimi;
+        private System.Windows.Forms.TextBox txtOrePune;
+        private System.Windows.Forms.DateTimePicker dtDitelindja;
+        private System.Windows.Forms.RadioButton rdMale;
         private System.Windows.Forms.RadioButton rdFemale;
-        private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.Label lblInWeek;
+        private System.Windows.Forms.Button btnAddTeacher;
+        private System.Windows.Forms.Button btnClose;
     }
 }

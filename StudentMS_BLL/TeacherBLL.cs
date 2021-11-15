@@ -21,6 +21,11 @@ namespace StudentMS_BLL
         {
             return teacherDAL.GetTeacherList();
         }
+        //kthehu qetu
+        public TeacherBO GetTeacherData(int StaffID)
+        {
+            return teacherDAL.GetTeacherByID(StaffID);
+        }
         public void AddTeachers(TeacherBO model)
         {
             teacherDAL.InsertTeachers(model);

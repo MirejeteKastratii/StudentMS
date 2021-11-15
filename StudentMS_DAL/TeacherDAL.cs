@@ -26,27 +26,70 @@ namespace StudentMS_DAL
         }
         public void InsertTeachers(TeacherBO model)
         {
-            using (DbConn.conn = new SqlConnection(DbConn.connString))
+            try
             {
-                DbConn.cmd = new SqlCommand("usp_InsertTeachers", DbConn.conn);
-                DbConn.cmd.CommandType = CommandType.StoredProcedure;
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_InsertTeachersPaFoto", DbConn.conn);
 
-                DbConn.cmd.Parameters.AddWithValue("@Foto", model.Foto);
-                DbConn.cmd.Parameters.AddWithValue("@Emri", model.Emri);
-                DbConn.cmd.Parameters.AddWithValue("@Mbiemri", model.Mbiemri);
-                DbConn.cmd.Parameters.AddWithValue("@Gjinia", model.Gjinia);
-                DbConn.cmd.Parameters.AddWithValue("@Email", model.Email);
-                DbConn.cmd.Parameters.AddWithValue("@NumriTelefonit", model.NrTel);
-                DbConn.cmd.Parameters.AddWithValue("@VendBanimi", model.Vendbanimi);
-                DbConn.cmd.Parameters.AddWithValue("@Specializimi", model.Specializimi);
-                DbConn.cmd.Parameters.AddWithValue("@WeeklyWorkingHours", model.WeeklyWorkingHr);
-                DbConn.cmd.Parameters.AddWithValue("@InsertBy", model.InsertBy);
-                DbConn.cmd.Parameters.AddWithValue("@InsertDate", model.InsertDate);
-                DbConn.cmd.Parameters.AddWithValue("@LUB", model.LUB);
-                DbConn.cmd.Parameters.AddWithValue("LUD", model.LUD);
-                DbConn.cmd.Parameters.AddWithValue("@LUN", model.LUN);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
 
-                DbConn.cmd.ExecuteNonQuery();//egzekuton rreshtin 31
+                    //    DbConn.cmd.Parameters.AddWithValue("@Foto", model.Foto);
+                    DbConn.cmd.Parameters.AddWithValue("@Emri", model.Emri);
+                    DbConn.cmd.Parameters.AddWithValue("@Mbiemri", model.Mbiemri);
+                    DbConn.cmd.Parameters.AddWithValue("@Gjinia", model.Gjinia);
+                    DbConn.cmd.Parameters.AddWithValue("@Email", model.Email);
+                    DbConn.cmd.Parameters.AddWithValue("@NumriTelefonit", model.NrTel);
+                    DbConn.cmd.Parameters.AddWithValue("@VendBanimi", model.Vendbanimi);
+                    DbConn.cmd.Parameters.AddWithValue("@Specializimi", model.Specializimi);
+                    DbConn.cmd.Parameters.AddWithValue("@WeeklyWorkingHours", model.WeeklyWorkingHr);
+                    DbConn.cmd.Parameters.AddWithValue("@InsertBy", 1);
+                    DbConn.cmd.Parameters.AddWithValue("@InsertDate", DateTime.Now);
+                    DbConn.cmd.Parameters.AddWithValue("@Ditelindja", model.Birthdate);
+
+
+                    DbConn.cmd.ExecuteNonQuery();//egzekuton rreshtin 31
+                    DbConn.conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
+
+
+        }
+        //lthehu qetu
+        public TeacherBO GetTeacherByID(int TchID)
+        {
+            DataSet ds;
+            TeacherBO tchBo = new TeacherBO();
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_InsertTeachersPaFoto", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+
+                    DbConn.cmd.Parameters.AddWithValue("@ID", TchID);
+                    DbConn.dataAdapter = new SqlDataAdapter(DbConn.cmd);
+                    ds = new DataSet();
+                    DbConn.dataAdapter.Fill(ds);
+                    tchBo.Emri = Convert.ToString(ds.Tables[0].Rows[0]["Emri"]);
+                    //merri edhe t dhanat tjera
+
+                   DbConn.conn.Close();
+                    return tchBo;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
             }
 
         }
