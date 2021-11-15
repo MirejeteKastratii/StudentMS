@@ -16,7 +16,7 @@ namespace StudentMS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Teachers.Home());
+            Application.Run(new LogIN());
         }
     }
 }

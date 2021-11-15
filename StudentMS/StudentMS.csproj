@@ -179,6 +179,10 @@
       <Project>{DE1587A7-CBA9-4B88-A27B-9050212263FF}</Project>
       <Name>StudentMS_BO</Name>
     </ProjectReference>
+    <ProjectReference Include="..\StudentMS_DAL\StudentMS_DAL.csproj">
+      <Project>{c087baa9-6218-4f14-bb14-f477e4119bab}</Project>
+      <Name>StudentMS_DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\KEY0.CC-Vector-Transparent-Library-Svg-Definition-Teacher-Teacher-Icon-Png.png" />
@@ -192,6 +196,8 @@
   <ItemGroup>
     <None Include="Resources\Capture-removebg-preview.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
