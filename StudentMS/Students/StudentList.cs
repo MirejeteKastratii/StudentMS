@@ -16,5 +16,15 @@ namespace StudentMS.Students
         {
             InitializeComponent();
         }
+
+        private void StudentList_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblListaStudenteve_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
