@@ -64,9 +64,10 @@ namespace StudentMS.Courses
             this.btnRifreskoKurset.Location = new System.Drawing.Point(303, 40);
             this.btnRifreskoKurset.Name = "btnRifreskoKurset";
             this.btnRifreskoKurset.Size = new System.Drawing.Size(133, 47);
-            this.btnRifreskoKurset.TabIndex = 2;
+            this.btnRifreskoKurset.TabIndex = 0;
             this.btnRifreskoKurset.Text = "Rifresko";
             this.btnRifreskoKurset.UseVisualStyleBackColor = true;
+            this.btnRifreskoKurset.Click += new System.EventHandler(this.btnRifreskoKurset_Click);
             // 
             // button2
             // 
@@ -74,7 +75,7 @@ namespace StudentMS.Courses
             this.button2.Location = new System.Drawing.Point(442, 40);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 47);
-            this.button2.TabIndex = 3;
+            this.button2.TabIndex = 1;
             this.button2.Text = "Edito rekordin";
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -84,7 +85,7 @@ namespace StudentMS.Courses
             this.button3.Location = new System.Drawing.Point(581, 40);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 47);
-            this.button3.TabIndex = 4;
+            this.button3.TabIndex = 2;
             this.button3.Text = "Fshij rekordin";
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -103,6 +104,7 @@ namespace StudentMS.Courses
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CourseList";
             this.Text = "CourseList";
+            this.Load += new System.EventHandler(this.CourseList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

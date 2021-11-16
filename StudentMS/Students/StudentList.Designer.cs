@@ -43,7 +43,7 @@ namespace StudentMS.Students
             this.lblListaStudenteve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.lblListaStudenteve.Location = new System.Drawing.Point(66, 47);
             this.lblListaStudenteve.Name = "lblListaStudenteve";
-            this.lblListaStudenteve.Size = new System.Drawing.Size(166, 22);
+            this.lblListaStudenteve.Size = new System.Drawing.Size(200, 26);
             this.lblListaStudenteve.TabIndex = 2;
             this.lblListaStudenteve.Text = "Lista e studenteve :";
             this.lblListaStudenteve.Click += new System.EventHandler(this.lblListaStudenteve_Click);
@@ -55,9 +55,10 @@ namespace StudentMS.Students
             this.btnRifreskoStudent.Location = new System.Drawing.Point(303, 47);
             this.btnRifreskoStudent.Name = "btnRifreskoStudent";
             this.btnRifreskoStudent.Size = new System.Drawing.Size(133, 47);
-            this.btnRifreskoStudent.TabIndex = 3;
+            this.btnRifreskoStudent.TabIndex = 0;
             this.btnRifreskoStudent.Text = "Rifresko";
             this.btnRifreskoStudent.UseVisualStyleBackColor = true;
+            this.btnRifreskoStudent.Click += new System.EventHandler(this.btnRifreskoStudent_Click);
             // 
             // btnEditoStudent
             // 
@@ -65,7 +66,7 @@ namespace StudentMS.Students
             this.btnEditoStudent.Location = new System.Drawing.Point(442, 47);
             this.btnEditoStudent.Name = "btnEditoStudent";
             this.btnEditoStudent.Size = new System.Drawing.Size(133, 47);
-            this.btnEditoStudent.TabIndex = 4;
+            this.btnEditoStudent.TabIndex = 1;
             this.btnEditoStudent.Text = "Edito rekordin";
             this.btnEditoStudent.UseVisualStyleBackColor = true;
             // 
@@ -75,7 +76,7 @@ namespace StudentMS.Students
             this.btnFshijStudent.Location = new System.Drawing.Point(581, 47);
             this.btnFshijStudent.Name = "btnFshijStudent";
             this.btnFshijStudent.Size = new System.Drawing.Size(133, 47);
-            this.btnFshijStudent.TabIndex = 5;
+            this.btnFshijStudent.TabIndex = 2;
             this.btnFshijStudent.Text = "Fshij rekordin";
             this.btnFshijStudent.UseVisualStyleBackColor = true;
             // 
@@ -91,7 +92,7 @@ namespace StudentMS.Students
             // 
             // StudentList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(726, 519);

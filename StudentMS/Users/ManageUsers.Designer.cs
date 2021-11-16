@@ -46,7 +46,7 @@ namespace StudentMS.Users
             this.lblUsername.AutoSize = true;
             this.lblUsername.Location = new System.Drawing.Point(107, 249);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(52, 13);
+            this.lblUsername.Size = new System.Drawing.Size(69, 17);
             this.lblUsername.TabIndex = 0;
             this.lblUsername.Text = "Fjalkalimi ";
             // 
@@ -55,29 +55,29 @@ namespace StudentMS.Users
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(209, 65);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(0, 17);
             this.label2.TabIndex = 1;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(47, 165);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(173, 20);
-            this.textBox1.TabIndex = 2;
+            this.textBox1.Size = new System.Drawing.Size(173, 23);
+            this.textBox1.TabIndex = 0;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(47, 288);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(173, 20);
-            this.textBox2.TabIndex = 3;
+            this.textBox2.Size = new System.Drawing.Size(173, 23);
+            this.textBox2.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(107, 134);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(77, 17);
             this.label1.TabIndex = 4;
             this.label1.Text = "Perdoruesi";
             // 
@@ -88,7 +88,7 @@ namespace StudentMS.Users
             this.btnRifreskoManage.Location = new System.Drawing.Point(387, 48);
             this.btnRifreskoManage.Name = "btnRifreskoManage";
             this.btnRifreskoManage.Size = new System.Drawing.Size(133, 47);
-            this.btnRifreskoManage.TabIndex = 6;
+            this.btnRifreskoManage.TabIndex = 3;
             this.btnRifreskoManage.Text = "Rifresko";
             this.btnRifreskoManage.UseVisualStyleBackColor = true;
             // 
@@ -99,7 +99,7 @@ namespace StudentMS.Users
             this.btnFshij.Location = new System.Drawing.Point(566, 48);
             this.btnFshij.Name = "btnFshij";
             this.btnFshij.Size = new System.Drawing.Size(133, 47);
-            this.btnFshij.TabIndex = 7;
+            this.btnFshij.TabIndex = 4;
             this.btnFshij.Text = "Fshij";
             this.btnFshij.UseVisualStyleBackColor = true;
             // 
@@ -110,7 +110,7 @@ namespace StudentMS.Users
             this.btnRuaj.Location = new System.Drawing.Point(73, 360);
             this.btnRuaj.Name = "btnRuaj";
             this.btnRuaj.Size = new System.Drawing.Size(120, 28);
-            this.btnRuaj.TabIndex = 8;
+            this.btnRuaj.TabIndex = 2;
             this.btnRuaj.Text = "Ruaj";
             this.btnRuaj.UseVisualStyleBackColor = true;
             // 
@@ -119,12 +119,13 @@ namespace StudentMS.Users
             this.dataGridManage.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridManage.Location = new System.Drawing.Point(265, 123);
             this.dataGridManage.Name = "dataGridManage";
+            this.dataGridManage.RowHeadersWidth = 51;
             this.dataGridManage.Size = new System.Drawing.Size(434, 344);
             this.dataGridManage.TabIndex = 9;
             // 
             // ManageUsers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
             this.ClientSize = new System.Drawing.Size(726, 519);
