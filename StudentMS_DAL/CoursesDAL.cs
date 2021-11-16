@@ -29,7 +29,7 @@ namespace StudentMS_DAL
                 {
                     DbConn.conn.Open();
                     DbConn.cmd = new SqlCommand("usp_InsertCourse", DbConn.conn);
-
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
                     DbConn.cmd.Parameters.AddWithValue("Titulli", model.Titulli);
                     DbConn.cmd.Parameters.AddWithValue("Pershkrimi", model.Pershkrimi);
                     DbConn.cmd.Parameters.AddWithValue("Syllabusi", model.Syllabusi);

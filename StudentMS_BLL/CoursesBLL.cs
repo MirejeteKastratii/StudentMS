@@ -9,7 +9,7 @@ using System.Data;
 
 namespace StudentMS_BLL
 {
-    internal class CoursesBLL
+    public class CoursesBLL
     {
         private readonly CoursesDAL coursesDAL;
         public CoursesBLL()

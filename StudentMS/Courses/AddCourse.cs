@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentMS_BO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,11 +8,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using StudentMS_BLL;
 namespace StudentMS.Courses
 {
     public partial class AddCourse : Form
     {
+        CoursesBLL courseService = new CoursesBLL();
         public AddCourse()
         {
             InitializeComponent();
@@ -20,6 +22,12 @@ namespace StudentMS.Courses
         private void AddCourse_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnRuaj_Click(object sender, EventArgs e)
+        {
+            CoursesBO courseBo = new CoursesBO(txtCourseTitle.Text, txtCourseDescription.Text,txtSyllabusi.Text,Convert.ToInt32(txtSessions.Text) );
+            courseService.AddCourses(courseBo);
         }
     }
 }
