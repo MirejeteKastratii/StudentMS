@@ -16,5 +16,10 @@ namespace StudentMS.Courses
         {
             InitializeComponent();
         }
+
+        private void AddCourse_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
