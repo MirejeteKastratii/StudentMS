@@ -56,7 +56,7 @@ namespace StudentMS_DAL
             catch (Exception ex)
             {
 
-                throw;
+                throw ex;
             }
 
 
@@ -72,7 +72,7 @@ namespace StudentMS_DAL
                 using (DbConn.conn = new SqlConnection(DbConn.connString))
                 {
                     DbConn.conn.Open();
-                    DbConn.cmd = new SqlCommand("usp_InsertTeachersPaFoto", DbConn.conn);
+                    DbConn.cmd = new SqlCommand("usp_GetTeacherByID", DbConn.conn);
                     DbConn.cmd.CommandType = CommandType.StoredProcedure;
 
                     DbConn.cmd.Parameters.AddWithValue("@ID", TchID);
@@ -80,9 +80,15 @@ namespace StudentMS_DAL
                     ds = new DataSet();
                     DbConn.dataAdapter.Fill(ds);
                     tchBo.Emri = Convert.ToString(ds.Tables[0].Rows[0]["Emri"]);
-                    //merri edhe t dhanat tjera
-
-                   DbConn.conn.Close();
+                    tchBo.Mbiemri = Convert.ToString(ds.Tables[0].Rows[0]["Mbiemri"]);
+                    tchBo.Gjinia = Convert.ToString(ds.Tables[0].Rows[0]["Gjinia"]);
+                    tchBo.Email = Convert.ToString(ds.Tables[0].Rows[0]["Email"]);
+                    tchBo.NrTel = Convert.ToString(ds.Tables[0].Rows[0]["NrTel"]);
+                    tchBo.Vendbanimi = Convert.ToString(ds.Tables[0].Rows[0]["Vendbanimi"]);
+                    tchBo.Specializimi = Convert.ToString(ds.Tables[0].Rows[0]["Specializimi"]);
+                    tchBo.WeeklyWorkingHr = Convert.ToInt32(ds.Tables[0].Rows[0]["WeeklyWorkingHr"]);
+                    tchBo.Birthdate = Convert.ToDateTime(ds.Tables[0].Rows[0]["Birthdate"]);
+                    DbConn.conn.Close();
                     return tchBo;
                 }
             }

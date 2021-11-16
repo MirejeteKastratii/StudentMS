@@ -21,7 +21,8 @@ namespace StudentMS_BLL
         {
             return teacherDAL.GetTeacherList();
         }
-        //kthehu qetu
+
+        //e perfunduar, perfundo edhe te DAL - i
         public TeacherBO GetTeacherData(int StaffID)
         {
             return teacherDAL.GetTeacherByID(StaffID);

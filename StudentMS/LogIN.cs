@@ -63,7 +63,7 @@ namespace StudentMS
                             }
                             if (role == "Teacher")
                             {
-                                new Teachers.AddTeacher().Show();
+                                new Teachers.TeacherHome().Show();
                             }
                         }
                         else

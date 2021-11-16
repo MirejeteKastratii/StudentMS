@@ -53,6 +53,8 @@ namespace StudentMS.Teachers
         {
             var vID = int.Parse(dgvTeachers.Rows[e.RowIndex].Cells[0].Value.ToString());   //kthen id te rreshtit te selektuar     }
             TeacherList tchListFrm = new TeacherList(vID);
+            tchListFrm.teacherBLL.GetTeacherData(vID);
+          
         }
     }
 }

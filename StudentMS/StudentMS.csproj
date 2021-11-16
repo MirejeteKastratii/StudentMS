@@ -58,6 +58,12 @@
     <Compile Include="Courses\CourseList.Designer.cs">
       <DependentUpon>CourseList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Courses\Vleresimet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Courses\Vleresimet.Designer.cs">
+      <DependentUpon>Vleresimet.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,12 @@
     <Compile Include="Teachers\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teachers\TeacherHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teachers\TeacherHome.Designer.cs">
+      <DependentUpon>TeacherHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Teachers\TeacherList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Courses\CourseList.resx">
       <DependentUpon>CourseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\Vleresimet.resx">
+      <DependentUpon>Vleresimet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -141,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\TeacherHome.resx">
+      <DependentUpon>TeacherHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\TeacherList.resx">
       <DependentUpon>TeacherList.cs</DependentUpon>
