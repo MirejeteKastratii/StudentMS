@@ -63,7 +63,7 @@ namespace StudentMS
             this.btnTeacher.Location = new System.Drawing.Point(468, 10);
             this.btnTeacher.Name = "btnTeacher";
             this.btnTeacher.Size = new System.Drawing.Size(464, 63);
-            this.btnTeacher.TabIndex = 0;
+            this.btnTeacher.TabIndex = 1;
             this.btnTeacher.Text = "PROFESOR";
             this.btnTeacher.UseVisualStyleBackColor = true;
             this.btnTeacher.Click += new System.EventHandler(this.btnTeacher_Click);
@@ -103,7 +103,7 @@ namespace StudentMS
             // 
             this.lblUserName.AutoSize = true;
             this.lblUserName.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.lblUserName.Location = new System.Drawing.Point(646, 189);
+            this.lblUserName.Location = new System.Drawing.Point(635, 188);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(139, 20);
             this.lblUserName.TabIndex = 3;
@@ -113,7 +113,7 @@ namespace StudentMS
             // 
             this.lblUserSurname.AutoSize = true;
             this.lblUserSurname.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.lblUserSurname.Location = new System.Drawing.Point(633, 292);
+            this.lblUserSurname.Location = new System.Drawing.Point(622, 291);
             this.lblUserSurname.Name = "lblUserSurname";
             this.lblUserSurname.Size = new System.Drawing.Size(164, 20);
             this.lblUserSurname.TabIndex = 3;
@@ -121,35 +121,35 @@ namespace StudentMS
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(587, 235);
+            this.txtUserName.Location = new System.Drawing.Point(576, 234);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(245, 21);
-            this.txtUserName.TabIndex = 4;
+            this.txtUserName.TabIndex = 1;
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(587, 335);
+            this.txtPassword.Location = new System.Drawing.Point(576, 334);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(245, 21);
-            this.txtPassword.TabIndex = 4;
+            this.txtPassword.TabIndex = 2;
             // 
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnClose.Location = new System.Drawing.Point(716, 398);
+            this.btnClose.Location = new System.Drawing.Point(705, 397);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(116, 38);
-            this.btnClose.TabIndex = 5;
+            this.btnClose.TabIndex = 4;
             this.btnClose.Text = "Dil";
             this.btnClose.UseVisualStyleBackColor = true;
             // 
             // btnSignIn
             // 
             this.btnSignIn.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnSignIn.Location = new System.Drawing.Point(587, 398);
+            this.btnSignIn.Location = new System.Drawing.Point(576, 397);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(116, 38);
-            this.btnSignIn.TabIndex = 5;
+            this.btnSignIn.TabIndex = 3;
             this.btnSignIn.Text = "Kyçu";
             this.btnSignIn.UseVisualStyleBackColor = true;
             this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);

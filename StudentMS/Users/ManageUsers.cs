@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudentMS.Users
 {
-    public partial class UsersList : Form
+    public partial class ManageUsers : Form
     {
-        public UsersList()
+        public ManageUsers()
         {
             InitializeComponent();
         }

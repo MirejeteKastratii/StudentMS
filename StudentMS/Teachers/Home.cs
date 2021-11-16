@@ -22,8 +22,8 @@ namespace StudentMS.Teachers
         Students.StudentList stList = new Students.StudentList();
         Courses.AddCourse addCourse = new Courses.AddCourse();
         Courses.CourseList courseList = new Courses.CourseList();
-        Users.AddUsers addUsers = new Users.AddUsers();
-        Users.UsersList userList = new Users.UsersList();
+        Users.ManageUsers addUsers = new Users.ManageUsers();
+        Users.ManageUsers mngUsers = new Users.ManageUsers();
 
         private void btnViewStaff_Click(object sender, EventArgs e)
         {
@@ -49,9 +49,9 @@ namespace StudentMS.Teachers
             {
                 addUsers.Hide();
             }
-            if (pnlContent.Contains(userList))
+            if (pnlContent.Contains(mngUsers))
             {
-                userList.Hide();
+                mngUsers.Hide();
             }
             if (pnlContent.Contains(addTch))
             {
@@ -88,9 +88,9 @@ namespace StudentMS.Teachers
             {
                 addUsers.Hide();
             }
-            if (pnlContent.Contains(userList))
+            if (pnlContent.Contains(mngUsers))
             {
-                userList.Hide();
+                mngUsers.Hide();
             }
             if (pnlContent.Contains(addCourse))
             {
@@ -126,9 +126,9 @@ namespace StudentMS.Teachers
             {
                 addUsers.Hide();
             }
-            if (pnlContent.Contains(userList))
+            if (pnlContent.Contains(mngUsers))
             {
-                userList.Hide();
+                mngUsers.Hide();
             }
             if (pnlContent.Contains(addCourse))
             {
@@ -164,9 +164,9 @@ namespace StudentMS.Teachers
             {
                 addUsers.Hide();
             }
-            if (pnlContent.Contains(userList))
+            if (pnlContent.Contains(mngUsers))
             {
-                userList.Hide();
+                mngUsers.Hide();
             }
             if (pnlContent.Contains(addTch))
             {
@@ -195,9 +195,9 @@ namespace StudentMS.Teachers
             {
                 addStudents.Hide();
             }
-            if (pnlContent.Contains(userList))
+            if (pnlContent.Contains(mngUsers))
             {
-                userList.Hide();
+                mngUsers.Hide();
             }
             if (pnlContent.Contains(addUsers))
             {
@@ -233,9 +233,9 @@ namespace StudentMS.Teachers
             {
                 stList.Hide();
             }
-            if (pnlContent.Contains(userList))
+            if (pnlContent.Contains(mngUsers))
             {
-                userList.Hide();
+                mngUsers.Hide();
             }
             if (pnlContent.Contains(addUsers))
             {
@@ -289,10 +289,10 @@ namespace StudentMS.Teachers
                 addCourse.Hide();
             }
 
-            userList.TopLevel = false;
-            userList.Parent = pnlContent;
-            userList.Dock = DockStyle.Fill;
-            userList.Show();
+            mngUsers.TopLevel = false;
+            mngUsers.Parent = pnlContent;
+            mngUsers.Dock = DockStyle.Fill;
+            mngUsers.Show();
         }
     }
 }

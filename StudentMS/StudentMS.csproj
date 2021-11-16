@@ -102,17 +102,11 @@
     <Compile Include="Teachers\TeacherList.Designer.cs">
       <DependentUpon>TeacherList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Users\AddUsers.cs">
+    <Compile Include="Users\ManageUsers.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Users\AddUsers.Designer.cs">
-      <DependentUpon>AddUsers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Users\UsersList.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Users\UsersList.Designer.cs">
-      <DependentUpon>UsersList.cs</DependentUpon>
+    <Compile Include="Users\ManageUsers.Designer.cs">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Courses\AddCourse.resx">
       <DependentUpon>AddCourse.cs</DependentUpon>
@@ -151,11 +145,8 @@
     <EmbeddedResource Include="Teachers\TeacherList.resx">
       <DependentUpon>TeacherList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Users\AddUsers.resx">
-      <DependentUpon>AddUsers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Users\UsersList.resx">
-      <DependentUpon>UsersList.cs</DependentUpon>
+    <EmbeddedResource Include="Users\ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

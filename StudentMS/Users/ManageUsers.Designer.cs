@@ -1,7 +1,7 @@
 ﻿
 namespace StudentMS.Users
 {
-    partial class UsersList
+    partial class ManageUsers
     {
         /// <summary>
         /// Required designer variable.
@@ -35,13 +35,13 @@ namespace StudentMS.Users
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(367, 285);
+            this.label1.Location = new System.Drawing.Point(317, 224);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 15);
+            this.label1.Size = new System.Drawing.Size(62, 15);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Users List";
+            this.label1.Text = "Add Users";
             // 
-            // UsersList
+            // AddUsers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -49,8 +49,8 @@ namespace StudentMS.Users
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Montserrat", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "UsersList";
-            this.Text = "UsersList";
+            this.Name = "AddUsers";
+            this.Text = "AddUsers";
             this.ResumeLayout(false);
             this.PerformLayout();
 
