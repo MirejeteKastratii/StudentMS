@@ -31,6 +31,8 @@ namespace StudentMS.Courses
             CoursesBLL coursesBLL = new CoursesBLL();
             DataTable list = coursesBLL.ShowCourses();
             dgvListaKurseve.DataSource = list;
+            //fsheh kolonen i ID per tabelen ne dgv
+            dgvListaKurseve.Columns["CourseID"].Visible = false;
         }
     }
 }

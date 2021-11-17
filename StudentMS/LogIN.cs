@@ -19,7 +19,7 @@ namespace StudentMS
         {
             InitializeComponent();
         }
-        string role;
+        string role = "";
         private void btnAdmin_Click(object sender, EventArgs e)
         {
             pnlLogin.Left = btnAdmin.Left;
@@ -61,11 +61,11 @@ namespace StudentMS
                             {
                                 new Teachers.Home().Show();
                             }
-                            if (role == "Teacher")
+                           else if (role == "Teacher")
                             {
                                 new Teachers.TeacherHome().Show();
                             }
-                            else
+                            else if(role == "")
                             {
                                 MessageBox.Show("Ju lutem zgjidhni rolin tuaj.");
                             }

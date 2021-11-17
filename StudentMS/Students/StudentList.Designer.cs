@@ -43,7 +43,7 @@ namespace StudentMS.Students
             this.lblListaStudenteve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.lblListaStudenteve.Location = new System.Drawing.Point(66, 47);
             this.lblListaStudenteve.Name = "lblListaStudenteve";
-            this.lblListaStudenteve.Size = new System.Drawing.Size(200, 26);
+            this.lblListaStudenteve.Size = new System.Drawing.Size(166, 22);
             this.lblListaStudenteve.TabIndex = 2;
             this.lblListaStudenteve.Text = "Lista e studenteve :";
             this.lblListaStudenteve.Click += new System.EventHandler(this.lblListaStudenteve_Click);
@@ -79,6 +79,7 @@ namespace StudentMS.Students
             this.btnFshijStudent.TabIndex = 2;
             this.btnFshijStudent.Text = "Fshij rekordin";
             this.btnFshijStudent.UseVisualStyleBackColor = true;
+            this.btnFshijStudent.Click += new System.EventHandler(this.btnFshijStudent_Click);
             // 
             // dgvListaStudenteve
             // 
@@ -89,10 +90,11 @@ namespace StudentMS.Students
             this.dgvListaStudenteve.RowTemplate.Height = 24;
             this.dgvListaStudenteve.Size = new System.Drawing.Size(700, 404);
             this.dgvListaStudenteve.TabIndex = 6;
+            this.dgvListaStudenteve.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaStudenteve_CellClick);
             // 
             // StudentList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(726, 519);

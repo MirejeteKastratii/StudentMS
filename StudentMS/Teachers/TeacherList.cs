@@ -33,6 +33,8 @@ namespace StudentMS.Teachers
         
             DataTable list = teacherBLL.ShowTeachers();
             dgvTeachers.DataSource = list;
+            dgvTeachers.Columns["TeacherID"].Visible = false;    
+        
         }
 
         private void btnAddTeacher_Click(object sender, EventArgs e)
@@ -49,12 +51,35 @@ namespace StudentMS.Teachers
         }
 
         //kthehu qetu 
+        int TeacherID;
         private void dgvTeachers_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            var vID = int.Parse(dgvTeachers.Rows[e.RowIndex].Cells[0].Value.ToString());   //kthen id te rreshtit te selektuar     }
+            /*var vID = int.Parse(dgvTeachers.Rows[e.RowIndex].Cells[0].Value.ToString());   //kthen id te rreshtit te selektuar     }
             TeacherList tchListFrm = new TeacherList(vID);
-            tchListFrm.teacherBLL.GetTeacherData(vID);
+            tchListFrm.teacherBLL.GetTeacherData(vID);*/
+            var SelectedRow = dgvTeachers.Rows[dgvTeachers.SelectedCells[0].RowIndex];
+
+            TeacherID = int.Parse(Convert.ToString(SelectedRow.Cells["TeacherID"].Value));
           
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("A dëshironi ta fshini rekordin e selektuar.", "Paralajmërim për fshirje.", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                bool isDeleted = teacherBLL.DeleteTeachers(TeacherID);
+                if (isDeleted)
+                {
+                    MessageBox.Show("Rekordi është fshi.");
+                }
+                else
+                {
+                    MessageBox.Show("Rekordi nuk është fshi.");
+
+                }
+            }
+            
         }
     }
 }

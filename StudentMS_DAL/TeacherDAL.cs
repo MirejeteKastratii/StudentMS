@@ -99,5 +99,28 @@ namespace StudentMS_DAL
             }
 
         }
+        public bool DeleteTeacher(int ID)
+        {
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_DeleteTeacher", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+
+                    DbConn.cmd.Parameters.AddWithValue("@ID", ID);
+
+                    DbConn.cmd.ExecuteNonQuery();
+                    DbConn.conn.Close();
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return false;
+            }
+        }
     }
 }

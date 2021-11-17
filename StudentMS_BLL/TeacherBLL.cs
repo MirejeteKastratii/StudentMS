@@ -31,5 +31,9 @@ namespace StudentMS_BLL
         {
             teacherDAL.InsertTeachers(model);
         }
+        public bool DeleteTeachers(int TeacherID)
+        {
+            return teacherDAL.DeleteTeacher(TeacherID);
+        }
     }
 }

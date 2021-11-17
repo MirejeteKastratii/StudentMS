@@ -76,7 +76,7 @@ namespace StudentMS.Teachers
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Fshij rekordin";
             this.btnDelete.UseVisualStyleBackColor = true;
-            this.btnDelete.Click += new System.EventHandler(this.btnAddTeacher_Click);
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // brnRefresh
             // 

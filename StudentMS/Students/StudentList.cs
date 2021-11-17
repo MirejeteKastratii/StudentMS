@@ -13,13 +13,17 @@ namespace StudentMS.Students
 {
     public partial class StudentList : Form
     {
+        StudentBLL stBLL = new StudentBLL();
         public StudentList()
         {
             InitializeComponent();
         }
-
+        
         private void StudentList_Load(object sender, EventArgs e)
         {
+            DataTable list = stBLL.ShowStudentList();
+            dgvListaStudenteve.DataSource = list;
+            dgvListaStudenteve.Columns["StudentID"].Visible = false;
 
         }
 
@@ -30,8 +34,35 @@ namespace StudentMS.Students
 
         private void btnRifreskoStudent_Click(object sender, EventArgs e)
         {
-           
+            DataTable list = stBLL.ShowStudentList();
+            dgvListaStudenteve.DataSource = list;
+            dgvListaStudenteve.Columns["StudentID"].Visible = false;
 
+        }
+
+        int StudentID;
+        private void btnFshijStudent_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("A dëshironi ta fshini rekordin e selektuar.", "Paralajmërim për fshirje.", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                bool isDeleted = stBLL.DeleteStudents(StudentID);
+                if (isDeleted)
+                {
+                    MessageBox.Show("Rekordi është fshi.");
+                }
+                else
+                {
+                    MessageBox.Show("Rekordi nuk është fshi.");
+
+                }
+            }
+        }
+
+        private void dgvListaStudenteve_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var selectedRow = dgvListaStudenteve.Rows[dgvListaStudenteve.SelectedCells[0].RowIndex];
+            StudentID = int.Parse(Convert.ToString(selectedRow.Cells["StudentID"].Value));
         }
     }
 }
