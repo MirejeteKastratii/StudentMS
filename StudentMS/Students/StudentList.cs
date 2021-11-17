@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DGVPrinterHelper;
 using StudentMS_BLL;
 
 namespace StudentMS.Students
@@ -63,6 +64,22 @@ namespace StudentMS.Students
         {
             var selectedRow = dgvListaStudenteve.Rows[dgvListaStudenteve.SelectedCells[0].RowIndex];
             StudentID = int.Parse(Convert.ToString(selectedRow.Cells["StudentID"].Value));
+        }
+
+        private void btn_Print_Click(object sender, EventArgs e)
+        {
+            DGVPrinter dGVPrinter = new DGVPrinter();
+            dGVPrinter.Title = "Lista e studenteve";
+            dGVPrinter.SubTitle = "Lista e studenteve me te dhenat personale !";
+            dGVPrinter.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            dGVPrinter.PageNumbers = true;
+            dGVPrinter.PageNumberInHeader = false;
+            dGVPrinter.PorportionalColumns = true;
+            dGVPrinter.HeaderCellAlignment=StringAlignment.Near;
+            dGVPrinter.Footer = "Education";
+            dGVPrinter.FooterSpacing = 15;
+            dGVPrinter.PrintDataGridView(dgvListaStudenteve);
+                
         }
     }
 }

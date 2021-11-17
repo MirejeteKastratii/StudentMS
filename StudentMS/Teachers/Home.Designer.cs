@@ -31,17 +31,17 @@ namespace StudentMS.Teachers
         {
             this.btnViewStaff = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnlContent = new System.Windows.Forms.Panel();
+            this.lblAdmin = new System.Windows.Forms.Label();
+            this.btnManageUsers = new System.Windows.Forms.Button();
+            this.btnAddStudents = new System.Windows.Forms.Button();
+            this.btnViewStudents = new System.Windows.Forms.Button();
+            this.btnAddCourses = new System.Windows.Forms.Button();
+            this.btnViewCourses = new System.Windows.Forms.Button();
+            this.btnAddStaff = new System.Windows.Forms.Button();
+            this.pnlActive = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pnlActive = new System.Windows.Forms.Panel();
-            this.btnAddStaff = new System.Windows.Forms.Button();
-            this.btnViewCourses = new System.Windows.Forms.Button();
-            this.btnAddCourses = new System.Windows.Forms.Button();
-            this.btnViewStudents = new System.Windows.Forms.Button();
-            this.btnAddStudents = new System.Windows.Forms.Button();
-            this.btnManageUsers = new System.Windows.Forms.Button();
-            this.lblAdmin = new System.Windows.Forms.Label();
+            this.pnlContent = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -79,13 +79,108 @@ namespace StudentMS.Teachers
             this.panel1.Size = new System.Drawing.Size(198, 519);
             this.panel1.TabIndex = 1;
             // 
-            // pnlContent
+            // lblAdmin
             // 
-            this.pnlContent.BackColor = System.Drawing.Color.Thistle;
-            this.pnlContent.Location = new System.Drawing.Point(206, 2);
-            this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Size = new System.Drawing.Size(726, 519);
-            this.pnlContent.TabIndex = 2;
+            this.lblAdmin.AutoSize = true;
+            this.lblAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblAdmin.ForeColor = System.Drawing.Color.LightGreen;
+            this.lblAdmin.Location = new System.Drawing.Point(70, 108);
+            this.lblAdmin.Name = "lblAdmin";
+            this.lblAdmin.Size = new System.Drawing.Size(76, 25);
+            this.lblAdmin.TabIndex = 3;
+            this.lblAdmin.Text = "ADMIN";
+            // 
+            // btnManageUsers
+            // 
+            this.btnManageUsers.FlatAppearance.BorderSize = 0;
+            this.btnManageUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnManageUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnManageUsers.ForeColor = System.Drawing.Color.White;
+            this.btnManageUsers.Location = new System.Drawing.Point(14, 456);
+            this.btnManageUsers.Name = "btnManageUsers";
+            this.btnManageUsers.Size = new System.Drawing.Size(184, 46);
+            this.btnManageUsers.TabIndex = 0;
+            this.btnManageUsers.Text = "Menaxho përdoruesit";
+            this.btnManageUsers.UseVisualStyleBackColor = true;
+            this.btnManageUsers.Click += new System.EventHandler(this.btnManageUsers_Click);
+            // 
+            // btnAddStudents
+            // 
+            this.btnAddStudents.FlatAppearance.BorderSize = 0;
+            this.btnAddStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAddStudents.ForeColor = System.Drawing.Color.White;
+            this.btnAddStudents.Location = new System.Drawing.Point(13, 403);
+            this.btnAddStudents.Name = "btnAddStudents";
+            this.btnAddStudents.Size = new System.Drawing.Size(184, 46);
+            this.btnAddStudents.TabIndex = 0;
+            this.btnAddStudents.Text = "Shto Nxenes";
+            this.btnAddStudents.UseVisualStyleBackColor = true;
+            this.btnAddStudents.Click += new System.EventHandler(this.btnAddStudents_Click);
+            // 
+            // btnViewStudents
+            // 
+            this.btnViewStudents.FlatAppearance.BorderSize = 0;
+            this.btnViewStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnViewStudents.ForeColor = System.Drawing.Color.White;
+            this.btnViewStudents.Location = new System.Drawing.Point(13, 350);
+            this.btnViewStudents.Name = "btnViewStudents";
+            this.btnViewStudents.Size = new System.Drawing.Size(184, 46);
+            this.btnViewStudents.TabIndex = 0;
+            this.btnViewStudents.Text = "Shiko Nxenesit";
+            this.btnViewStudents.UseVisualStyleBackColor = true;
+            this.btnViewStudents.Click += new System.EventHandler(this.btnViewStudents_Click);
+            // 
+            // btnAddCourses
+            // 
+            this.btnAddCourses.FlatAppearance.BorderSize = 0;
+            this.btnAddCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAddCourses.ForeColor = System.Drawing.Color.White;
+            this.btnAddCourses.Location = new System.Drawing.Point(13, 297);
+            this.btnAddCourses.Name = "btnAddCourses";
+            this.btnAddCourses.Size = new System.Drawing.Size(184, 46);
+            this.btnAddCourses.TabIndex = 0;
+            this.btnAddCourses.Text = "Shto Kurs";
+            this.btnAddCourses.UseVisualStyleBackColor = true;
+            this.btnAddCourses.Click += new System.EventHandler(this.btnAddCourses_Click);
+            // 
+            // btnViewCourses
+            // 
+            this.btnViewCourses.FlatAppearance.BorderSize = 0;
+            this.btnViewCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnViewCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnViewCourses.ForeColor = System.Drawing.Color.White;
+            this.btnViewCourses.Location = new System.Drawing.Point(13, 243);
+            this.btnViewCourses.Name = "btnViewCourses";
+            this.btnViewCourses.Size = new System.Drawing.Size(184, 46);
+            this.btnViewCourses.TabIndex = 0;
+            this.btnViewCourses.Text = "Shiko Kurset";
+            this.btnViewCourses.UseVisualStyleBackColor = true;
+            this.btnViewCourses.Click += new System.EventHandler(this.btnViewCourses_Click);
+            // 
+            // btnAddStaff
+            // 
+            this.btnAddStaff.FlatAppearance.BorderSize = 0;
+            this.btnAddStaff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAddStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAddStaff.ForeColor = System.Drawing.Color.White;
+            this.btnAddStaff.Location = new System.Drawing.Point(14, 186);
+            this.btnAddStaff.Name = "btnAddStaff";
+            this.btnAddStaff.Size = new System.Drawing.Size(184, 46);
+            this.btnAddStaff.TabIndex = 0;
+            this.btnAddStaff.Text = "Shto Profesor";
+            this.btnAddStaff.UseVisualStyleBackColor = true;
+            this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
+            // 
+            // pnlActive
+            // 
+            this.pnlActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.pnlActive.Location = new System.Drawing.Point(3, 133);
+            this.pnlActive.Name = "pnlActive";
+            this.pnlActive.Size = new System.Drawing.Size(12, 46);
+            this.pnlActive.TabIndex = 2;
             // 
             // panel3
             // 
@@ -106,117 +201,23 @@ namespace StudentMS.Teachers
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // pnlActive
+            // pnlContent
             // 
-            this.pnlActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.pnlActive.Location = new System.Drawing.Point(3, 133);
-            this.pnlActive.Name = "pnlActive";
-            this.pnlActive.Size = new System.Drawing.Size(12, 46);
-            this.pnlActive.TabIndex = 2;
-            // 
-            // btnAddStaff
-            // 
-            this.btnAddStaff.FlatAppearance.BorderSize = 0;
-            this.btnAddStaff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddStaff.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddStaff.ForeColor = System.Drawing.Color.White;
-            this.btnAddStaff.Location = new System.Drawing.Point(14, 186);
-            this.btnAddStaff.Name = "btnAddStaff";
-            this.btnAddStaff.Size = new System.Drawing.Size(184, 46);
-            this.btnAddStaff.TabIndex = 0;
-            this.btnAddStaff.Text = "Shto Profesor";
-            this.btnAddStaff.UseVisualStyleBackColor = true;
-            this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
-            // 
-            // btnViewCourses
-            // 
-            this.btnViewCourses.FlatAppearance.BorderSize = 0;
-            this.btnViewCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnViewCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnViewCourses.ForeColor = System.Drawing.Color.White;
-            this.btnViewCourses.Location = new System.Drawing.Point(13, 243);
-            this.btnViewCourses.Name = "btnViewCourses";
-            this.btnViewCourses.Size = new System.Drawing.Size(184, 46);
-            this.btnViewCourses.TabIndex = 0;
-            this.btnViewCourses.Text = "Shiko Kurset";
-            this.btnViewCourses.UseVisualStyleBackColor = true;
-            this.btnViewCourses.Click += new System.EventHandler(this.btnViewCourses_Click);
-            // 
-            // btnAddCourses
-            // 
-            this.btnAddCourses.FlatAppearance.BorderSize = 0;
-            this.btnAddCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddCourses.ForeColor = System.Drawing.Color.White;
-            this.btnAddCourses.Location = new System.Drawing.Point(13, 297);
-            this.btnAddCourses.Name = "btnAddCourses";
-            this.btnAddCourses.Size = new System.Drawing.Size(184, 46);
-            this.btnAddCourses.TabIndex = 0;
-            this.btnAddCourses.Text = "Shto Kurs";
-            this.btnAddCourses.UseVisualStyleBackColor = true;
-            this.btnAddCourses.Click += new System.EventHandler(this.btnAddCourses_Click);
-            // 
-            // btnViewStudents
-            // 
-            this.btnViewStudents.FlatAppearance.BorderSize = 0;
-            this.btnViewStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnViewStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnViewStudents.ForeColor = System.Drawing.Color.White;
-            this.btnViewStudents.Location = new System.Drawing.Point(13, 350);
-            this.btnViewStudents.Name = "btnViewStudents";
-            this.btnViewStudents.Size = new System.Drawing.Size(184, 46);
-            this.btnViewStudents.TabIndex = 0;
-            this.btnViewStudents.Text = "Shiko Nxenesit";
-            this.btnViewStudents.UseVisualStyleBackColor = true;
-            this.btnViewStudents.Click += new System.EventHandler(this.btnViewStudents_Click);
-            // 
-            // btnAddStudents
-            // 
-            this.btnAddStudents.FlatAppearance.BorderSize = 0;
-            this.btnAddStudents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAddStudents.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnAddStudents.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudents.Location = new System.Drawing.Point(13, 403);
-            this.btnAddStudents.Name = "btnAddStudents";
-            this.btnAddStudents.Size = new System.Drawing.Size(184, 46);
-            this.btnAddStudents.TabIndex = 0;
-            this.btnAddStudents.Text = "Shto Nxenes";
-            this.btnAddStudents.UseVisualStyleBackColor = true;
-            this.btnAddStudents.Click += new System.EventHandler(this.btnAddStudents_Click);
-            // 
-            // btnManageUsers
-            // 
-            this.btnManageUsers.FlatAppearance.BorderSize = 0;
-            this.btnManageUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnManageUsers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.btnManageUsers.ForeColor = System.Drawing.Color.White;
-            this.btnManageUsers.Location = new System.Drawing.Point(14, 456);
-            this.btnManageUsers.Name = "btnManageUsers";
-            this.btnManageUsers.Size = new System.Drawing.Size(184, 46);
-            this.btnManageUsers.TabIndex = 0;
-            this.btnManageUsers.Text = "Menaxho përdoruesit";
-            this.btnManageUsers.UseVisualStyleBackColor = true;
-            this.btnManageUsers.Click += new System.EventHandler(this.btnManageUsers_Click);
-            // 
-            // lblAdmin
-            // 
-            this.lblAdmin.AutoSize = true;
-            this.lblAdmin.Font = new System.Drawing.Font("Montserrat", 12F);
-            this.lblAdmin.ForeColor = System.Drawing.Color.LightGreen;
-            this.lblAdmin.Location = new System.Drawing.Point(70, 108);
-            this.lblAdmin.Name = "lblAdmin";
-            this.lblAdmin.Size = new System.Drawing.Size(67, 22);
-            this.lblAdmin.TabIndex = 3;
-            this.lblAdmin.Text = "ADMIN";
+            this.pnlContent.BackColor = System.Drawing.Color.Thistle;
+            this.pnlContent.Location = new System.Drawing.Point(206, 2);
+            this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Size = new System.Drawing.Size(726, 519);
+            this.pnlContent.TabIndex = 2;
+            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
             // 
             // Home
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 519);
             this.Controls.Add(this.pnlContent);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Home";
             this.Text = "Home";
             this.panel1.ResumeLayout(false);

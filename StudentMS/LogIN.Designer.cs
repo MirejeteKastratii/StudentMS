@@ -58,7 +58,7 @@ namespace StudentMS
             // 
             this.btnTeacher.FlatAppearance.BorderSize = 0;
             this.btnTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTeacher.Font = new System.Drawing.Font("Montserrat", 12F);
+            this.btnTeacher.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnTeacher.ForeColor = System.Drawing.Color.White;
             this.btnTeacher.Location = new System.Drawing.Point(468, 10);
             this.btnTeacher.Name = "btnTeacher";
@@ -72,7 +72,7 @@ namespace StudentMS
             // 
             this.btnAdmin.FlatAppearance.BorderSize = 0;
             this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdmin.Font = new System.Drawing.Font("Montserrat", 12F);
+            this.btnAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnAdmin.ForeColor = System.Drawing.Color.White;
             this.btnAdmin.Location = new System.Drawing.Point(0, 10);
             this.btnAdmin.Name = "btnAdmin";
@@ -102,20 +102,20 @@ namespace StudentMS
             // lblUserName
             // 
             this.lblUserName.AutoSize = true;
-            this.lblUserName.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.lblUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lblUserName.Location = new System.Drawing.Point(635, 188);
             this.lblUserName.Name = "lblUserName";
-            this.lblUserName.Size = new System.Drawing.Size(139, 20);
+            this.lblUserName.Size = new System.Drawing.Size(147, 20);
             this.lblUserName.TabIndex = 3;
             this.lblUserName.Text = "Emri i përdoruesit:";
             // 
             // lblUserSurname
             // 
             this.lblUserSurname.AutoSize = true;
-            this.lblUserSurname.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.lblUserSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lblUserSurname.Location = new System.Drawing.Point(622, 291);
             this.lblUserSurname.Name = "lblUserSurname";
-            this.lblUserSurname.Size = new System.Drawing.Size(164, 20);
+            this.lblUserSurname.Size = new System.Drawing.Size(172, 20);
             this.lblUserSurname.TabIndex = 3;
             this.lblUserSurname.Text = "Mbiemri i përdoruesit:";
             // 
@@ -123,19 +123,19 @@ namespace StudentMS
             // 
             this.txtUserName.Location = new System.Drawing.Point(576, 234);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(245, 21);
+            this.txtUserName.Size = new System.Drawing.Size(245, 23);
             this.txtUserName.TabIndex = 1;
             // 
             // txtPassword
             // 
             this.txtPassword.Location = new System.Drawing.Point(576, 334);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(245, 21);
+            this.txtPassword.Size = new System.Drawing.Size(245, 23);
             this.txtPassword.TabIndex = 2;
             // 
             // btnClose
             // 
-            this.btnClose.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnClose.Location = new System.Drawing.Point(705, 397);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(116, 38);
@@ -145,7 +145,7 @@ namespace StudentMS
             // 
             // btnSignIn
             // 
-            this.btnSignIn.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.btnSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.btnSignIn.Location = new System.Drawing.Point(576, 397);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(116, 38);
@@ -156,7 +156,7 @@ namespace StudentMS
             // 
             // LogIN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(933, 519);
@@ -170,10 +170,11 @@ namespace StudentMS
             this.Controls.Add(this.pnlLogin);
             this.Controls.Add(this.panel1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.Font = new System.Drawing.Font("Montserrat", 8.25F);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Name = "LogIN";
             this.Text = "LogIN";
+            this.Load += new System.EventHandler(this.LogIN_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

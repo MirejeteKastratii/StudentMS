@@ -64,6 +64,7 @@
     <Compile Include="Courses\Vleresimet.Designer.cs">
       <DependentUpon>Vleresimet.cs</DependentUpon>
     </Compile>
+    <Compile Include="DGVPrinter.cs" />
     <Compile Include="LogIN.cs">
       <SubType>Form</SubType>
     </Compile>

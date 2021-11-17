@@ -34,6 +34,7 @@ namespace StudentMS.Students
             this.btnEditoStudent = new System.Windows.Forms.Button();
             this.btnFshijStudent = new System.Windows.Forms.Button();
             this.dgvListaStudenteve = new System.Windows.Forms.DataGridView();
+            this.btn_PrintStudentList = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaStudenteve)).BeginInit();
             this.SuspendLayout();
             // 
@@ -43,7 +44,7 @@ namespace StudentMS.Students
             this.lblListaStudenteve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.lblListaStudenteve.Location = new System.Drawing.Point(66, 47);
             this.lblListaStudenteve.Name = "lblListaStudenteve";
-            this.lblListaStudenteve.Size = new System.Drawing.Size(166, 22);
+            this.lblListaStudenteve.Size = new System.Drawing.Size(200, 26);
             this.lblListaStudenteve.TabIndex = 2;
             this.lblListaStudenteve.Text = "Lista e studenteve :";
             this.lblListaStudenteve.Click += new System.EventHandler(this.lblListaStudenteve_Click);
@@ -88,16 +89,29 @@ namespace StudentMS.Students
             this.dgvListaStudenteve.Name = "dgvListaStudenteve";
             this.dgvListaStudenteve.RowHeadersWidth = 51;
             this.dgvListaStudenteve.RowTemplate.Height = 24;
-            this.dgvListaStudenteve.Size = new System.Drawing.Size(700, 404);
+            this.dgvListaStudenteve.Size = new System.Drawing.Size(700, 349);
             this.dgvListaStudenteve.TabIndex = 6;
             this.dgvListaStudenteve.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaStudenteve_CellClick);
             // 
+            // btn_PrintStudentList
+            // 
+            this.btn_PrintStudentList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_PrintStudentList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btn_PrintStudentList.Location = new System.Drawing.Point(14, 460);
+            this.btn_PrintStudentList.Name = "btn_PrintStudentList";
+            this.btn_PrintStudentList.Size = new System.Drawing.Size(133, 47);
+            this.btn_PrintStudentList.TabIndex = 7;
+            this.btn_PrintStudentList.Text = "Print";
+            this.btn_PrintStudentList.UseVisualStyleBackColor = true;
+            this.btn_PrintStudentList.Click += new System.EventHandler(this.btn_Print_Click);
+            // 
             // StudentList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(726, 519);
+            this.Controls.Add(this.btn_PrintStudentList);
             this.Controls.Add(this.dgvListaStudenteve);
             this.Controls.Add(this.btnFshijStudent);
             this.Controls.Add(this.btnEditoStudent);
@@ -121,5 +135,6 @@ namespace StudentMS.Students
         private System.Windows.Forms.Button btnEditoStudent;
         private System.Windows.Forms.Button btnFshijStudent;
         private System.Windows.Forms.DataGridView dgvListaStudenteve;
+        private System.Windows.Forms.Button btn_PrintStudentList;
     }
 }

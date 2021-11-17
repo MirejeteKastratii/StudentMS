@@ -294,5 +294,10 @@ namespace StudentMS.Teachers
             mngUsers.Dock = DockStyle.Fill;
             mngUsers.Show();
         }
+
+        private void pnlContent_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

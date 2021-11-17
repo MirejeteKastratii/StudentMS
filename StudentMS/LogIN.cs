@@ -82,5 +82,10 @@ namespace StudentMS
                 }
             }
         }
+
+        private void LogIN_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
