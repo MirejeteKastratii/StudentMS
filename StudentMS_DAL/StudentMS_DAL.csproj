@@ -71,6 +71,7 @@
     <Compile Include="StudentDAL.cs" />
     <Compile Include="Student_DAL.cs" />
     <Compile Include="TeacherDAL.cs" />
+    <Compile Include="UsersDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

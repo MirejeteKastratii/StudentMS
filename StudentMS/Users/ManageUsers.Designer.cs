@@ -37,10 +37,10 @@ namespace StudentMS.Users
             this.btnRifreskoManage = new System.Windows.Forms.Button();
             this.btnFshij = new System.Windows.Forms.Button();
             this.btnRuaj = new System.Windows.Forms.Button();
-            this.dataGridManage = new System.Windows.Forms.DataGridView();
+            this.dgvUsers = new System.Windows.Forms.DataGridView();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridManage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
             this.SuspendLayout();
             // 
             // lblUsername
@@ -94,6 +94,7 @@ namespace StudentMS.Users
             this.btnRifreskoManage.TabIndex = 3;
             this.btnRifreskoManage.Text = "Rifresko";
             this.btnRifreskoManage.UseVisualStyleBackColor = true;
+            this.btnRifreskoManage.Click += new System.EventHandler(this.btnRifreskoManage_Click);
             // 
             // btnFshij
             // 
@@ -105,6 +106,7 @@ namespace StudentMS.Users
             this.btnFshij.TabIndex = 4;
             this.btnFshij.Text = "Fshij";
             this.btnFshij.UseVisualStyleBackColor = true;
+            this.btnFshij.Click += new System.EventHandler(this.btnFshij_Click);
             // 
             // btnRuaj
             // 
@@ -117,20 +119,21 @@ namespace StudentMS.Users
             this.btnRuaj.Text = "Ruaj";
             this.btnRuaj.UseVisualStyleBackColor = true;
             // 
-            // dataGridManage
+            // dgvUsers
             // 
-            this.dataGridManage.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridManage.Location = new System.Drawing.Point(265, 123);
-            this.dataGridManage.Name = "dataGridManage";
-            this.dataGridManage.RowHeadersWidth = 51;
-            this.dataGridManage.Size = new System.Drawing.Size(434, 344);
-            this.dataGridManage.TabIndex = 9;
+            this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUsers.Location = new System.Drawing.Point(265, 123);
+            this.dgvUsers.Name = "dgvUsers";
+            this.dgvUsers.RowHeadersWidth = 51;
+            this.dgvUsers.Size = new System.Drawing.Size(434, 344);
+            this.dgvUsers.TabIndex = 9;
+            this.dgvUsers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsers_CellClick);
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(47, 296);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(173, 20);
+            this.textBox3.Size = new System.Drawing.Size(173, 23);
             this.textBox3.TabIndex = 3;
             // 
             // label3
@@ -138,7 +141,7 @@ namespace StudentMS.Users
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(118, 271);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.Size = new System.Drawing.Size(36, 17);
             this.label3.TabIndex = 0;
             this.label3.Text = "Roli:";
             this.label3.Click += new System.EventHandler(this.lblUsername_Click);
@@ -149,7 +152,7 @@ namespace StudentMS.Users
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
             this.ClientSize = new System.Drawing.Size(726, 519);
-            this.Controls.Add(this.dataGridManage);
+            this.Controls.Add(this.dgvUsers);
             this.Controls.Add(this.btnRuaj);
             this.Controls.Add(this.btnFshij);
             this.Controls.Add(this.btnRifreskoManage);
@@ -164,7 +167,8 @@ namespace StudentMS.Users
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ManageUsers";
             this.Text = "AddUsers";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridManage)).EndInit();
+            this.Load += new System.EventHandler(this.ManageUsers_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,7 +184,7 @@ namespace StudentMS.Users
         private System.Windows.Forms.Button btnRifreskoManage;
         private System.Windows.Forms.Button btnFshij;
         private System.Windows.Forms.Button btnRuaj;
-        private System.Windows.Forms.DataGridView dataGridManage;
+        private System.Windows.Forms.DataGridView dgvUsers;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
     }

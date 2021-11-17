@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentMS_BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace StudentMS.Users
 {
     public partial class ManageUsers : Form
     {
+        UsersBLL usersService = new UsersBLL();
         public ManageUsers()
         {
             InitializeComponent();
@@ -19,7 +21,47 @@ namespace StudentMS.Users
 
         private void lblUsername_Click(object sender, EventArgs e)
         {
+            //fshije
+        }
 
+        private void ManageUsers_Load(object sender, EventArgs e)
+        {
+            DataTable list = usersService.ShowUsers();
+            dgvUsers.DataSource = list;
+            dgvUsers.Columns["UserID"].Visible = false;
+        }
+
+        int userID;
+
+        private void dgvUsers_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var SelectedRow = dgvUsers.Rows[dgvUsers.SelectedCells[0].RowIndex];
+            userID = int.Parse(Convert.ToString(SelectedRow.Cells["UserID"].Value));
+        }
+
+        private void btnFshij_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("A dëshironi ta fshini rekordin e selektuar.", "Paralajmërim për fshirje.", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                bool isDeleted = usersService.DeleteUser(userID);
+                if (isDeleted)
+                {
+                    MessageBox.Show("Rekordi është fshi.");
+                }
+                else
+                {
+                    MessageBox.Show("Rekordi nuk është fshi.");
+
+                }
+            }
+        }
+
+        private void btnRifreskoManage_Click(object sender, EventArgs e)
+        {
+            DataTable list = usersService.ShowUsers();
+            dgvUsers.DataSource = list;
+            dgvUsers.Columns["UserID"].Visible = false;
         }
     }
 }
