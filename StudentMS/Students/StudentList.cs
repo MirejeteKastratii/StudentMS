@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DGVPrinterHelper;
-using StudentMS_BLL;
+using StudentMS_BLL; 
 
 namespace StudentMS.Students
 {
@@ -80,6 +80,11 @@ namespace StudentMS.Students
             dGVPrinter.FooterSpacing = 15;
             dGVPrinter.PrintDataGridView(dgvListaStudenteve);
                 
+        }
+
+        private void btn_ExportToExcel_Click(object sender, EventArgs e)
+        {
+          
         }
     }
 }

@@ -35,6 +35,7 @@ namespace StudentMS.Students
             this.btnFshijStudent = new System.Windows.Forms.Button();
             this.dgvListaStudenteve = new System.Windows.Forms.DataGridView();
             this.btn_PrintStudentList = new System.Windows.Forms.Button();
+            this.btn_ExportToExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaStudenteve)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,9 +102,21 @@ namespace StudentMS.Students
             this.btn_PrintStudentList.Name = "btn_PrintStudentList";
             this.btn_PrintStudentList.Size = new System.Drawing.Size(133, 47);
             this.btn_PrintStudentList.TabIndex = 7;
-            this.btn_PrintStudentList.Text = "Print";
+            this.btn_PrintStudentList.Text = "Printo";
             this.btn_PrintStudentList.UseVisualStyleBackColor = true;
             this.btn_PrintStudentList.Click += new System.EventHandler(this.btn_Print_Click);
+            // 
+            // btn_ExportToExcel
+            // 
+            this.btn_ExportToExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ExportToExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btn_ExportToExcel.Location = new System.Drawing.Point(230, 460);
+            this.btn_ExportToExcel.Name = "btn_ExportToExcel";
+            this.btn_ExportToExcel.Size = new System.Drawing.Size(133, 47);
+            this.btn_ExportToExcel.TabIndex = 8;
+            this.btn_ExportToExcel.Text = "Eksporto ne Excel";
+            this.btn_ExportToExcel.UseVisualStyleBackColor = true;
+            this.btn_ExportToExcel.Click += new System.EventHandler(this.btn_ExportToExcel_Click);
             // 
             // StudentList
             // 
@@ -111,6 +124,7 @@ namespace StudentMS.Students
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(726, 519);
+            this.Controls.Add(this.btn_ExportToExcel);
             this.Controls.Add(this.btn_PrintStudentList);
             this.Controls.Add(this.dgvListaStudenteve);
             this.Controls.Add(this.btnFshijStudent);
@@ -136,5 +150,6 @@ namespace StudentMS.Students
         private System.Windows.Forms.Button btnFshijStudent;
         private System.Windows.Forms.DataGridView dgvListaStudenteve;
         private System.Windows.Forms.Button btn_PrintStudentList;
+        private System.Windows.Forms.Button btn_ExportToExcel;
     }
 }

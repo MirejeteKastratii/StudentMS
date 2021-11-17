@@ -34,6 +34,7 @@ namespace StudentMS.Courses
             this.btnRifreskoKurset = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btn_ExportToExcelCourses = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@ namespace StudentMS.Courses
             this.dgvListaKurseve.Name = "dgvListaKurseve";
             this.dgvListaKurseve.RowHeadersWidth = 51;
             this.dgvListaKurseve.RowTemplate.Height = 24;
-            this.dgvListaKurseve.Size = new System.Drawing.Size(700, 404);
+            this.dgvListaKurseve.Size = new System.Drawing.Size(700, 339);
             this.dgvListaKurseve.TabIndex = 0;
             // 
             // lblListaKurseve
@@ -89,12 +90,25 @@ namespace StudentMS.Courses
             this.button3.Text = "Fshij rekordin";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // btn_ExportToExcelCourses
+            // 
+            this.btn_ExportToExcelCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ExportToExcelCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btn_ExportToExcelCourses.Location = new System.Drawing.Point(14, 460);
+            this.btn_ExportToExcelCourses.Name = "btn_ExportToExcelCourses";
+            this.btn_ExportToExcelCourses.Size = new System.Drawing.Size(133, 47);
+            this.btn_ExportToExcelCourses.TabIndex = 3;
+            this.btn_ExportToExcelCourses.Text = "Eksporto ne Excel";
+            this.btn_ExportToExcelCourses.UseVisualStyleBackColor = true;
+            this.btn_ExportToExcelCourses.Click += new System.EventHandler(this.btn_ExportToExcelCourses_Click);
+            // 
             // CourseList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(726, 519);
+            this.Controls.Add(this.btn_ExportToExcelCourses);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnRifreskoKurset);
@@ -118,5 +132,6 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Button btnRifreskoKurset;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_ExportToExcelCourses;
     }
 }
