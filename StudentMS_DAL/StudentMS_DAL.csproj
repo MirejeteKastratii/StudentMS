@@ -69,6 +69,7 @@
     <Compile Include="DbConn.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TeacherDAL.cs" />
+    <Compile Include="UsersDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
