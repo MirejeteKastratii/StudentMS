@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudentMS_BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,21 @@ namespace StudentMS.Courses
         public CourseList()
         {
             InitializeComponent();
+        }
+
+        private void btnRifreskoKurset_Click(object sender, EventArgs e)
+        {
+            CoursesBLL coursesBLL = new CoursesBLL();
+            DataTable list = coursesBLL.ShowCourses();
+            dgvListaKurseve.DataSource = list;
+        }
+
+        private void CourseList_Load(object sender, EventArgs e)
+        {
+
+            CoursesBLL coursesBLL = new CoursesBLL();
+            DataTable list = coursesBLL.ShowCourses();
+            dgvListaKurseve.DataSource = list;
         }
     }
 }

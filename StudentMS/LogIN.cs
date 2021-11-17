@@ -65,6 +65,10 @@ namespace StudentMS
                             {
                                 new Teachers.TeacherHome().Show();
                             }
+                            else
+                            {
+                                MessageBox.Show("Ju lutem zgjidhni rolin tuaj.");
+                            }
                         }
                         else
                             MessageBox.Show("Emri ose Fjalëkalimi është i gabuar.");
