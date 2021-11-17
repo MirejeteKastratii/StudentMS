@@ -16,5 +16,10 @@ namespace StudentMS.Users
         {
             InitializeComponent();
         }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
