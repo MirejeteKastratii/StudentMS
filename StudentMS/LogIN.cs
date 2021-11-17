@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -61,11 +62,11 @@ namespace StudentMS
                             {
                                 new Teachers.Home().Show();
                             }
-                           else if (role == "Teacher")
+                            else if (role == "Teacher")
                             {
                                 new Teachers.TeacherHome().Show();
                             }
-                            else if(role == "")
+                            else if (role == "")
                             {
                                 MessageBox.Show("Ju lutem zgjidhni rolin tuaj.");
                             }
@@ -87,5 +88,30 @@ namespace StudentMS
         {
 
         }
+
+        private void cbGjuha_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            CultureInfo culture = new CultureInfo("en-US");
+            switch (cbGjuha.SelectedIndex)
+            {
+                case 0:
+                    culture = new CultureInfo("sq-XK");
+                    break;
+                case 1:
+                    culture = new CultureInfo("en-US");
+                    break;
+
+                default:
+                    culture = new CultureInfo("en-US");
+                    break;
+            }
+            CultureInfo.DefaultThreadCurrentCulture = culture;
+            CultureInfo.DefaultThreadCurrentUICulture = culture;
+            this.Controls.Clear();
+            InitializeComponent();
+            LogIN_Load(sender, e);
+        }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using StudentMS_BLL;
+﻿using DGVPrinterHelper;
+using StudentMS_BLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,6 +36,7 @@ namespace StudentMS.Courses
             dgvListaKurseve.Columns["CourseID"].Visible = false;
         }
 
+<<<<<<< HEAD
         private void btn_ExportToExcelCourses_Click(object sender, EventArgs e)
         {
             if (dgvListaKurseve.Rows.Count > 0)
@@ -59,6 +61,21 @@ namespace StudentMS.Courses
                 exlApp.Columns.AutoFit();
                 exlApp.Visible = true;
             }
+=======
+        private void btnPrinto_Click(object sender, EventArgs e)
+        {
+            DGVPrinter dGVPrinter = new DGVPrinter();
+            dGVPrinter.Title = "Lista e kurseve";
+            dGVPrinter.SubTitle = "Lista me detajet per kurset !";
+            dGVPrinter.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            dGVPrinter.PageNumbers = true;
+            dGVPrinter.PageNumberInHeader = false;
+            dGVPrinter.PorportionalColumns = true;
+            dGVPrinter.HeaderCellAlignment = StringAlignment.Near;
+            dGVPrinter.Footer = "Education";
+            dGVPrinter.FooterSpacing = 15;
+            dGVPrinter.PrintDataGridView(dgvListaKurseve);
+>>>>>>> 0d307a2b12029e1e9d381bc50423f5cb8d22d188
         }
     }
 }

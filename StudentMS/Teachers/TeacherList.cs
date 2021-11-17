@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DGVPrinterHelper;
 using StudentMS_BLL;
 using StudentMS_BO;
 
@@ -80,6 +81,21 @@ namespace StudentMS.Teachers
                 }
             }
             
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            DGVPrinter dGVPrinter = new DGVPrinter();
+            dGVPrinter.Title = "Lista e profesorëve:";
+            dGVPrinter.SubTitle = "Lista e profesorëve me të dhënat personale !";
+            dGVPrinter.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            dGVPrinter.PageNumbers = true;
+            dGVPrinter.PageNumberInHeader = false;
+            dGVPrinter.PorportionalColumns = true;
+            dGVPrinter.HeaderCellAlignment = StringAlignment.Near;
+            dGVPrinter.Footer = "Education";
+            dGVPrinter.FooterSpacing = 15;
+            dGVPrinter.PrintDataGridView(dgvTeachers);
         }
     }
 }

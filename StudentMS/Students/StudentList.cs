@@ -69,8 +69,8 @@ namespace StudentMS.Students
         private void btn_Print_Click(object sender, EventArgs e)
         {
             DGVPrinter dGVPrinter = new DGVPrinter();
-            dGVPrinter.Title = "Lista e studenteve";
-            dGVPrinter.SubTitle = "Lista e studenteve me te dhenat personale !";
+            dGVPrinter.Title = "Lista e studentëve";
+            dGVPrinter.SubTitle = "Lista e studentëve me të dhënat personale !";
             dGVPrinter.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
             dGVPrinter.PageNumbers = true;
             dGVPrinter.PageNumberInHeader = false;
