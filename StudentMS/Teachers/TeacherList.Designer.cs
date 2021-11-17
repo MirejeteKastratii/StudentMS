@@ -34,6 +34,7 @@ namespace StudentMS.Teachers
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.brnRefresh = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -42,7 +43,7 @@ namespace StudentMS.Teachers
             this.dgvTeachers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTeachers.Location = new System.Drawing.Point(14, 103);
             this.dgvTeachers.Name = "dgvTeachers";
-            this.dgvTeachers.Size = new System.Drawing.Size(700, 404);
+            this.dgvTeachers.Size = new System.Drawing.Size(700, 337);
             this.dgvTeachers.TabIndex = 0;
             this.dgvTeachers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeachers_CellClick);
             // 
@@ -89,6 +90,17 @@ namespace StudentMS.Teachers
             this.brnRefresh.UseVisualStyleBackColor = true;
             this.brnRefresh.Click += new System.EventHandler(this.brnRefresh_Click);
             // 
+            // btnPrint
+            // 
+            this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrint.Location = new System.Drawing.Point(14, 460);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(133, 47);
+            this.btnPrint.TabIndex = 2;
+            this.btnPrint.Text = "Print";
+            this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+            // 
             // TeacherList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -96,6 +108,7 @@ namespace StudentMS.Teachers
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(726, 519);
             this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.brnRefresh);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.lblTeacherList);
@@ -118,5 +131,6 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button brnRefresh;
+        private System.Windows.Forms.Button btnPrint;
     }
 }

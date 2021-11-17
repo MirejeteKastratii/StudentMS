@@ -27,11 +27,11 @@ namespace StudentMS.Teachers
             pnlActive.Top = btnCourses.Top;
             if (pnlContent.Contains(vleresimet))
             {
-                vleresimet.Hide();
+                vleresimet.Close();
             }
             if (pnlContent.Contains(studentList))
             {
-                studentList.Hide();
+                studentList.Close();
             }
             courseList.TopLevel = false;
             courseList.Parent = pnlContent;
@@ -45,11 +45,11 @@ namespace StudentMS.Teachers
             pnlActive.Top = btnVleresimet.Top;
             if (pnlContent.Contains(courseList))
             {
-                courseList.Hide();
+                courseList.Close();
             }
             if (pnlContent.Contains(studentList))
             {
-                studentList.Hide();
+                studentList.Close();
             }
             vleresimet.TopLevel = false;
             vleresimet.Parent = pnlContent;
@@ -63,11 +63,11 @@ namespace StudentMS.Teachers
             pnlActive.Top = btnStudent.Top;
             if (pnlContent.Contains(courseList))
             {
-                courseList.Hide();
+                courseList.Close();
             }
             if (pnlContent.Contains(vleresimet))
             {
-                vleresimet.Hide();
+                vleresimet.Close();
             }
             studentList.TopLevel = false;
             studentList.Parent = pnlContent;

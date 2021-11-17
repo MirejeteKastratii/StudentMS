@@ -124,6 +124,9 @@
     <EmbeddedResource Include="Courses\Vleresimet.resx">
       <DependentUpon>Vleresimet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LogIN.en-US.resx">
+      <DependentUpon>LogIN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogIN.resx">
       <DependentUpon>LogIN.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\AddTeacher.resx">
       <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\Home.en-US.resx">
+      <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>

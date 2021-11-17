@@ -34,6 +34,7 @@ namespace StudentMS.Courses
             this.btnRifreskoKurset = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.btnPrinto = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@ namespace StudentMS.Courses
             this.dgvListaKurseve.Name = "dgvListaKurseve";
             this.dgvListaKurseve.RowHeadersWidth = 51;
             this.dgvListaKurseve.RowTemplate.Height = 24;
-            this.dgvListaKurseve.Size = new System.Drawing.Size(700, 404);
+            this.dgvListaKurseve.Size = new System.Drawing.Size(700, 353);
             this.dgvListaKurseve.TabIndex = 0;
             // 
             // lblListaKurseve
@@ -53,7 +54,7 @@ namespace StudentMS.Courses
             this.lblListaKurseve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
             this.lblListaKurseve.Location = new System.Drawing.Point(38, 48);
             this.lblListaKurseve.Name = "lblListaKurseve";
-            this.lblListaKurseve.Size = new System.Drawing.Size(170, 26);
+            this.lblListaKurseve.Size = new System.Drawing.Size(141, 22);
             this.lblListaKurseve.TabIndex = 1;
             this.lblListaKurseve.Text = "Lista e kurseve :";
             // 
@@ -89,14 +90,27 @@ namespace StudentMS.Courses
             this.button3.Text = "Fshij rekordin";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // btnPrinto
+            // 
+            this.btnPrinto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrinto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btnPrinto.Location = new System.Drawing.Point(14, 462);
+            this.btnPrinto.Name = "btnPrinto";
+            this.btnPrinto.Size = new System.Drawing.Size(133, 47);
+            this.btnPrinto.TabIndex = 0;
+            this.btnPrinto.Text = "Printo";
+            this.btnPrinto.UseVisualStyleBackColor = true;
+            this.btnPrinto.Click += new System.EventHandler(this.btnPrinto_Click);
+            // 
             // CourseList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(726, 519);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnPrinto);
             this.Controls.Add(this.btnRifreskoKurset);
             this.Controls.Add(this.lblListaKurseve);
             this.Controls.Add(this.dgvListaKurseve);
@@ -118,5 +132,6 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Button btnRifreskoKurset;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnPrinto;
     }
 }

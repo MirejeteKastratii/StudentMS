@@ -1,4 +1,5 @@
-﻿using StudentMS_BLL;
+﻿using DGVPrinterHelper;
+using StudentMS_BLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -62,6 +63,21 @@ namespace StudentMS.Users
             DataTable list = usersService.ShowUsers();
             dgvUsers.DataSource = list;
             dgvUsers.Columns["UserID"].Visible = false;
+        }
+
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            DGVPrinter dGVPrinter = new DGVPrinter();
+            dGVPrinter.Title = "Lista e përdoruesëve.";
+            dGVPrinter.SubTitle = "Lista e përdoruesëve me të dhënat personale!";
+            dGVPrinter.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            dGVPrinter.PageNumbers = true;
+            dGVPrinter.PageNumberInHeader = false;
+            dGVPrinter.PorportionalColumns = true;
+            dGVPrinter.HeaderCellAlignment = StringAlignment.Near;
+            dGVPrinter.Footer = "Education";
+            dGVPrinter.FooterSpacing = 15;
+            dGVPrinter.PrintDataGridView(dgvUsers);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using StudentMS_BLL;
+﻿using DGVPrinterHelper;
+using StudentMS_BLL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -33,6 +34,21 @@ namespace StudentMS.Courses
             dgvListaKurseve.DataSource = list;
             //fsheh kolonen i ID per tabelen ne dgv
             dgvListaKurseve.Columns["CourseID"].Visible = false;
+        }
+
+        private void btnPrinto_Click(object sender, EventArgs e)
+        {
+            DGVPrinter dGVPrinter = new DGVPrinter();
+            dGVPrinter.Title = "Lista e kurseve";
+            dGVPrinter.SubTitle = "Lista me detajet per kurset !";
+            dGVPrinter.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            dGVPrinter.PageNumbers = true;
+            dGVPrinter.PageNumberInHeader = false;
+            dGVPrinter.PorportionalColumns = true;
+            dGVPrinter.HeaderCellAlignment = StringAlignment.Near;
+            dGVPrinter.Footer = "Education";
+            dGVPrinter.FooterSpacing = 15;
+            dGVPrinter.PrintDataGridView(dgvListaKurseve);
         }
     }
 }
