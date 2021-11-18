@@ -9,8 +9,8 @@ namespace StudentMS_DAL
 {
     class VleresimiDAL
     {
-        public DataTable GetVleresimet() { }//per implementim
+       // public DataTable GetVleresimet() { }//per implementim
         public void InsertVlersimet() { }//per implementim
-        public bool DeleteVleresimin() { }//per implementim
+       // public bool DeleteVleresimin() { }//per implementim
     }
 }

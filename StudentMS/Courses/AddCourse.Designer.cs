@@ -29,6 +29,7 @@ namespace StudentMS.Courses
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddCourse));
             this.lblTitulli = new System.Windows.Forms.Label();
             this.txtCourseTitle = new System.Windows.Forms.TextBox();
             this.lblPershkrimi = new System.Windows.Forms.Label();
@@ -40,127 +41,91 @@ namespace StudentMS.Courses
             this.lblShtimiKurseve = new System.Windows.Forms.Label();
             this.btnRuaj = new System.Windows.Forms.Button();
             this.btnDil = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblTitulli
             // 
-            this.lblTitulli.AutoSize = true;
-            this.lblTitulli.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.lblTitulli.Location = new System.Drawing.Point(114, 114);
-            this.lblTitulli.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.lblTitulli, "lblTitulli");
             this.lblTitulli.Name = "lblTitulli";
-            this.lblTitulli.Size = new System.Drawing.Size(55, 20);
-            this.lblTitulli.TabIndex = 0;
-            this.lblTitulli.Text = "Titulli :";
             // 
             // txtCourseTitle
             // 
-            this.txtCourseTitle.Location = new System.Drawing.Point(248, 110);
-            this.txtCourseTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            resources.ApplyResources(this.txtCourseTitle, "txtCourseTitle");
             this.txtCourseTitle.Name = "txtCourseTitle";
-            this.txtCourseTitle.Size = new System.Drawing.Size(290, 24);
-            this.txtCourseTitle.TabIndex = 0;
             // 
             // lblPershkrimi
             // 
-            this.lblPershkrimi.AutoSize = true;
-            this.lblPershkrimi.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.lblPershkrimi.Location = new System.Drawing.Point(76, 217);
-            this.lblPershkrimi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.lblPershkrimi, "lblPershkrimi");
             this.lblPershkrimi.Name = "lblPershkrimi";
-            this.lblPershkrimi.Size = new System.Drawing.Size(93, 20);
-            this.lblPershkrimi.TabIndex = 2;
-            this.lblPershkrimi.Text = "Pershkrimi :";
             // 
             // lblSyllabusi
             // 
-            this.lblSyllabusi.AutoSize = true;
-            this.lblSyllabusi.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.lblSyllabusi.Location = new System.Drawing.Point(91, 309);
-            this.lblSyllabusi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.lblSyllabusi, "lblSyllabusi");
             this.lblSyllabusi.Name = "lblSyllabusi";
-            this.lblSyllabusi.Size = new System.Drawing.Size(78, 20);
-            this.lblSyllabusi.TabIndex = 3;
-            this.lblSyllabusi.Text = "Syllabusi :";
             // 
             // lblSesionet
             // 
-            this.lblSesionet.AutoSize = true;
-            this.lblSesionet.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.lblSesionet.Location = new System.Drawing.Point(93, 395);
-            this.lblSesionet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.lblSesionet, "lblSesionet");
             this.lblSesionet.Name = "lblSesionet";
-            this.lblSesionet.Size = new System.Drawing.Size(76, 20);
-            this.lblSesionet.TabIndex = 4;
-            this.lblSesionet.Text = "Sesionet :";
             // 
             // txtSyllabusi
             // 
-            this.txtSyllabusi.Location = new System.Drawing.Point(248, 271);
-            this.txtSyllabusi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtSyllabusi.Multiline = true;
+            resources.ApplyResources(this.txtSyllabusi, "txtSyllabusi");
             this.txtSyllabusi.Name = "txtSyllabusi";
-            this.txtSyllabusi.Size = new System.Drawing.Size(290, 83);
-            this.txtSyllabusi.TabIndex = 2;
             // 
             // txtSessions
             // 
-            this.txtSessions.Location = new System.Drawing.Point(248, 391);
-            this.txtSessions.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            resources.ApplyResources(this.txtSessions, "txtSessions");
             this.txtSessions.Name = "txtSessions";
-            this.txtSessions.Size = new System.Drawing.Size(290, 24);
-            this.txtSessions.TabIndex = 3;
             // 
             // txtCourseDescription
             // 
-            this.txtCourseDescription.Location = new System.Drawing.Point(248, 172);
-            this.txtCourseDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCourseDescription.Multiline = true;
+            resources.ApplyResources(this.txtCourseDescription, "txtCourseDescription");
             this.txtCourseDescription.Name = "txtCourseDescription";
-            this.txtCourseDescription.Size = new System.Drawing.Size(290, 77);
-            this.txtCourseDescription.TabIndex = 1;
             // 
             // lblShtimiKurseve
             // 
-            this.lblShtimiKurseve.AutoSize = true;
-            this.lblShtimiKurseve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.lblShtimiKurseve.Location = new System.Drawing.Point(55, 38);
-            this.lblShtimiKurseve.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.lblShtimiKurseve, "lblShtimiKurseve");
             this.lblShtimiKurseve.Name = "lblShtimiKurseve";
-            this.lblShtimiKurseve.Size = new System.Drawing.Size(146, 22);
-            this.lblShtimiKurseve.TabIndex = 8;
-            this.lblShtimiKurseve.Text = "Shtimi i kurseve :";
             // 
             // btnRuaj
             // 
-            this.btnRuaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRuaj.Location = new System.Drawing.Point(387, 448);
-            this.btnRuaj.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            resources.ApplyResources(this.btnRuaj, "btnRuaj");
             this.btnRuaj.Name = "btnRuaj";
-            this.btnRuaj.Size = new System.Drawing.Size(151, 58);
-            this.btnRuaj.TabIndex = 4;
-            this.btnRuaj.Text = "Ruaj";
             this.btnRuaj.UseVisualStyleBackColor = true;
             this.btnRuaj.Click += new System.EventHandler(this.btnRuaj_Click);
             // 
             // btnDil
             // 
-            this.btnDil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDil.Location = new System.Drawing.Point(546, 448);
-            this.btnDil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            resources.ApplyResources(this.btnDil, "btnDil");
             this.btnDil.Name = "btnDil";
-            this.btnDil.Size = new System.Drawing.Size(151, 58);
-            this.btnDil.TabIndex = 5;
-            this.btnDil.Text = "Dil";
             this.btnDil.UseVisualStyleBackColor = true;
             this.btnDil.Click += new System.EventHandler(this.btnDil_Click);
             // 
+            // comboBox1
+            // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // AddCourse
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(726, 519);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnDil);
             this.Controls.Add(this.btnRuaj);
             this.Controls.Add(this.lblShtimiKurseve);
@@ -172,11 +137,8 @@ namespace StudentMS.Courses
             this.Controls.Add(this.lblPershkrimi);
             this.Controls.Add(this.txtCourseTitle);
             this.Controls.Add(this.lblTitulli);
-            this.Font = new System.Drawing.Font("Montserrat", 10F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AddCourse";
-            this.Text = "AddCourse";
             this.Load += new System.EventHandler(this.AddCourse_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -196,5 +158,7 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Label lblShtimiKurseve;
         private System.Windows.Forms.Button btnRuaj;
         private System.Windows.Forms.Button btnDil;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

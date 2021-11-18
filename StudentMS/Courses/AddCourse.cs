@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using StudentMS_BLL;
+using System.Globalization;
+
 namespace StudentMS.Courses
 {
     public partial class AddCourse : Form
@@ -40,6 +42,29 @@ namespace StudentMS.Courses
                     ((TextBox)c).Text = String.Empty;
                 }
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            CultureInfo culture = new CultureInfo("en-US");
+            switch (comboBox1.SelectedIndex)
+            {
+                case 0:
+                    culture = new CultureInfo("sq-XK");
+                    break;
+                case 1:
+                    culture = new CultureInfo("en-US");
+                    break;
+
+                default:
+                    culture = new CultureInfo("sq-XK");
+                    break;
+            }
+            CultureInfo.DefaultThreadCurrentCulture = culture;
+            CultureInfo.DefaultThreadCurrentUICulture = culture;
+            this.Controls.Clear();
+            InitializeComponent();
+            AddCourse_Load(sender, e);
         }
     }
 }
