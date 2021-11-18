@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace StudentMS_BO
 {
-    internal class UsersBO:Base
+    public class UsersBO:Base
     {
         public int ID { get; set; }
         public string UserName { get; set; }
         public string UserPassword { get; set; }
         public int RoleID { get; set; }
+        public UsersBO(string uName, string uPass, int role)
+        {
+            UserName = uName;
+            UserPassword = uPass;
+            RoleID = RoleID;
+        }
     }
+
+
 }

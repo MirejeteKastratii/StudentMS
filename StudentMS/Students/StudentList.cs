@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DGVPrinterHelper;
-using StudentMS_BLL; 
+using StudentMS_BLL;
 
 namespace StudentMS.Students
 {
@@ -82,9 +82,10 @@ namespace StudentMS.Students
                 
         }
 
-        private void btn_ExportToExcel_Click(object sender, EventArgs e)
+        private void btnDil_Click(object sender, EventArgs e)
         {
-          
+            this.Hide();
+           
         }
     }
 }

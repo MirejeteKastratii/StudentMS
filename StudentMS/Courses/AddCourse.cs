@@ -29,5 +29,17 @@ namespace StudentMS.Courses
             CoursesBO courseBo = new CoursesBO(txtCourseTitle.Text, txtCourseDescription.Text,txtSyllabusi.Text,Convert.ToInt32(txtSessions.Text) );
             courseService.AddCourses(courseBo);
         }
+
+        private void btnDil_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                {
+                    ((TextBox)c).Text = String.Empty;
+                }
+            }
+        }
     }
 }

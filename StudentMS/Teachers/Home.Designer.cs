@@ -41,8 +41,8 @@ namespace StudentMS.Teachers
             this.btnAddStaff = new System.Windows.Forms.Button();
             this.pnlActive = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlContent = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -146,19 +146,19 @@ namespace StudentMS.Teachers
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Name = "panel3";
             // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::StudentMS.Properties.Resources.Capture_removebg_preview;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
             // pnlContent
             // 
             resources.ApplyResources(this.pnlContent, "pnlContent");
             this.pnlContent.BackColor = System.Drawing.Color.Thistle;
             this.pnlContent.Name = "pnlContent";
             this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::StudentMS.Properties.Resources.Capture_removebg_preview;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // Home
             // 
@@ -181,7 +181,6 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Panel pnlContent;
         private System.Windows.Forms.Panel pnlActive;
         private System.Windows.Forms.Button btnAddStudents;
         private System.Windows.Forms.Button btnViewStudents;
@@ -190,5 +189,6 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnAddStaff;
         private System.Windows.Forms.Button btnManageUsers;
         private System.Windows.Forms.Label lblAdmin;
+        private System.Windows.Forms.Panel pnlContent;
     }
 }

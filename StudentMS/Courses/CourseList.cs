@@ -36,32 +36,6 @@ namespace StudentMS.Courses
             dgvListaKurseve.Columns["CourseID"].Visible = false;
         }
 
-<<<<<<< HEAD
-        private void btn_ExportToExcelCourses_Click(object sender, EventArgs e)
-        {
-            if (dgvListaKurseve.Rows.Count > 0)
-            {
-                Microsoft.Office.Interop.Excel.Application exlApp = new Microsoft.Office.Interop.Excel.Application();
-                exlApp.Application.Workbooks.Add(Type.Missing);
-
-                for (int i = 1; i < dgvListaKurseve.Columns.Count + 1; i++)
-                {
-                        exlApp.Cells[1, i] = dgvListaKurseve.Columns[i - 1].HeaderText;
-                       
-                }
-
-                for (int i = 0; i < dgvListaKurseve.Rows.Count - 1; i++)
-                {
-                    for (int j = 3; j < dgvListaKurseve.Columns.Count; j++)
-                    {
-                        exlApp.Cells[i + 2, j + 1] = dgvListaKurseve.Rows[i].Cells[j].Value.ToString();
-                    }
-                }
-
-                exlApp.Columns.AutoFit();
-                exlApp.Visible = true;
-            }
-=======
         private void btnPrinto_Click(object sender, EventArgs e)
         {
             DGVPrinter dGVPrinter = new DGVPrinter();
@@ -75,7 +49,44 @@ namespace StudentMS.Courses
             dGVPrinter.Footer = "Education";
             dGVPrinter.FooterSpacing = 15;
             dGVPrinter.PrintDataGridView(dgvListaKurseve);
->>>>>>> 0d307a2b12029e1e9d381bc50423f5cb8d22d188
+        }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            if (dgvListaKurseve.Rows.Count > 0)
+            {
+                Microsoft.Office.Interop.Excel.Application exlApp = new Microsoft.Office.Interop.Excel.Application();
+                exlApp.Application.Workbooks.Add(Type.Missing);
+
+                for (int i = 1; i < dgvListaKurseve.Columns.Count + 1; i++)
+                {
+                    exlApp.Cells[1, i] = dgvListaKurseve.Columns[i - 1].HeaderText;
+
+                }
+
+                for (int i = 0; i < dgvListaKurseve.Rows.Count - 1; i++)
+                {
+                    for (int j = 3; j < dgvListaKurseve.Columns.Count; j++)
+                    {
+                        exlApp.Cells[i + 2, j + 1] = dgvListaKurseve.Rows[i].Cells[j].Value.ToString();
+                    }
+                }
+
+                exlApp.Columns.AutoFit();
+                exlApp.Visible = true;
+            }
+        }
+
+        private void btnDil_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                {
+                    ((TextBox)c).Text = String.Empty;
+                }
+            }
         }
     }
 }

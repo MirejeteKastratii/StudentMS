@@ -272,10 +272,7 @@ namespace StudentMS.Teachers
             {
                 stList.Hide();
             }
-            if (pnlContent.Contains(stList))
-            {
-                stList.Hide();
-            }
+            
             if (pnlContent.Contains(addUsers))
             {
                 addUsers.Hide();
@@ -288,6 +285,10 @@ namespace StudentMS.Teachers
             {
                 addCourse.Hide();
             }
+            if (pnlContent.Contains(addStudents))
+            {
+                addStudents.Hide();
+            }
 
             mngUsers.TopLevel = false;
             mngUsers.Parent = pnlContent;
@@ -296,6 +297,11 @@ namespace StudentMS.Teachers
         }
 
         private void pnlContent_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void cbLanguage_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

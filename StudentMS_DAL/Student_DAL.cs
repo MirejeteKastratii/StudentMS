@@ -44,5 +44,7 @@ namespace StudentMS_DAL
                 return true;
             }
         }
+        //Krijo metoden per update
+        //krijo metoden per edit
     }
 }

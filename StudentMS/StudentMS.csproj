@@ -36,7 +36,7 @@
     <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>..\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\MenaxhimiProvimeve_PTI-master\Microsoft.Office.Interop.Excel.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -129,10 +129,19 @@
     <EmbeddedResource Include="Courses\Vleresimet.resx">
       <DependentUpon>Vleresimet.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LogIN.en-UM.resx">
+      <DependentUpon>LogIN.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LogIN.en-US.resx">
       <DependentUpon>LogIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIN.resx">
+      <DependentUpon>LogIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIN.sq-XK.resx">
+      <DependentUpon>LogIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIN.sq.resx">
       <DependentUpon>LogIN.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -151,7 +160,16 @@
     <EmbeddedResource Include="Students\StudentList.resx">
       <DependentUpon>StudentList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\AddTeacher.en-US.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Teachers\AddTeacher.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\AddTeacher.sq-XK.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\AddTeacher.sq.resx">
       <DependentUpon>AddTeacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\Home.en-US.resx">
@@ -160,7 +178,13 @@
     <EmbeddedResource Include="Teachers\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\TeacherHome.en-US.resx">
+      <DependentUpon>TeacherHome.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Teachers\TeacherHome.resx">
+      <DependentUpon>TeacherHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\TeacherHome.sq-XK.resx">
       <DependentUpon>TeacherHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\TeacherList.resx">
@@ -210,6 +234,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emblem-person-blue.svg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

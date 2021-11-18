@@ -35,6 +35,8 @@ namespace StudentMS.Teachers
             this.btnDelete = new System.Windows.Forms.Button();
             this.brnRefresh = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
+            this.btnExcel = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +62,7 @@ namespace StudentMS.Teachers
             // btnUpdate
             // 
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnUpdate.Location = new System.Drawing.Point(442, 40);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(133, 47);
@@ -71,6 +74,7 @@ namespace StudentMS.Teachers
             // btnDelete
             // 
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDelete.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnDelete.Location = new System.Drawing.Point(581, 40);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(133, 47);
@@ -82,6 +86,7 @@ namespace StudentMS.Teachers
             // brnRefresh
             // 
             this.brnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.brnRefresh.Font = new System.Drawing.Font("Montserrat", 10F);
             this.brnRefresh.Location = new System.Drawing.Point(303, 40);
             this.brnRefresh.Name = "brnRefresh";
             this.brnRefresh.Size = new System.Drawing.Size(133, 47);
@@ -93,6 +98,7 @@ namespace StudentMS.Teachers
             // btnPrint
             // 
             this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrint.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnPrint.Location = new System.Drawing.Point(14, 460);
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(133, 47);
@@ -101,6 +107,30 @@ namespace StudentMS.Teachers
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
+            // btnExcel
+            // 
+            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcel.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.btnExcel.Location = new System.Drawing.Point(153, 460);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(171, 47);
+            this.btnExcel.TabIndex = 2;
+            this.btnExcel.Text = "Eksporto në excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnClose.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.btnClose.Location = new System.Drawing.Point(330, 460);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(133, 47);
+            this.btnClose.TabIndex = 2;
+            this.btnClose.Text = "Dil";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
             // TeacherList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -108,6 +138,8 @@ namespace StudentMS.Teachers
             this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(726, 519);
             this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.btnPrint);
             this.Controls.Add(this.brnRefresh);
             this.Controls.Add(this.btnUpdate);
@@ -132,5 +164,7 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button brnRefresh;
         private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.Button btnExcel;
+        private System.Windows.Forms.Button btnClose;
     }
 }

@@ -41,6 +41,7 @@ namespace StudentMS
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSignIn = new System.Windows.Forms.Button();
             this.cbGjuha = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -102,6 +103,7 @@ namespace StudentMS
             resources.ApplyResources(this.btnClose, "btnClose");
             this.btnClose.Name = "btnClose";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // btnSignIn
             // 
@@ -120,6 +122,11 @@ namespace StudentMS
             this.cbGjuha.Name = "cbGjuha";
             this.cbGjuha.SelectedIndexChanged += new System.EventHandler(this.cbGjuha_SelectedIndexChanged);
             // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
             // pictureBox1
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
@@ -137,6 +144,7 @@ namespace StudentMS
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.lblUserSurname);
             this.Controls.Add(this.lblUserName);
             this.Controls.Add(this.pictureBox1);
@@ -167,5 +175,6 @@ namespace StudentMS
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnSignIn;
         private System.Windows.Forms.ComboBox cbGjuha;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -62,7 +62,7 @@ namespace StudentMS_DAL
 
 
         }
-        //lthehu qetu
+        //kthehu kur t merresh me edit + krijo proceduren per editim
         public TeacherBO GetTeacherByID(int TchID)
         {
             DataSet ds;

@@ -35,17 +35,17 @@ namespace StudentMS.Students
             this.btnFshijStudent = new System.Windows.Forms.Button();
             this.dgvListaStudenteve = new System.Windows.Forms.DataGridView();
             this.btn_PrintStudentList = new System.Windows.Forms.Button();
-            this.btn_ExportToExcel = new System.Windows.Forms.Button();
+            this.btnDil = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaStudenteve)).BeginInit();
             this.SuspendLayout();
             // 
             // lblListaStudenteve
             // 
             this.lblListaStudenteve.AutoSize = true;
-            this.lblListaStudenteve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.lblListaStudenteve.Font = new System.Drawing.Font("Montserrat", 12F);
             this.lblListaStudenteve.Location = new System.Drawing.Point(66, 47);
             this.lblListaStudenteve.Name = "lblListaStudenteve";
-            this.lblListaStudenteve.Size = new System.Drawing.Size(200, 26);
+            this.lblListaStudenteve.Size = new System.Drawing.Size(166, 22);
             this.lblListaStudenteve.TabIndex = 2;
             this.lblListaStudenteve.Text = "Lista e studenteve :";
             this.lblListaStudenteve.Click += new System.EventHandler(this.lblListaStudenteve_Click);
@@ -53,7 +53,7 @@ namespace StudentMS.Students
             // btnRifreskoStudent
             // 
             this.btnRifreskoStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRifreskoStudent.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btnRifreskoStudent.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnRifreskoStudent.Location = new System.Drawing.Point(303, 47);
             this.btnRifreskoStudent.Name = "btnRifreskoStudent";
             this.btnRifreskoStudent.Size = new System.Drawing.Size(133, 47);
@@ -65,6 +65,7 @@ namespace StudentMS.Students
             // btnEditoStudent
             // 
             this.btnEditoStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEditoStudent.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnEditoStudent.Location = new System.Drawing.Point(442, 47);
             this.btnEditoStudent.Name = "btnEditoStudent";
             this.btnEditoStudent.Size = new System.Drawing.Size(133, 47);
@@ -75,6 +76,7 @@ namespace StudentMS.Students
             // btnFshijStudent
             // 
             this.btnFshijStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFshijStudent.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnFshijStudent.Location = new System.Drawing.Point(581, 47);
             this.btnFshijStudent.Name = "btnFshijStudent";
             this.btnFshijStudent.Size = new System.Drawing.Size(133, 47);
@@ -97,34 +99,34 @@ namespace StudentMS.Students
             // btn_PrintStudentList
             // 
             this.btn_PrintStudentList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_PrintStudentList.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btn_PrintStudentList.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btn_PrintStudentList.Location = new System.Drawing.Point(14, 460);
             this.btn_PrintStudentList.Name = "btn_PrintStudentList";
             this.btn_PrintStudentList.Size = new System.Drawing.Size(133, 47);
             this.btn_PrintStudentList.TabIndex = 7;
-            this.btn_PrintStudentList.Text = "Printo";
+            this.btn_PrintStudentList.Text = "Print";
             this.btn_PrintStudentList.UseVisualStyleBackColor = true;
             this.btn_PrintStudentList.Click += new System.EventHandler(this.btn_Print_Click);
             // 
-            // btn_ExportToExcel
+            // btnDil
             // 
-            this.btn_ExportToExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ExportToExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
-            this.btn_ExportToExcel.Location = new System.Drawing.Point(230, 460);
-            this.btn_ExportToExcel.Name = "btn_ExportToExcel";
-            this.btn_ExportToExcel.Size = new System.Drawing.Size(133, 47);
-            this.btn_ExportToExcel.TabIndex = 8;
-            this.btn_ExportToExcel.Text = "Eksporto ne Excel";
-            this.btn_ExportToExcel.UseVisualStyleBackColor = true;
-            this.btn_ExportToExcel.Click += new System.EventHandler(this.btn_ExportToExcel_Click);
+            this.btnDil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDil.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.btnDil.Location = new System.Drawing.Point(153, 460);
+            this.btnDil.Name = "btnDil";
+            this.btnDil.Size = new System.Drawing.Size(133, 47);
+            this.btnDil.TabIndex = 7;
+            this.btnDil.Text = "Dil";
+            this.btnDil.UseVisualStyleBackColor = true;
+            this.btnDil.Click += new System.EventHandler(this.btnDil_Click);
             // 
             // StudentList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
             this.ClientSize = new System.Drawing.Size(726, 519);
-            this.Controls.Add(this.btn_ExportToExcel);
+            this.Controls.Add(this.btnDil);
             this.Controls.Add(this.btn_PrintStudentList);
             this.Controls.Add(this.dgvListaStudenteve);
             this.Controls.Add(this.btnFshijStudent);
@@ -150,6 +152,6 @@ namespace StudentMS.Students
         private System.Windows.Forms.Button btnFshijStudent;
         private System.Windows.Forms.DataGridView dgvListaStudenteve;
         private System.Windows.Forms.Button btn_PrintStudentList;
-        private System.Windows.Forms.Button btn_ExportToExcel;
+        private System.Windows.Forms.Button btnDil;
     }
 }

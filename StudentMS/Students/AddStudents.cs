@@ -21,5 +21,17 @@ namespace StudentMS.Students
         {
 
         }
+
+        private void btnDilStudent_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                {
+                    ((TextBox)c).Text = String.Empty;
+                }
+            }
+        }
     }
 }

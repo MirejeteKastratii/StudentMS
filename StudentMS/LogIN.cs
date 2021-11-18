@@ -92,7 +92,7 @@ namespace StudentMS
         private void cbGjuha_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            CultureInfo culture = new CultureInfo("en-US");
+            CultureInfo culture = new CultureInfo("sq-XK");
             switch (cbGjuha.SelectedIndex)
             {
                 case 0:
@@ -103,15 +103,21 @@ namespace StudentMS
                     break;
 
                 default:
-                    culture = new CultureInfo("en-US");
+                    culture = new CultureInfo("sq-XK");
                     break;
             }
             CultureInfo.DefaultThreadCurrentCulture = culture;
             CultureInfo.DefaultThreadCurrentUICulture = culture;
             this.Controls.Clear();
+            //inicializo komponentet me kulturen e paracaktuar
             InitializeComponent();
             LogIN_Load(sender, e);
         }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+        }
     }
 }

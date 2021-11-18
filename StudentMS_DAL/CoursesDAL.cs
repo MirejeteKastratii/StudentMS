@@ -80,5 +80,8 @@ namespace StudentMS_DAL
                 throw ex;
             }
         }
+        public bool DeleteCourses() {
+            return true;
+        }//te implementohet
     }
 }

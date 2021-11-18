@@ -117,7 +117,123 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnViewStaff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnViewStaff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnViewStaff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 153</value>
+  </data>
   <data name="btnViewStaff.Text" xml:space="preserve">
     <value>Teachers</value>
+  </data>
+  <data name="lblAdmin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAdmin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 114</value>
+  </data>
+  <data name="btnManageUsers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <data name="btnManageUsers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnManageUsers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 424</value>
+  </data>
+  <data name="btnManageUsers.Text" xml:space="preserve">
+    <value>Manage users</value>
+  </data>
+  <data name="btnAddStudents.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <data name="btnAddStudents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 381</value>
+  </data>
+  <data name="btnAddStudents.Text" xml:space="preserve">
+    <value>Add Students</value>
+  </data>
+  <data name="btnViewStudents.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <data name="btnViewStudents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnViewStudents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 341</value>
+  </data>
+  <data name="btnViewStudents.Text" xml:space="preserve">
+    <value>Students</value>
+  </data>
+  <data name="btnAddCourses.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <data name="btnAddCourses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddCourses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 289</value>
+  </data>
+  <data name="btnAddCourses.Text" xml:space="preserve">
+    <value>Add Courses</value>
+  </data>
+  <data name="btnViewCourses.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <data name="btnViewCourses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnViewCourses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 237</value>
+  </data>
+  <data name="btnViewCourses.Text" xml:space="preserve">
+    <value>Courses</value>
+  </data>
+  <data name="btnAddStaff.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <data name="btnAddStaff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddStaff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 194</value>
+  </data>
+  <data name="btnAddStaff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 46</value>
+  </data>
+  <data name="btnAddStaff.Text" xml:space="preserve">
+    <value>Add Teachers</value>
+  </data>
+  <data name="pnlActive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 153</value>
+  </data>
+  <data name="pnlActive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 53</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 103</value>
+  </data>
+  <data name="pnlContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 2</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 103</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 8.25pt</value>
   </data>
 </root>

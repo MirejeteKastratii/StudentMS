@@ -1,4 +1,5 @@
-﻿using StudentMS_DAL;
+﻿using StudentMS_BO;
+using StudentMS_DAL;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -23,6 +24,10 @@ namespace StudentMS_BLL
         public bool DeleteUser(int ID)
         {
             return usersDAL.DeleteUsers(ID);
+        }
+        public void AddUsers(UsersBO model)
+        {
+             usersDAL.InsertUsers(model);
         }
     }
 }

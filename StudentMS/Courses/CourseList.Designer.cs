@@ -34,11 +34,9 @@ namespace StudentMS.Courses
             this.btnRifreskoKurset = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.btn_ExportToExcelCourses = new System.Windows.Forms.Button();
-=======
             this.btnPrinto = new System.Windows.Forms.Button();
->>>>>>> 0d307a2b12029e1e9d381bc50423f5cb8d22d188
+            this.btnExcel = new System.Windows.Forms.Button();
+            this.btnDil = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,27 +47,23 @@ namespace StudentMS.Courses
             this.dgvListaKurseve.Name = "dgvListaKurseve";
             this.dgvListaKurseve.RowHeadersWidth = 51;
             this.dgvListaKurseve.RowTemplate.Height = 24;
-<<<<<<< HEAD
-            this.dgvListaKurseve.Size = new System.Drawing.Size(700, 339);
-=======
             this.dgvListaKurseve.Size = new System.Drawing.Size(700, 353);
->>>>>>> 0d307a2b12029e1e9d381bc50423f5cb8d22d188
             this.dgvListaKurseve.TabIndex = 0;
             // 
             // lblListaKurseve
             // 
             this.lblListaKurseve.AutoSize = true;
-            this.lblListaKurseve.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.lblListaKurseve.Font = new System.Drawing.Font("Montserrat", 12F);
             this.lblListaKurseve.Location = new System.Drawing.Point(38, 48);
             this.lblListaKurseve.Name = "lblListaKurseve";
-            this.lblListaKurseve.Size = new System.Drawing.Size(141, 22);
+            this.lblListaKurseve.Size = new System.Drawing.Size(136, 22);
             this.lblListaKurseve.TabIndex = 1;
             this.lblListaKurseve.Text = "Lista e kurseve :";
             // 
             // btnRifreskoKurset
             // 
             this.btnRifreskoKurset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRifreskoKurset.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btnRifreskoKurset.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnRifreskoKurset.Location = new System.Drawing.Point(303, 40);
             this.btnRifreskoKurset.Name = "btnRifreskoKurset";
             this.btnRifreskoKurset.Size = new System.Drawing.Size(133, 47);
@@ -81,6 +75,7 @@ namespace StudentMS.Courses
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Montserrat", 10F);
             this.button2.Location = new System.Drawing.Point(442, 40);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(133, 47);
@@ -91,6 +86,7 @@ namespace StudentMS.Courses
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Montserrat", 10F);
             this.button3.Location = new System.Drawing.Point(581, 40);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(133, 47);
@@ -98,23 +94,10 @@ namespace StudentMS.Courses
             this.button3.Text = "Fshij rekordin";
             this.button3.UseVisualStyleBackColor = true;
             // 
-<<<<<<< HEAD
-            // btn_ExportToExcelCourses
-            // 
-            this.btn_ExportToExcelCourses.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ExportToExcelCourses.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
-            this.btn_ExportToExcelCourses.Location = new System.Drawing.Point(14, 460);
-            this.btn_ExportToExcelCourses.Name = "btn_ExportToExcelCourses";
-            this.btn_ExportToExcelCourses.Size = new System.Drawing.Size(133, 47);
-            this.btn_ExportToExcelCourses.TabIndex = 3;
-            this.btn_ExportToExcelCourses.Text = "Eksporto ne Excel";
-            this.btn_ExportToExcelCourses.UseVisualStyleBackColor = true;
-            this.btn_ExportToExcelCourses.Click += new System.EventHandler(this.btn_ExportToExcelCourses_Click);
-=======
             // btnPrinto
             // 
             this.btnPrinto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrinto.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F);
+            this.btnPrinto.Font = new System.Drawing.Font("Montserrat", 10F);
             this.btnPrinto.Location = new System.Drawing.Point(14, 462);
             this.btnPrinto.Name = "btnPrinto";
             this.btnPrinto.Size = new System.Drawing.Size(133, 47);
@@ -122,7 +105,30 @@ namespace StudentMS.Courses
             this.btnPrinto.Text = "Printo";
             this.btnPrinto.UseVisualStyleBackColor = true;
             this.btnPrinto.Click += new System.EventHandler(this.btnPrinto_Click);
->>>>>>> 0d307a2b12029e1e9d381bc50423f5cb8d22d188
+            // 
+            // btnExcel
+            // 
+            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExcel.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.btnExcel.Location = new System.Drawing.Point(153, 462);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(133, 47);
+            this.btnExcel.TabIndex = 0;
+            this.btnExcel.Text = "Excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
+            // btnDil
+            // 
+            this.btnDil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDil.Font = new System.Drawing.Font("Montserrat", 10F);
+            this.btnDil.Location = new System.Drawing.Point(292, 462);
+            this.btnDil.Name = "btnDil";
+            this.btnDil.Size = new System.Drawing.Size(133, 47);
+            this.btnDil.TabIndex = 0;
+            this.btnDil.Text = "Dil";
+            this.btnDil.UseVisualStyleBackColor = true;
+            this.btnDil.Click += new System.EventHandler(this.btnDil_Click);
             // 
             // CourseList
             // 
@@ -130,9 +136,10 @@ namespace StudentMS.Courses
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(726, 519);
-            this.Controls.Add(this.btn_ExportToExcelCourses);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnDil);
+            this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.btnPrinto);
             this.Controls.Add(this.btnRifreskoKurset);
             this.Controls.Add(this.lblListaKurseve);
@@ -155,10 +162,8 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Button btnRifreskoKurset;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-<<<<<<< HEAD
-        private System.Windows.Forms.Button btn_ExportToExcelCourses;
-=======
         private System.Windows.Forms.Button btnPrinto;
->>>>>>> 0d307a2b12029e1e9d381bc50423f5cb8d22d188
+        private System.Windows.Forms.Button btnExcel;
+        private System.Windows.Forms.Button btnDil;
     }
 }
