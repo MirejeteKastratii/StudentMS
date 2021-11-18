@@ -177,9 +177,6 @@
   <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtNrTel.Name" xml:space="preserve">
-    <value>txtNrTel</value>
-  </data>
   <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 13</value>
   </data>
@@ -357,8 +354,8 @@
   <data name="txtEmri.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 226</value>
   </data>
-  <data name="&gt;&gt;pbTchImg.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblGender.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;txtOrePune.Name" xml:space="preserve">
     <value>txtOrePune</value>
@@ -684,11 +681,14 @@
   <data name="lblSpecializim.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;lblGender.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;txtNrTel.Name" xml:space="preserve">
+    <value>txtNrTel</value>
   </data>
   <data name="&gt;&gt;lblInWeek.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtOrePune.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="&gt;&gt;txtSpecializimi.Name" xml:space="preserve">
     <value>txtSpecializimi</value>
@@ -831,8 +831,8 @@
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;txtOrePune.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;pbTchImg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="rdFemale.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -844,6 +844,6 @@
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sq-XK</value>
+    <value>en-US</value>
   </metadata>
 </root>

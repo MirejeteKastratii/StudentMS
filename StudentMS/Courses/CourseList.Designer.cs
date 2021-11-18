@@ -29,6 +29,7 @@ namespace StudentMS.Courses
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CourseList));
             this.dgvListaKurseve = new System.Windows.Forms.DataGridView();
             this.lblListaKurseve = new System.Windows.Forms.Label();
             this.btnRifreskoKurset = new System.Windows.Forms.Button();
@@ -37,105 +38,85 @@ namespace StudentMS.Courses
             this.btnPrinto = new System.Windows.Forms.Button();
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnDil = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvListaKurseve
             // 
+            resources.ApplyResources(this.dgvListaKurseve, "dgvListaKurseve");
             this.dgvListaKurseve.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvListaKurseve.Location = new System.Drawing.Point(14, 103);
             this.dgvListaKurseve.Name = "dgvListaKurseve";
-            this.dgvListaKurseve.RowHeadersWidth = 51;
             this.dgvListaKurseve.RowTemplate.Height = 24;
-            this.dgvListaKurseve.Size = new System.Drawing.Size(700, 353);
-            this.dgvListaKurseve.TabIndex = 0;
             // 
             // lblListaKurseve
             // 
-            this.lblListaKurseve.AutoSize = true;
-            this.lblListaKurseve.Font = new System.Drawing.Font("Montserrat", 12F);
-            this.lblListaKurseve.Location = new System.Drawing.Point(38, 48);
+            resources.ApplyResources(this.lblListaKurseve, "lblListaKurseve");
             this.lblListaKurseve.Name = "lblListaKurseve";
-            this.lblListaKurseve.Size = new System.Drawing.Size(136, 22);
-            this.lblListaKurseve.TabIndex = 1;
-            this.lblListaKurseve.Text = "Lista e kurseve :";
             // 
             // btnRifreskoKurset
             // 
-            this.btnRifreskoKurset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRifreskoKurset.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnRifreskoKurset.Location = new System.Drawing.Point(303, 40);
+            resources.ApplyResources(this.btnRifreskoKurset, "btnRifreskoKurset");
             this.btnRifreskoKurset.Name = "btnRifreskoKurset";
-            this.btnRifreskoKurset.Size = new System.Drawing.Size(133, 47);
-            this.btnRifreskoKurset.TabIndex = 0;
-            this.btnRifreskoKurset.Text = "Rifresko";
             this.btnRifreskoKurset.UseVisualStyleBackColor = true;
             this.btnRifreskoKurset.Click += new System.EventHandler(this.btnRifreskoKurset_Click);
             // 
             // button2
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.button2.Location = new System.Drawing.Point(442, 40);
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 47);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Edito rekordin";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.button3.Location = new System.Drawing.Point(581, 40);
+            resources.ApplyResources(this.button3, "button3");
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(133, 47);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Fshij rekordin";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // btnPrinto
             // 
-            this.btnPrinto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrinto.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnPrinto.Location = new System.Drawing.Point(14, 462);
+            resources.ApplyResources(this.btnPrinto, "btnPrinto");
             this.btnPrinto.Name = "btnPrinto";
-            this.btnPrinto.Size = new System.Drawing.Size(133, 47);
-            this.btnPrinto.TabIndex = 0;
-            this.btnPrinto.Text = "Printo";
             this.btnPrinto.UseVisualStyleBackColor = true;
             this.btnPrinto.Click += new System.EventHandler(this.btnPrinto_Click);
             // 
             // btnExcel
             // 
-            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExcel.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnExcel.Location = new System.Drawing.Point(153, 462);
+            resources.ApplyResources(this.btnExcel, "btnExcel");
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(133, 47);
-            this.btnExcel.TabIndex = 0;
-            this.btnExcel.Text = "Excel";
             this.btnExcel.UseVisualStyleBackColor = true;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // btnDil
             // 
-            this.btnDil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDil.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnDil.Location = new System.Drawing.Point(292, 462);
+            resources.ApplyResources(this.btnDil, "btnDil");
             this.btnDil.Name = "btnDil";
-            this.btnDil.Size = new System.Drawing.Size(133, 47);
-            this.btnDil.TabIndex = 0;
-            this.btnDil.Text = "Dil";
             this.btnDil.UseVisualStyleBackColor = true;
             this.btnDil.Click += new System.EventHandler(this.btnDil_Click);
             // 
+            // comboBox1
+            // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
             // CourseList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(726, 519);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnDil);
@@ -144,10 +125,8 @@ namespace StudentMS.Courses
             this.Controls.Add(this.btnRifreskoKurset);
             this.Controls.Add(this.lblListaKurseve);
             this.Controls.Add(this.dgvListaKurseve);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "CourseList";
-            this.Text = "CourseList";
             this.Load += new System.EventHandler(this.CourseList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).EndInit();
             this.ResumeLayout(false);
@@ -165,5 +144,7 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Button btnPrinto;
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnDil;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label2;
     }
 }

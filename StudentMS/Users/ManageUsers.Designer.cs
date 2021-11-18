@@ -29,6 +29,7 @@ namespace StudentMS.Users
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManageUsers));
             this.lblUsername = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
@@ -44,173 +45,129 @@ namespace StudentMS.Users
             this.btnEditUsers = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.cbRoles = new System.Windows.Forms.ComboBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
             this.SuspendLayout();
             // 
             // lblUsername
             // 
-            this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.lblUsername.Location = new System.Drawing.Point(93, 198);
+            resources.ApplyResources(this.lblUsername, "lblUsername");
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(88, 20);
-            this.lblUsername.TabIndex = 0;
-            this.lblUsername.Text = "Fjalëkalimi:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(209, 65);
+            resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
-            this.label2.TabIndex = 1;
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(49, 159);
+            resources.ApplyResources(this.txtUserName, "txtUserName");
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(173, 20);
-            this.txtUserName.TabIndex = 0;
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(49, 233);
+            resources.ApplyResources(this.txtPass, "txtPass");
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(173, 20);
-            this.txtPass.TabIndex = 1;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.label1.Location = new System.Drawing.Point(93, 123);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 20);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Përdoruesi:";
             // 
             // btnRifreskoManage
             // 
-            this.btnRifreskoManage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRifreskoManage.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnRifreskoManage.Location = new System.Drawing.Point(265, 48);
+            resources.ApplyResources(this.btnRifreskoManage, "btnRifreskoManage");
             this.btnRifreskoManage.Name = "btnRifreskoManage";
-            this.btnRifreskoManage.Size = new System.Drawing.Size(133, 47);
-            this.btnRifreskoManage.TabIndex = 3;
-            this.btnRifreskoManage.Text = "Rifresko";
             this.btnRifreskoManage.UseVisualStyleBackColor = true;
             this.btnRifreskoManage.Click += new System.EventHandler(this.btnRifreskoManage_Click);
             // 
             // btnFshij
             // 
-            this.btnFshij.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFshij.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnFshij.Location = new System.Drawing.Point(566, 48);
+            resources.ApplyResources(this.btnFshij, "btnFshij");
             this.btnFshij.Name = "btnFshij";
-            this.btnFshij.Size = new System.Drawing.Size(133, 47);
-            this.btnFshij.TabIndex = 4;
-            this.btnFshij.Text = "Fshij";
             this.btnFshij.UseVisualStyleBackColor = true;
             this.btnFshij.Click += new System.EventHandler(this.btnFshij_Click);
             // 
             // btnRuaj
             // 
-            this.btnRuaj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRuaj.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnRuaj.Location = new System.Drawing.Point(67, 340);
+            resources.ApplyResources(this.btnRuaj, "btnRuaj");
             this.btnRuaj.Name = "btnRuaj";
-            this.btnRuaj.Size = new System.Drawing.Size(133, 47);
-            this.btnRuaj.TabIndex = 2;
-            this.btnRuaj.Text = "Ruaj";
             this.btnRuaj.UseVisualStyleBackColor = true;
             this.btnRuaj.Click += new System.EventHandler(this.btnRuaj_Click);
             // 
             // dgvUsers
             // 
+            resources.ApplyResources(this.dgvUsers, "dgvUsers");
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsers.Location = new System.Drawing.Point(265, 123);
             this.dgvUsers.Name = "dgvUsers";
-            this.dgvUsers.RowHeadersWidth = 51;
-            this.dgvUsers.Size = new System.Drawing.Size(434, 264);
-            this.dgvUsers.TabIndex = 9;
             this.dgvUsers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsers_CellClick);
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.label3.Location = new System.Drawing.Point(114, 273);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 20);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Roli:";
             // 
             // btnPrint
             // 
-            this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrint.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnPrint.Location = new System.Drawing.Point(265, 420);
+            resources.ApplyResources(this.btnPrint, "btnPrint");
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(133, 47);
-            this.btnPrint.TabIndex = 2;
-            this.btnPrint.Text = "Printo";
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // btnExcel
             // 
-            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExcel.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnExcel.Location = new System.Drawing.Point(414, 420);
+            resources.ApplyResources(this.btnExcel, "btnExcel");
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(133, 47);
-            this.btnExcel.TabIndex = 2;
-            this.btnExcel.Text = "Excel";
             this.btnExcel.UseVisualStyleBackColor = true;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // btnEditUsers
             // 
-            this.btnEditUsers.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEditUsers.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnEditUsers.Location = new System.Drawing.Point(414, 48);
+            resources.ApplyResources(this.btnEditUsers, "btnEditUsers");
             this.btnEditUsers.Name = "btnEditUsers";
-            this.btnEditUsers.Size = new System.Drawing.Size(133, 47);
-            this.btnEditUsers.TabIndex = 3;
-            this.btnEditUsers.Text = "Edito rekordon";
             this.btnEditUsers.UseVisualStyleBackColor = true;
             this.btnEditUsers.Click += new System.EventHandler(this.btnEditUsers_Click);
             // 
             // btnClose
             // 
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnClose.Location = new System.Drawing.Point(566, 420);
+            resources.ApplyResources(this.btnClose, "btnClose");
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(133, 47);
-            this.btnClose.TabIndex = 4;
-            this.btnClose.Text = "Dil";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // cbRoles
             // 
+            resources.ApplyResources(this.cbRoles, "cbRoles");
             this.cbRoles.FormattingEnabled = true;
             this.cbRoles.Items.AddRange(new object[] {
-            "Administrator",
-            "Profesor"});
-            this.cbRoles.Location = new System.Drawing.Point(49, 296);
+            resources.GetString("cbRoles.Items"),
+            resources.GetString("cbRoles.Items1")});
             this.cbRoles.Name = "cbRoles";
-            this.cbRoles.Size = new System.Drawing.Size(173, 21);
-            this.cbRoles.TabIndex = 10;
             this.cbRoles.SelectedIndexChanged += new System.EventHandler(this.cbRoles_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // comboBox1
+            // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // ManageUsers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
-            this.ClientSize = new System.Drawing.Size(726, 519);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.cbRoles);
             this.Controls.Add(this.dgvUsers);
             this.Controls.Add(this.btnExcel);
@@ -226,10 +183,8 @@ namespace StudentMS.Users
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblUsername);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ManageUsers";
-            this.Text = "AddUsers";
             this.Load += new System.EventHandler(this.ManageUsers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).EndInit();
             this.ResumeLayout(false);
@@ -254,5 +209,7 @@ namespace StudentMS.Users
         private System.Windows.Forms.Button btnEditUsers;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.ComboBox cbRoles;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
