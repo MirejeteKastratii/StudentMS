@@ -39,13 +39,16 @@ namespace StudentMS.Courses
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnDil = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtGjuha = new System.Windows.Forms.Label();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvListaKurseve
             // 
-            resources.ApplyResources(this.dgvListaKurseve, "dgvListaKurseve");
             this.dgvListaKurseve.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvListaKurseve, "dgvListaKurseve");
             this.dgvListaKurseve.Name = "dgvListaKurseve";
             this.dgvListaKurseve.RowTemplate.Height = 24;
             // 
@@ -96,19 +99,34 @@ namespace StudentMS.Courses
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // txtGjuha
+            // 
+            resources.ApplyResources(this.txtGjuha, "txtGjuha");
+            this.txtGjuha.Name = "txtGjuha";
+            // 
+            // pbHelp
+            // 
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
+            this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);
             // 
             // CourseList
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.Controls.Add(this.pbHelp);
+            this.Controls.Add(this.txtGjuha);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -122,6 +140,7 @@ namespace StudentMS.Courses
             this.Name = "CourseList";
             this.Load += new System.EventHandler(this.CourseList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,5 +157,7 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnDil;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label txtGjuha;
+        private System.Windows.Forms.PictureBox pbHelp;
     }
 }

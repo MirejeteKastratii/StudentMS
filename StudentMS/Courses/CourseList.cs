@@ -114,7 +114,9 @@ namespace StudentMS.Courses
             CourseList_Load(sender, e);
         }
 
-        private void label2_Click(object sender, EventArgs e)
+       
+
+        private void pbHelp_Click(object sender, EventArgs e)
         {
 
         }

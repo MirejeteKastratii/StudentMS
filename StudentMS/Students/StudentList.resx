@@ -134,8 +134,14 @@
   <data name="&gt;&gt;btnFshijStudent.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="lblListaStudenteve.Text" xml:space="preserve">
     <value>Lista e studenteve :</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="dgvListaStudenteve.TabIndex" type="System.Int32, mscorlib">
@@ -163,22 +169,43 @@
     <value>581, 47</value>
   </data>
   <data name="&gt;&gt;btn_PrintStudentList.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnDil.Text" xml:space="preserve">
     <value>Dil</value>
   </data>
+  <data name="pbHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
   <data name="btnEditoStudent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="btnEditoStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 47</value>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
   </data>
   <data name="lblListaStudenteve.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 47</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnFshijStudent.Text" xml:space="preserve">
+    <value>Fshij rekordin</value>
+  </data>
+  <data name="pbHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="&gt;&gt;btn_PrintStudentList.Parent" xml:space="preserve">
     <value>$this</value>
@@ -190,19 +217,25 @@
     <value>Flat</value>
   </data>
   <data name="&gt;&gt;btnRifreskoStudent.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="btnDil.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;dgvListaStudenteve.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <data name="btnRifreskoStudent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="&gt;&gt;dgvListaStudenteve.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -214,13 +247,16 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnFshijStudent.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
   </data>
   <data name="&gt;&gt;btnRifreskoStudent.Name" xml:space="preserve">
     <value>btnRifreskoStudent</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;btnRifreskoStudent.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -240,6 +276,9 @@
   <data name="&gt;&gt;btnRifreskoStudent.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>615, 460</value>
+  </data>
   <data name="btn_PrintStudentList.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -255,11 +294,14 @@
   <data name="&gt;&gt;btn_PrintStudentList.Name" xml:space="preserve">
     <value>btn_PrintStudentList</value>
   </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
   <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;lblListaStudenteve.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="btnEditoStudent.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -273,8 +315,14 @@
   <data name="&gt;&gt;btnFshijStudent.Name" xml:space="preserve">
     <value>btnFshijStudent</value>
   </data>
+  <data name="&gt;&gt;btnEditoStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 50</value>
   </data>
   <data name="btnRifreskoStudent.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -292,7 +340,7 @@
     <value>True</value>
   </data>
   <data name="&gt;&gt;btnDil.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>593, 486</value>
@@ -302,6 +350,9 @@
   </data>
   <data name="lblListaStudenteve.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 20</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
   </data>
   <data name="lblListaStudenteve.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
@@ -342,8 +393,11 @@
   <data name="dgvListaStudenteve.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>615, 460</value>
+  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 50</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnEditoStudent.Parent" xml:space="preserve">
     <value>$this</value>
@@ -357,6 +411,9 @@
   <data name="btnEditoStudent.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
+  <data name="&gt;&gt;pbHelp.Name" xml:space="preserve">
+    <value>pbHelp</value>
+  </data>
   <data name="&gt;&gt;dgvListaStudenteve.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -369,8 +426,8 @@
   <data name="btnFshijStudent.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="&gt;&gt;btnEditoStudent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btnEditoStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 47</value>
   </data>
   <data name="btnDil.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -381,14 +438,17 @@
   <data name="btnRifreskoStudent.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="btnFshijStudent.Text" xml:space="preserve">
-    <value>Fshij rekordin</value>
+  <data name="&gt;&gt;pbHelp.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;btnEditoStudent.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Ang</value>

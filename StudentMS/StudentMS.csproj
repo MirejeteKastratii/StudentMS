@@ -187,6 +187,9 @@
     <EmbeddedResource Include="Students\StudentList.resx">
       <DependentUpon>StudentList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Students\StudentList.sq-XK.resx">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Teachers\AddTeacher.en-GB.resx">
       <DependentUpon>AddTeacher.cs</DependentUpon>
     </EmbeddedResource>
@@ -224,6 +227,9 @@
       <DependentUpon>TeacherList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\TeacherList.resx">
+      <DependentUpon>TeacherList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\TeacherList.sq-XK.resx">
       <DependentUpon>TeacherList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\ManageUsers.en-GB.resx">
@@ -279,6 +285,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Emblem-person-blue.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help+question+icon-1320161388862960882.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help+question+icon-13201613888629608821.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -393,6 +393,6 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+    <value>NoControl</value>
   </data>
 </root>

@@ -155,10 +155,10 @@
     <value>Exit</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>591, 470</value>
+    <value>3, 434</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 13</value>
+    <value>156, 20</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Select the language: </value>
@@ -168,5 +168,8 @@
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Eng</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 434</value>
   </data>
 </root>

@@ -43,8 +43,10 @@ namespace StudentMS
             this.cbGjuha = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -134,11 +136,19 @@ namespace StudentMS
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // pbHelp
+            // 
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
+            // 
             // LogIN
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
+            this.Controls.Add(this.pbHelp);
             this.Controls.Add(this.cbGjuha);
             this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.btnClose);
@@ -156,6 +166,7 @@ namespace StudentMS
             this.Load += new System.EventHandler(this.LogIN_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,5 +187,6 @@ namespace StudentMS
         private System.Windows.Forms.Button btnSignIn;
         private System.Windows.Forms.ComboBox cbGjuha;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pbHelp;
     }
 }

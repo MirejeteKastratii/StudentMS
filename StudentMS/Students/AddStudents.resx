@@ -125,8 +125,8 @@
   <data name="lblNumriTell.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;btnRuajStudent.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lblShtimiStudent.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 52</value>
@@ -134,11 +134,14 @@
   <data name="btnDilStudent.Text" xml:space="preserve">
     <value>Dil</value>
   </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;lblDataLindjes.ZOrder" xml:space="preserve">
     <value>14</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="rbtnM.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -161,8 +164,8 @@
   <data name="lblEmri.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblMbiemri.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -191,9 +194,6 @@
   <data name="lblShtimiStudent.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;btnRuajStudent.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="lblEmail.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
@@ -208,6 +208,9 @@
   </data>
   <data name="lblEmail.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnDilStudent.Name" xml:space="preserve">
+    <value>btnDilStudent</value>
   </data>
   <data name="&gt;&gt;lblShtimiStudent.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -230,14 +233,14 @@
   <data name="&gt;&gt;lblEmri.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>580, 486</value>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 20</value>
   </data>
   <data name="&gt;&gt;lblShtimiStudent.ZOrder" xml:space="preserve">
     <value>17</value>
@@ -257,20 +260,20 @@
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;btnDilStudent.Name" xml:space="preserve">
-    <value>btnDilStudent</value>
+  <data name="&gt;&gt;rbtnM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 20</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="lblMbiemri.Text" xml:space="preserve">
     <value>Mbiemri :</value>
   </data>
   <data name="lblNumriTell.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 17</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>580, 486</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -280,6 +283,9 @@
   </data>
   <data name="lblEmail.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblEmri.Parent" xml:space="preserve">
     <value>$this</value>
@@ -360,8 +366,8 @@
   <data name="lblDataLindjes.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 235</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 13</value>
+  <data name="dateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;rbtnM.Name" xml:space="preserve">
     <value>rbtnM</value>
@@ -426,9 +432,6 @@
   <data name="lblDataLindjes.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;lblShtimiStudent.Name" xml:space="preserve">
     <value>lblShtimiStudent</value>
   </data>
@@ -462,6 +465,9 @@
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 21</value>
   </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
     <value>327, 323</value>
   </data>
@@ -492,6 +498,9 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="btnDilStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
@@ -500,6 +509,9 @@
   </data>
   <data name="lblEmri.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
   </data>
   <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -522,8 +534,8 @@
   <data name="rbtnM.Location" type="System.Drawing.Point, System.Drawing">
     <value>383, 285</value>
   </data>
-  <data name="btnDilStudent.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lblMbiemri.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -552,9 +564,6 @@
   <data name="lblGjinia.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="lblEmri.Location" type="System.Drawing.Point, System.Drawing">
-    <value>241, 136</value>
-  </data>
   <data name="lblNumriTell.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -562,9 +571,6 @@
     <value>Ang</value>
   </data>
   <data name="&gt;&gt;lblNumriTell.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dateTimePicker1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="lblDataLindjes.Font" type="System.Drawing.Font, System.Drawing">
@@ -594,14 +600,11 @@
   <data name="&gt;&gt;rbtnM.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;rbtnM.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblEmri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>241, 136</value>
   </data>
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
     <value>8</value>
-  </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="lblGjinia.Location" type="System.Drawing.Point, System.Drawing">
     <value>240, 280</value>
@@ -621,13 +624,10 @@
   <data name="&gt;&gt;rbtnF.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 20</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sq-XK</value>
+    <value>en-US</value>
   </metadata>
 </root>

@@ -47,7 +47,9 @@ namespace StudentMS.Users
             this.cbRoles = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // lblUsername
@@ -98,8 +100,8 @@ namespace StudentMS.Users
             // 
             // dgvUsers
             // 
-            this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(this.dgvUsers, "dgvUsers");
+            this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvUsers.Name = "dgvUsers";
             this.dgvUsers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsers_CellClick);
             // 
@@ -138,11 +140,11 @@ namespace StudentMS.Users
             // 
             // cbRoles
             // 
+            resources.ApplyResources(this.cbRoles, "cbRoles");
             this.cbRoles.FormattingEnabled = true;
             this.cbRoles.Items.AddRange(new object[] {
             resources.GetString("cbRoles.Items"),
             resources.GetString("cbRoles.Items1")});
-            resources.ApplyResources(this.cbRoles, "cbRoles");
             this.cbRoles.Name = "cbRoles";
             this.cbRoles.SelectedIndexChanged += new System.EventHandler(this.cbRoles_SelectedIndexChanged);
             // 
@@ -153,19 +155,27 @@ namespace StudentMS.Users
             // 
             // comboBox1
             // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // pbHelp
+            // 
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
             // 
             // ManageUsers
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Moccasin;
+            this.Controls.Add(this.pbHelp);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cbRoles);
@@ -187,6 +197,7 @@ namespace StudentMS.Users
             this.Name = "ManageUsers";
             this.Load += new System.EventHandler(this.ManageUsers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,5 +222,6 @@ namespace StudentMS.Users
         private System.Windows.Forms.ComboBox cbRoles;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox pbHelp;
     }
 }

@@ -157,7 +157,7 @@ namespace StudentMS.Students
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.NavajoWhite;
+            this.BackColor = System.Drawing.Color.MistyRose;
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDilStudent);

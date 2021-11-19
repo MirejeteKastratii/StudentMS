@@ -40,7 +40,15 @@ namespace StudentMS.Teachers
             this.btnClose = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvTeachers
@@ -112,11 +120,43 @@ namespace StudentMS.Teachers
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // pbHelp
+            // 
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            // 
             // TeacherList
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbHelp);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnDelete);
@@ -131,6 +171,10 @@ namespace StudentMS.Teachers
             this.Name = "TeacherList";
             this.Load += new System.EventHandler(this.TeacherList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,5 +192,9 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox pbHelp;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

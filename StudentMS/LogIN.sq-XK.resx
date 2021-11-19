@@ -127,6 +127,10 @@
   <data name="lblUserSurname.Size" type="System.Drawing.Size, System.Drawing">
     <value>88, 20</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>*</value>
+  </data>
   <data name="btnClose.Font" type="System.Drawing.Font, System.Drawing">
     <value>Montserrat, 10pt</value>
   </data>
@@ -141,5 +145,9 @@
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 20</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>

@@ -39,7 +39,13 @@ namespace StudentMS.Students
             this.btnDil = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaStudenteve)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblListaStudenteve
@@ -94,6 +100,7 @@ namespace StudentMS.Students
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // comboBox1
             // 
@@ -105,11 +112,36 @@ namespace StudentMS.Students
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // pbHelp
+            // 
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
+            this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
             // StudentList
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MistyRose;
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbHelp);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDil);
@@ -123,6 +155,9 @@ namespace StudentMS.Students
             this.Name = "StudentList";
             this.Load += new System.EventHandler(this.StudentList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaStudenteve)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -139,5 +174,8 @@ namespace StudentMS.Students
         private System.Windows.Forms.Button btnDil;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox pbHelp;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

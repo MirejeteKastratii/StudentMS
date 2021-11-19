@@ -158,7 +158,7 @@
     <value>588, 470</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 13</value>
+    <value>160, 20</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Select the language : </value>
