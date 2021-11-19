@@ -19,14 +19,14 @@ namespace StudentMS.Courses
         {
             InitializeComponent();
         }
-
+        //refresh
         private void btnRifreskoKurset_Click(object sender, EventArgs e)
         {
             CoursesBLL coursesBLL = new CoursesBLL();
             DataTable list = coursesBLL.ShowCourses();
             dgvListaKurseve.DataSource = list;
         }
-
+        //
         private void CourseList_Load(object sender, EventArgs e)
         {
 

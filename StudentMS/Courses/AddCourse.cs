@@ -24,14 +24,15 @@ namespace StudentMS.Courses
         private void AddCourse_Load(object sender, EventArgs e)
         {
 
-        }
-
+        } 
+        //insertimi i rekordit
         private void btnRuaj_Click(object sender, EventArgs e)
         {
             CoursesBO courseBo = new CoursesBO(txtCourseTitle.Text, txtCourseDescription.Text,txtSyllabusi.Text,Convert.ToInt32(txtSessions.Text) );
             courseService.AddCourses(courseBo);
         }
 
+        //mbyllja e formes dhe pastrimi i textbox
         private void btnDil_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -44,6 +45,7 @@ namespace StudentMS.Courses
             }
         }
 
+        //gjuha
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             CultureInfo culture = new CultureInfo("en-US");
