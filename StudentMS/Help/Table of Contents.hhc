@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LogIn">
+		<param name="Local" value="LogIn_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TeacherHome">
+		<param name="Local" value="TeacherHome_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Students">
+		<param name="Local" value="StudentListAdmin_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Teachers">
+		<param name="Local" value="TeacherListAdmin_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Courses">
+		<param name="Local" value="CourseListAdmin_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Users">
+		<param name="Local" value="ManageUsersAdmin_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Vleresimet">
+		<param name="Local" value="VleresimetTeacher_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AdminHome">
+		<param name="Local" value="AdminHome_Help.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>
