@@ -41,13 +41,13 @@ namespace StudentMS.Teachers
             this.btnAddStaff = new System.Windows.Forms.Button();
             this.pnlActive = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlContent = new System.Windows.Forms.Panel();
             this.pbHelp = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnViewStaff
@@ -149,13 +149,6 @@ namespace StudentMS.Teachers
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::StudentMS.Properties.Resources.Capture_removebg_preview;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.Thistle;
@@ -170,6 +163,13 @@ namespace StudentMS.Teachers
             this.pbHelp.Name = "pbHelp";
             this.pbHelp.TabStop = false;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::StudentMS.Properties.Resources.Capture_removebg_preview;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
             // Home
             // 
             resources.ApplyResources(this, "$this");
@@ -180,8 +180,8 @@ namespace StudentMS.Teachers
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

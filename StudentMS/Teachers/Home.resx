@@ -125,8 +125,14 @@
   <data name="btnViewStaff.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
+  <data name="btnViewStaff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnViewStaff.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 133</value>
+  </data>
+  <data name="btnViewStaff.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>Yes</value>
   </data>
   <data name="btnViewStaff.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 46</value>
@@ -183,6 +189,9 @@
   <data name="lblAdmin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
+  <data name="lblAdmin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="lblAdmin.Location" type="System.Drawing.Point, System.Drawing">
     <value>70, 108</value>
   </data>
@@ -212,6 +221,9 @@
   </data>
   <data name="btnManageUsers.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnManageUsers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnManageUsers.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 376</value>
@@ -243,6 +255,9 @@
   <data name="btnAddStudents.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
+  <data name="btnAddStudents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnAddStudents.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 335</value>
   </data>
@@ -272,6 +287,9 @@
   </data>
   <data name="btnViewStudents.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnViewStudents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnViewStudents.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 294</value>
@@ -303,6 +321,9 @@
   <data name="btnAddCourses.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
+  <data name="btnAddCourses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnAddCourses.Location" type="System.Drawing.Point, System.Drawing">
     <value>11, 252</value>
   </data>
@@ -333,6 +354,9 @@
   <data name="btnViewCourses.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
+  <data name="btnViewCourses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="btnViewCourses.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 211</value>
   </data>
@@ -362,6 +386,9 @@
   </data>
   <data name="btnAddStaff.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="btnAddStaff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnAddStaff.Location" type="System.Drawing.Point, System.Drawing">
     <value>14, 170</value>
@@ -407,6 +434,9 @@
   </data>
   <data name="&gt;&gt;pnlActive.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, -3</value>
@@ -506,6 +536,9 @@
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.249999pt</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Home</value>
