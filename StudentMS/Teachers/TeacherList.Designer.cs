@@ -29,6 +29,7 @@ namespace StudentMS.Teachers
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeacherList));
             this.dgvTeachers = new System.Windows.Forms.DataGridView();
             this.lblTeacherList = new System.Windows.Forms.Label();
             this.btnUpdate = new System.Windows.Forms.Button();
@@ -37,106 +38,127 @@ namespace StudentMS.Teachers
             this.btnPrint = new System.Windows.Forms.Button();
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvTeachers
             // 
+            resources.ApplyResources(this.dgvTeachers, "dgvTeachers");
             this.dgvTeachers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTeachers.Location = new System.Drawing.Point(14, 103);
             this.dgvTeachers.Name = "dgvTeachers";
-            this.dgvTeachers.Size = new System.Drawing.Size(700, 337);
-            this.dgvTeachers.TabIndex = 0;
             this.dgvTeachers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeachers_CellClick);
             // 
             // lblTeacherList
             // 
-            this.lblTeacherList.AutoSize = true;
-            this.lblTeacherList.Font = new System.Drawing.Font("Montserrat", 13F);
-            this.lblTeacherList.Location = new System.Drawing.Point(41, 46);
+            resources.ApplyResources(this.lblTeacherList, "lblTeacherList");
             this.lblTeacherList.Name = "lblTeacherList";
-            this.lblTeacherList.Size = new System.Drawing.Size(186, 25);
-            this.lblTeacherList.TabIndex = 1;
-            this.lblTeacherList.Text = "Lista e profesorëve:";
             // 
             // btnUpdate
             // 
-            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdate.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnUpdate.Location = new System.Drawing.Point(442, 40);
+            resources.ApplyResources(this.btnUpdate, "btnUpdate");
             this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(133, 47);
-            this.btnUpdate.TabIndex = 2;
-            this.btnUpdate.Text = "Edito rekordin";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnAddTeacher_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDelete.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnDelete.Location = new System.Drawing.Point(581, 40);
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(133, 47);
-            this.btnDelete.TabIndex = 2;
-            this.btnDelete.Text = "Fshij rekordin";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // brnRefresh
             // 
-            this.brnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.brnRefresh.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.brnRefresh.Location = new System.Drawing.Point(303, 40);
+            resources.ApplyResources(this.brnRefresh, "brnRefresh");
             this.brnRefresh.Name = "brnRefresh";
-            this.brnRefresh.Size = new System.Drawing.Size(133, 47);
-            this.brnRefresh.TabIndex = 2;
-            this.brnRefresh.Text = "Rifresko";
             this.brnRefresh.UseVisualStyleBackColor = true;
             this.brnRefresh.Click += new System.EventHandler(this.brnRefresh_Click);
             // 
             // btnPrint
             // 
-            this.btnPrint.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrint.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnPrint.Location = new System.Drawing.Point(14, 460);
+            resources.ApplyResources(this.btnPrint, "btnPrint");
             this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(133, 47);
-            this.btnPrint.TabIndex = 2;
-            this.btnPrint.Text = "Print";
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // btnExcel
             // 
-            this.btnExcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExcel.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnExcel.Location = new System.Drawing.Point(153, 460);
+            resources.ApplyResources(this.btnExcel, "btnExcel");
             this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(171, 47);
-            this.btnExcel.TabIndex = 2;
-            this.btnExcel.Text = "Eksporto në excel";
             this.btnExcel.UseVisualStyleBackColor = true;
             this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // btnClose
             // 
-            this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnClose.Font = new System.Drawing.Font("Montserrat", 10F);
-            this.btnClose.Location = new System.Drawing.Point(330, 460);
+            resources.ApplyResources(this.btnClose, "btnClose");
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(133, 47);
-            this.btnClose.TabIndex = 2;
-            this.btnClose.Text = "Dil";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
+            // 
+            // comboBox1
+            // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            resources.GetString("comboBox1.Items"),
+            resources.GetString("comboBox1.Items1")});
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // pictureBox2
+            // 
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            // 
+            // pbHelp
+            // 
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            // 
             // TeacherList
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
-            this.ClientSize = new System.Drawing.Size(726, 519);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbHelp);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnExcel);
@@ -145,12 +167,14 @@ namespace StudentMS.Teachers
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.lblTeacherList);
             this.Controls.Add(this.dgvTeachers);
-            this.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "TeacherList";
-            this.Text = "TeacherList";
             this.Load += new System.EventHandler(this.TeacherList_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTeachers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -166,5 +190,11 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnPrint;
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.PictureBox pbHelp;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

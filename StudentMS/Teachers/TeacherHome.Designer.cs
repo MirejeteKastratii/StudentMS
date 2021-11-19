@@ -41,9 +41,11 @@ namespace StudentMS.Teachers
             this.lblTeacher = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlContent
@@ -56,6 +58,7 @@ namespace StudentMS.Teachers
             // 
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panel2.Controls.Add(this.pbHelp);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.comboBox1);
             this.panel2.Controls.Add(this.btnStudent);
@@ -134,6 +137,13 @@ namespace StudentMS.Teachers
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // pbHelp
+            // 
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
+            // 
             // TeacherHome
             // 
             resources.ApplyResources(this, "$this");
@@ -146,6 +156,7 @@ namespace StudentMS.Teachers
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -163,5 +174,6 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnVleresimet;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pbHelp;
     }
 }

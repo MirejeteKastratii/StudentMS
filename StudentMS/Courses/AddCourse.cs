@@ -66,5 +66,6 @@ namespace StudentMS.Courses
             InitializeComponent();
             AddCourse_Load(sender, e);
         }
+
     }
 }

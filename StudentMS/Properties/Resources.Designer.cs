@@ -103,6 +103,26 @@ namespace StudentMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap help_question_icon_1320161388862960882 {
+            get {
+                object obj = ResourceManager.GetObject("help+question+icon-1320161388862960882", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap help_question_icon_13201613888629608821 {
+            get {
+                object obj = ResourceManager.GetObject("help+question+icon-13201613888629608821", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap KEY0_CC_Vector_Transparent_Library_Svg_Definition_Teacher_Teacher_Icon_Png {
             get {
                 object obj = ResourceManager.GetObject("KEY0.CC-Vector-Transparent-Library-Svg-Definition-Teacher-Teacher-Icon-Png", resourceCulture);

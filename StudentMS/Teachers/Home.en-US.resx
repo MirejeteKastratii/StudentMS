@@ -218,17 +218,17 @@
   <data name="pnlActive.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 53</value>
   </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 103</value>
-  </data>
-  <data name="pnlContent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>205, 2</value>
-  </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 103</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 103</value>
+  </data>
+  <data name="pnlContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 2</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>

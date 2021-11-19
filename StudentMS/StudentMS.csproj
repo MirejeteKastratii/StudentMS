@@ -126,7 +126,19 @@
     <EmbeddedResource Include="Courses\AddCourse.resx">
       <DependentUpon>AddCourse.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Courses\AddCourse.sq-XK.resx">
+      <DependentUpon>AddCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\CourseList.en-GB.resx">
+      <DependentUpon>CourseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\CourseList.en-US.resx">
+      <DependentUpon>CourseList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Courses\CourseList.resx">
+      <DependentUpon>CourseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\CourseList.sq-XK.resx">
       <DependentUpon>CourseList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Courses\Vleresimet.resx">
@@ -157,11 +169,29 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Students\AddStudents.en-GB.resx">
+      <DependentUpon>AddStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students\AddStudents.en-US.resx">
+      <DependentUpon>AddStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Students\AddStudents.resx">
       <DependentUpon>AddStudents.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Students\AddStudents.sq-XK.resx">
+      <DependentUpon>AddStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students\StudentList.en-US.resx">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Students\StudentList.resx">
       <DependentUpon>StudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students\StudentList.sq-XK.resx">
+      <DependentUpon>StudentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\AddTeacher.en-GB.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\AddTeacher.en-US.resx">
       <DependentUpon>AddTeacher.cs</DependentUpon>
@@ -190,8 +220,23 @@
     <EmbeddedResource Include="Teachers\TeacherHome.sq-XK.resx">
       <DependentUpon>TeacherHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\TeacherList.en-GB.resx">
+      <DependentUpon>TeacherList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\TeacherList.en-US.resx">
+      <DependentUpon>TeacherList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Teachers\TeacherList.resx">
       <DependentUpon>TeacherList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teachers\TeacherList.sq-XK.resx">
+      <DependentUpon>TeacherList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\ManageUsers.en-GB.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\ManageUsers.en-US.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\ManageUsers.resx">
       <DependentUpon>ManageUsers.cs</DependentUpon>
@@ -240,6 +285,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Emblem-person-blue.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help+question+icon-1320161388862960882.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help+question+icon-13201613888629608821.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

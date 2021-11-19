@@ -117,122 +117,64 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblListaStudenteve.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRifreskoStudent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEditoStudent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFshijStudent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_PrintStudentList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblTitulli.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 101</value>
+  <data name="btn_PrintStudentList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 458</value>
   </data>
-  <data name="lblTitulli.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 17</value>
-  </data>
-  <data name="lblTitulli.Text" xml:space="preserve">
-    <value>Tittle:</value>
-  </data>
-  <data name="txtCourseTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 98</value>
-  </data>
-  <data name="txtCourseTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 23</value>
-  </data>
-  <data name="lblPershkrimi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 193</value>
-  </data>
-  <data name="lblPershkrimi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 17</value>
-  </data>
-  <data name="lblPershkrimi.Text" xml:space="preserve">
-    <value>Description:</value>
-  </data>
-  <data name="lblPershkrimi.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
-  </data>
-  <data name="lblSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 275</value>
-  </data>
-  <data name="lblSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 17</value>
-  </data>
-  <data name="lblSyllabusi.Text" xml:space="preserve">
-    <value>Syllabus :</value>
-  </data>
-  <data name="lblSesionet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 351</value>
-  </data>
-  <data name="lblSesionet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 17</value>
-  </data>
-  <data name="lblSesionet.Text" xml:space="preserve">
-    <value>Sessions</value>
-  </data>
-  <data name="txtSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 241</value>
-  </data>
-  <data name="txtSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 74</value>
-  </data>
-  <data name="txtSessions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 348</value>
-  </data>
-  <data name="txtSessions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 23</value>
-  </data>
-  <data name="txtCourseDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 153</value>
-  </data>
-  <data name="txtCourseDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 69</value>
-  </data>
-  <data name="lblShtimiKurseve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 34</value>
-  </data>
-  <data name="lblShtimiKurseve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="lblShtimiKurseve.Text" xml:space="preserve">
-    <value>Add of courses :</value>
-  </data>
-  <data name="btnRuaj.Location" type="System.Drawing.Point, System.Drawing">
-    <value>387, 398</value>
-  </data>
-  <data name="btnRuaj.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 52</value>
-  </data>
-  <data name="btnRuaj.Text" xml:space="preserve">
-    <value>Save</value>
+  <data name="btnDil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>546, 398</value>
+    <value>581, 458</value>
   </data>
-  <data name="btnDil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 52</value>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
   </data>
-  <data name="btnDil.Text" xml:space="preserve">
-    <value>Exit</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 472</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Alb</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Eng</value>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>576, 351</value>
+    <value>173, 472</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 24</value>
+  <data name="pbHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>562, 320</value>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 17</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, -1</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Select the language:</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 41</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>726, 461</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>

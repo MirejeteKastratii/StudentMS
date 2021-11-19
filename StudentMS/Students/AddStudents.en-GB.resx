@@ -118,121 +118,76 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblTitulli.Location" type="System.Drawing.Point, System.Drawing">
-    <value>114, 101</value>
+  <data name="lblShtimiStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 20</value>
   </data>
-  <data name="lblTitulli.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 17</value>
+  <data name="lblShtimiStudent.Text" xml:space="preserve">
+    <value>Add students :</value>
   </data>
-  <data name="lblTitulli.Text" xml:space="preserve">
-    <value>Tittle:</value>
+  <data name="lblEmri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
   </data>
-  <data name="txtCourseTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 98</value>
+  <data name="lblEmri.Text" xml:space="preserve">
+    <value>Name :</value>
   </data>
-  <data name="txtCourseTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 23</value>
+  <data name="lblMbiemri.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 194</value>
   </data>
-  <data name="lblPershkrimi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>76, 193</value>
+  <data name="lblMbiemri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
   </data>
-  <data name="lblPershkrimi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 17</value>
+  <data name="lblMbiemri.Text" xml:space="preserve">
+    <value>Surname :</value>
   </data>
-  <data name="lblPershkrimi.Text" xml:space="preserve">
-    <value>Description:</value>
+  <data name="lblDataLindjes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 235</value>
   </data>
-  <data name="lblPershkrimi.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>TopCenter</value>
+  <data name="lblDataLindjes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
   </data>
-  <data name="lblSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 275</value>
+  <data name="lblDataLindjes.Text" xml:space="preserve">
+    <value>Date of birth :</value>
   </data>
-  <data name="lblSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 17</value>
+  <data name="lblGjinia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 283</value>
   </data>
-  <data name="lblSyllabusi.Text" xml:space="preserve">
-    <value>Syllabus :</value>
+  <data name="lblGjinia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
   </data>
-  <data name="lblSesionet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>93, 351</value>
+  <data name="lblGjinia.Text" xml:space="preserve">
+    <value>Gender :</value>
   </data>
-  <data name="lblSesionet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 17</value>
+  <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 323</value>
   </data>
-  <data name="lblSesionet.Text" xml:space="preserve">
-    <value>Sessions</value>
+  <data name="lblNumriTell.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 366</value>
   </data>
-  <data name="txtSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 241</value>
+  <data name="lblNumriTell.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
   </data>
-  <data name="txtSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 74</value>
+  <data name="lblNumriTell.Text" xml:space="preserve">
+    <value>Phone number :</value>
   </data>
-  <data name="txtSessions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 348</value>
-  </data>
-  <data name="txtSessions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 23</value>
-  </data>
-  <data name="txtCourseDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>248, 153</value>
-  </data>
-  <data name="txtCourseDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 69</value>
-  </data>
-  <data name="lblShtimiKurseve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 34</value>
-  </data>
-  <data name="lblShtimiKurseve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="lblShtimiKurseve.Text" xml:space="preserve">
-    <value>Add of courses :</value>
-  </data>
-  <data name="btnRuaj.Location" type="System.Drawing.Point, System.Drawing">
-    <value>387, 398</value>
-  </data>
-  <data name="btnRuaj.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 52</value>
-  </data>
-  <data name="btnRuaj.Text" xml:space="preserve">
+  <data name="btnRuajStudent.Text" xml:space="preserve">
     <value>Save</value>
   </data>
-  <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>546, 398</value>
-  </data>
-  <data name="btnDil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 52</value>
-  </data>
-  <data name="btnDil.Text" xml:space="preserve">
+  <data name="btnDilStudent.Text" xml:space="preserve">
     <value>Exit</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>590, 470</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Select the language : </value>
   </data>
   <data name="comboBox1.Items" xml:space="preserve">
     <value>Alb</value>
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Eng</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>576, 351</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 24</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>562, 320</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 17</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Select the language:</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>726, 461</value>
   </data>
 </root>

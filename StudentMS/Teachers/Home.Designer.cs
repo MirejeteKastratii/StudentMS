@@ -41,17 +41,19 @@ namespace StudentMS.Teachers
             this.btnAddStaff = new System.Windows.Forms.Button();
             this.pnlActive = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pnlContent = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlContent = new System.Windows.Forms.Panel();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.SuspendLayout();
             // 
             // btnViewStaff
             // 
-            resources.ApplyResources(this.btnViewStaff, "btnViewStaff");
             this.btnViewStaff.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnViewStaff, "btnViewStaff");
             this.btnViewStaff.ForeColor = System.Drawing.Color.White;
             this.btnViewStaff.Name = "btnViewStaff";
             this.btnViewStaff.UseVisualStyleBackColor = true;
@@ -59,8 +61,8 @@ namespace StudentMS.Teachers
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.panel1.Controls.Add(this.pbHelp);
             this.panel1.Controls.Add(this.lblAdmin);
             this.panel1.Controls.Add(this.btnManageUsers);
             this.panel1.Controls.Add(this.btnAddStudents);
@@ -71,6 +73,7 @@ namespace StudentMS.Teachers
             this.panel1.Controls.Add(this.btnViewStaff);
             this.panel1.Controls.Add(this.pnlActive);
             this.panel1.Controls.Add(this.panel3);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // lblAdmin
@@ -81,8 +84,8 @@ namespace StudentMS.Teachers
             // 
             // btnManageUsers
             // 
-            resources.ApplyResources(this.btnManageUsers, "btnManageUsers");
             this.btnManageUsers.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnManageUsers, "btnManageUsers");
             this.btnManageUsers.ForeColor = System.Drawing.Color.White;
             this.btnManageUsers.Name = "btnManageUsers";
             this.btnManageUsers.UseVisualStyleBackColor = true;
@@ -90,8 +93,8 @@ namespace StudentMS.Teachers
             // 
             // btnAddStudents
             // 
-            resources.ApplyResources(this.btnAddStudents, "btnAddStudents");
             this.btnAddStudents.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnAddStudents, "btnAddStudents");
             this.btnAddStudents.ForeColor = System.Drawing.Color.White;
             this.btnAddStudents.Name = "btnAddStudents";
             this.btnAddStudents.UseVisualStyleBackColor = true;
@@ -99,8 +102,8 @@ namespace StudentMS.Teachers
             // 
             // btnViewStudents
             // 
-            resources.ApplyResources(this.btnViewStudents, "btnViewStudents");
             this.btnViewStudents.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnViewStudents, "btnViewStudents");
             this.btnViewStudents.ForeColor = System.Drawing.Color.White;
             this.btnViewStudents.Name = "btnViewStudents";
             this.btnViewStudents.UseVisualStyleBackColor = true;
@@ -108,8 +111,8 @@ namespace StudentMS.Teachers
             // 
             // btnAddCourses
             // 
-            resources.ApplyResources(this.btnAddCourses, "btnAddCourses");
             this.btnAddCourses.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnAddCourses, "btnAddCourses");
             this.btnAddCourses.ForeColor = System.Drawing.Color.White;
             this.btnAddCourses.Name = "btnAddCourses";
             this.btnAddCourses.UseVisualStyleBackColor = true;
@@ -117,8 +120,8 @@ namespace StudentMS.Teachers
             // 
             // btnViewCourses
             // 
-            resources.ApplyResources(this.btnViewCourses, "btnViewCourses");
             this.btnViewCourses.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnViewCourses, "btnViewCourses");
             this.btnViewCourses.ForeColor = System.Drawing.Color.White;
             this.btnViewCourses.Name = "btnViewCourses";
             this.btnViewCourses.UseVisualStyleBackColor = true;
@@ -126,8 +129,8 @@ namespace StudentMS.Teachers
             // 
             // btnAddStaff
             // 
-            resources.ApplyResources(this.btnAddStaff, "btnAddStaff");
             this.btnAddStaff.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.btnAddStaff, "btnAddStaff");
             this.btnAddStaff.ForeColor = System.Drawing.Color.White;
             this.btnAddStaff.Name = "btnAddStaff";
             this.btnAddStaff.UseVisualStyleBackColor = true;
@@ -135,30 +138,37 @@ namespace StudentMS.Teachers
             // 
             // pnlActive
             // 
-            resources.ApplyResources(this.pnlActive, "pnlActive");
             this.pnlActive.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            resources.ApplyResources(this.pnlActive, "pnlActive");
             this.pnlActive.Name = "pnlActive";
             // 
             // panel3
             // 
-            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
             this.panel3.Controls.Add(this.pictureBox1);
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
-            // 
-            // pnlContent
-            // 
-            resources.ApplyResources(this.pnlContent, "pnlContent");
-            this.pnlContent.BackColor = System.Drawing.Color.Thistle;
-            this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Image = global::StudentMS.Properties.Resources.Capture_removebg_preview;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // pnlContent
+            // 
+            this.pnlContent.BackColor = System.Drawing.Color.Thistle;
+            resources.ApplyResources(this.pnlContent, "pnlContent");
+            this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
+            // 
+            // pbHelp
+            // 
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
             // 
             // Home
             // 
@@ -171,6 +181,7 @@ namespace StudentMS.Teachers
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -190,5 +201,6 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnManageUsers;
         private System.Windows.Forms.Label lblAdmin;
         private System.Windows.Forms.Panel pnlContent;
+        private System.Windows.Forms.PictureBox pbHelp;
     }
 }
