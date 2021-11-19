@@ -123,10 +123,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblListaStudenteve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 52</value>
+    <value>111, 68</value>
+  </data>
+  <data name="lblListaStudenteve.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblListaStudenteve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 20</value>
+    <value>153, 25</value>
   </data>
   <data name="lblListaStudenteve.Text" xml:space="preserve">
     <value>List of students :</value>
@@ -135,7 +138,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnRifreskoStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 40</value>
+    <value>404, 52</value>
+  </data>
+  <data name="btnRifreskoStudent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnRifreskoStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 61</value>
   </data>
   <data name="btnRifreskoStudent.Text" xml:space="preserve">
     <value>Refresh</value>
@@ -144,7 +153,13 @@
     <value>NoControl</value>
   </data>
   <data name="btnEditoStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 40</value>
+    <value>589, 52</value>
+  </data>
+  <data name="btnEditoStudent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnEditoStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 61</value>
   </data>
   <data name="btnEditoStudent.Text" xml:space="preserve">
     <value>Edit record</value>
@@ -153,37 +168,64 @@
     <value>NoControl</value>
   </data>
   <data name="btnFshijStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 40</value>
+    <value>775, 52</value>
+  </data>
+  <data name="btnFshijStudent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnFshijStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 61</value>
   </data>
   <data name="btnFshijStudent.Text" xml:space="preserve">
     <value>Delete the record</value>
   </data>
   <data name="dgvListaStudenteve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 96</value>
+    <value>19, 126</value>
+  </data>
+  <data name="dgvListaStudenteve.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="dgvListaStudenteve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>933, 456</value>
   </data>
   <data name="btn_PrintStudentList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btn_PrintStudentList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>433, 453</value>
+    <value>577, 592</value>
+  </data>
+  <data name="btn_PrintStudentList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btn_PrintStudentList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 61</value>
   </data>
   <data name="btnDil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 453</value>
+    <value>775, 592</value>
+  </data>
+  <data name="btnDil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnDil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 61</value>
   </data>
   <data name="btnDil.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 468</value>
+    <value>69, 612</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 20</value>
+    <value>166, 20</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Select the language :</value>
@@ -195,34 +237,48 @@
     <value>Eng</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 467</value>
+    <value>285, 611</value>
+  </data>
+  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 25</value>
   </data>
   <data name="pbHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="pbHelp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 41</value>
+    <value>73, 54</value>
   </data>
   <data name="pbHelp.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
+    <value>133, 65</value>
   </data>
   <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -1</value>
+  <data name="pictureBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 41</value>
+    <value>73, 54</value>
   </data>
   <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>968, 679</value>
   </data>
 </root>

@@ -33,7 +33,7 @@ namespace StudentMS.Courses
             this.dgvListaKurseve = new System.Windows.Forms.DataGridView();
             this.lblListaKurseve = new System.Windows.Forms.Label();
             this.btnRifreskoKurset = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnEditoKurset = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnPrinto = new System.Windows.Forms.Button();
             this.btnExcel = new System.Windows.Forms.Button();
@@ -64,11 +64,11 @@ namespace StudentMS.Courses
             this.btnRifreskoKurset.UseVisualStyleBackColor = true;
             this.btnRifreskoKurset.Click += new System.EventHandler(this.btnRifreskoKurset_Click);
             // 
-            // button2
+            // btnEditoKurset
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.btnEditoKurset, "btnEditoKurset");
+            this.btnEditoKurset.Name = "btnEditoKurset";
+            this.btnEditoKurset.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -129,7 +129,7 @@ namespace StudentMS.Courses
             this.Controls.Add(this.txtGjuha);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnEditoKurset);
             this.Controls.Add(this.btnDil);
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.btnPrinto);
@@ -151,7 +151,7 @@ namespace StudentMS.Courses
         private System.Windows.Forms.DataGridView dgvListaKurseve;
         private System.Windows.Forms.Label lblListaKurseve;
         private System.Windows.Forms.Button btnRifreskoKurset;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEditoKurset;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnPrinto;
         private System.Windows.Forms.Button btnExcel;
