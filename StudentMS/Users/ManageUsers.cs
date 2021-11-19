@@ -166,5 +166,10 @@ namespace StudentMS.Users
             InitializeComponent();
             ManageUsers_Load(sender, e);
         }
+
+        private void pbHelp_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "ManageUsersAdmin_Help.htm");
+        }
     }
 }

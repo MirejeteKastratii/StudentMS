@@ -243,6 +243,7 @@ namespace StudentMS.Courses
             this.pbHelp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbHelp.TabIndex = 17;
             this.pbHelp.TabStop = false;
+            this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);
             // 
             // comboBox3
             // 

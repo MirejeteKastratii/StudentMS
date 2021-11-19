@@ -11,8 +11,8 @@ namespace StudentMS_DAL
     public class DbConn
     {
 
-        //public static string connString = ConfigurationManager.ConnectionStrings["connStringMirejete"].ConnectionString.ToString();
-        public static string connString = ConfigurationManager.ConnectionStrings["connStringFlorentine"].ConnectionString.ToString();
+      public static string connString = ConfigurationManager.ConnectionStrings["connStringMirejete"].ConnectionString.ToString();
+    //    public static string connString = ConfigurationManager.ConnectionStrings["connStringFlorentine"].ConnectionString.ToString();
        
       //public static string connString = ConfigurationManager.ConnectionStrings["connStringAmra"].ConnectionString.ToString();
         public static SqlConnection conn;

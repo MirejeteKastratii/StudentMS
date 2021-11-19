@@ -9,36 +9,36 @@
 </OBJECT>
 <UL>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="LogIn">
-		<param name="Local" value="LogIn_Help.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="TeacherHome">
-		<param name="Local" value="TeacherHome_Help.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Students">
+		<param name="Name" value="students">
 		<param name="Local" value="StudentListAdmin_Help.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Teachers">
-		<param name="Local" value="TeacherListAdmin_Help.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Courses">
-		<param name="Local" value="CourseListAdmin_Help.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Users">
-		<param name="Local" value="ManageUsersAdmin_Help.htm">
-		</OBJECT>
-	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="Vleresimet">
+		<param name="Name" value="vleresimi">
 		<param name="Local" value="VleresimetTeacher_Help.htm">
 		</OBJECT>
 	<LI> <OBJECT type="text/sitemap">
-		<param name="Name" value="AdminHome">
+		<param name="Name" value="manageUsers">
+		<param name="Local" value="ManageUsersAdmin_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="courseList">
+		<param name="Local" value="CourseListAdmin_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="teacheList">
+		<param name="Local" value="TeacherListAdmin_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="teacherHome">
+		<param name="Local" value="TeacherHome_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="adminHome">
 		<param name="Local" value="AdminHome_Help.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="login">
+		<param name="Local" value="LogIn_Help.htm">
 		</OBJECT>
 </UL>
 </BODY></HTML>

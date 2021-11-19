@@ -118,379 +118,244 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="btnDil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 47</value>
-  </data>
-  <data name="btnDil.Text" xml:space="preserve">
-    <value>Dil</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnExcel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;btnExcel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEditoKurset.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;txtGjuha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="dgvListaKurseve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 96</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="btnDil.TabIndex" type="System.Int32, mscorlib">
+  <data name="dgvListaKurseve.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="dgvListaKurseve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 353</value>
+  </data>
+  <data name="dgvListaKurseve.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;dgvListaKurseve.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnDil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="txtGjuha.Text" xml:space="preserve">
-    <value>Zgjedh gjuhën:</value>
-  </data>
-  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRifreskoKurset.Text" xml:space="preserve">
-    <value>Rifresko</value>
-  </data>
-  <data name="lblListaKurseve.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="btnExcel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 47</value>
-  </data>
-  <data name="&gt;&gt;btnExcel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnDil.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;dgvListaKurseve.Name" xml:space="preserve">
+    <value>dgvListaKurseve</value>
   </data>
   <data name="&gt;&gt;dgvListaKurseve.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="dgvListaKurseve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 96</value>
-  </data>
-  <data name="&gt;&gt;txtGjuha.Parent" xml:space="preserve">
+  <data name="&gt;&gt;dgvListaKurseve.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnEditoKurset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;dgvListaKurseve.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;lblListaKurseve.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnRifreskoKurset.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnExcel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnDil.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="txtGjuha.AutoSize" type="System.Boolean, mscorlib">
+  <data name="lblListaKurseve.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblListaKurseve.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="btnRifreskoKurset.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 36</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Edito rekordin</value>
-  </data>
-  <data name="&gt;&gt;btnDil.Name" xml:space="preserve">
-    <value>btnDil</value>
-  </data>
-  <data name="dgvListaKurseve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>700, 353</value>
-  </data>
-  <data name="&gt;&gt;btnPrinto.Name" xml:space="preserve">
-    <value>btnPrinto</value>
-  </data>
-  <data name="&gt;&gt;btnRifreskoKurset.Name" xml:space="preserve">
-    <value>btnRifreskoKurset</value>
-  </data>
-  <data name="&gt;&gt;btnPrinto.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnRifreskoKurset.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="&gt;&gt;dgvListaKurseve.Name" xml:space="preserve">
-    <value>dgvListaKurseve</value>
-  </data>
-  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 41</value>
-  </data>
-  <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 460</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="txtGjuha.Size" type="System.Drawing.Size, System.Drawing">
-    <value>114, 20</value>
-  </data>
-  <data name="lblListaKurseve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 20</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 47</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>CourseList</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnExcel.Text" xml:space="preserve">
-    <value>Excel</value>
-  </data>
-  <data name="btnExcel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;btnPrinto.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblListaKurseve.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="pbHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Sqi</value>
-  </data>
-  <data name="&gt;&gt;pbHelp.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnExcel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 460</value>
-  </data>
-  <data name="btnPrinto.Text" xml:space="preserve">
-    <value>Printo</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 47</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>156, 476</value>
-  </data>
-  <data name="btnRifreskoKurset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 47</value>
-  </data>
-  <data name="btnPrinto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnRifreskoKurset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnRifreskoKurset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="lblListaKurseve.Location" type="System.Drawing.Point, System.Drawing">
     <value>130, 48</value>
   </data>
-  <data name="&gt;&gt;pbHelp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnPrinto.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 460</value>
-  </data>
-  <data name="&gt;&gt;txtGjuha.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;txtGjuha.Name" xml:space="preserve">
-    <value>txtGjuha</value>
-  </data>
-  <data name="&gt;&gt;btnRifreskoKurset.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="btnEditoKurset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>589, 47</value>
-  </data>
-  <data name="txtGjuha.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 477</value>
-  </data>
-  <data name="pbHelp.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;btnEditoKurset.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 36</value>
-  </data>
-  <data name="pbHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-2, 0</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblListaKurseve.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 21</value>
-  </data>
-  <data name="&gt;&gt;btnPrinto.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnExcel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="txtGjuha.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>CourseList</value>
-  </data>
-  <data name="&gt;&gt;btnExcel.Name" xml:space="preserve">
-    <value>btnExcel</value>
-  </data>
-  <data name="lblListaKurseve.Text" xml:space="preserve">
-    <value>Lista e kurseve :</value>
-  </data>
-  <data name="btnRifreskoKurset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 36</value>
-  </data>
-  <data name="btnPrinto.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="btnPrinto.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="txtGjuha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>726, 519</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Ang</value>
-  </data>
-  <data name="pbHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;btnExcel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnEditoKurset.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="btnDil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="dgvListaKurseve.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Fshij rekordin</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btnEditoKurset.Name" xml:space="preserve">
-    <value>btnEditoKurset</value>
+  <data name="lblListaKurseve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
   </data>
   <data name="lblListaKurseve.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="lblListaKurseve.Text" xml:space="preserve">
+    <value>Lista e kurseve :</value>
+  </data>
   <data name="&gt;&gt;lblListaKurseve.Name" xml:space="preserve">
     <value>lblListaKurseve</value>
   </data>
-  <data name="dgvListaKurseve.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;lblListaKurseve.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="txtGjuha.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;lblListaKurseve.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;lblListaKurseve.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
+  <data name="btnRifreskoKurset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnRifreskoKurset.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="btnRifreskoKurset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnRifreskoKurset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 36</value>
+  </data>
+  <data name="btnRifreskoKurset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 47</value>
+  </data>
+  <data name="btnRifreskoKurset.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnRifreskoKurset.Text" xml:space="preserve">
+    <value>Rifresko</value>
+  </data>
+  <data name="&gt;&gt;btnRifreskoKurset.Name" xml:space="preserve">
+    <value>btnRifreskoKurset</value>
+  </data>
+  <data name="&gt;&gt;btnRifreskoKurset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnRifreskoKurset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnRifreskoKurset.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnEditoKurset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>589, 47</value>
+  </data>
+  <data name="btnEditoKurset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEditoKurset.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnEditoKurset.Name" xml:space="preserve">
+    <value>btnEditoKurset</value>
+  </data>
+  <data name="&gt;&gt;btnEditoKurset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditoKurset.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEditoKurset.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 36</value>
+  </data>
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 47</value>
+  </data>
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Fshij rekordin</value>
+  </data>
+  <data name="&gt;&gt;button3.Name" xml:space="preserve">
+    <value>button3</value>
+  </data>
+  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="btnPrinto.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnPrinto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="btnPrinto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPrinto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 460</value>
   </data>
   <data name="btnPrinto.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 47</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="btnPrinto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;btnRifreskoKurset.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="btnPrinto.Text" xml:space="preserve">
+    <value>Printo</value>
+  </data>
+  <data name="&gt;&gt;btnPrinto.Name" xml:space="preserve">
+    <value>btnPrinto</value>
+  </data>
+  <data name="&gt;&gt;btnPrinto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPrinto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPrinto.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnExcel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="btnExcel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 460</value>
+  </data>
+  <data name="btnExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 47</value>
+  </data>
+  <data name="btnExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnExcel.Text" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.Name" xml:space="preserve">
+    <value>btnExcel</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnDil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnDil.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="btnDil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 460</value>
+  </data>
+  <data name="btnDil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 47</value>
+  </data>
+  <data name="btnDil.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnDil.Text" xml:space="preserve">
+    <value>Dil</value>
+  </data>
+  <data name="&gt;&gt;btnDil.Name" xml:space="preserve">
+    <value>btnDil</value>
+  </data>
+  <data name="&gt;&gt;btnDil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnDil.Parent" xml:space="preserve">
     <value>$this</value>
@@ -498,16 +363,115 @@
   <data name="&gt;&gt;btnDil.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;dgvListaKurseve.ZOrder" xml:space="preserve">
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>Sqi</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>Ang</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 476</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtGjuha.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtGjuha.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="txtGjuha.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtGjuha.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 477</value>
+  </data>
+  <data name="txtGjuha.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="txtGjuha.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtGjuha.Text" xml:space="preserve">
+    <value>Zgjedh gjuhën:</value>
+  </data>
+  <data name="&gt;&gt;txtGjuha.Name" xml:space="preserve">
+    <value>txtGjuha</value>
+  </data>
+  <data name="&gt;&gt;txtGjuha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGjuha.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtGjuha.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pbHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pbHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-2, 0</value>
+  </data>
+  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 41</value>
+  </data>
+  <data name="pbHelp.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pbHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;pbHelp.Name" xml:space="preserve">
     <value>pbHelp</value>
   </data>
+  <data name="&gt;&gt;pbHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sq-XK</value>
-  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>726, 519</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CourseList</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CourseList</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

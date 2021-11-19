@@ -122,5 +122,10 @@ namespace StudentMS.Students
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "StudentListAdmin_Help.htm");
+        }
     }
 }

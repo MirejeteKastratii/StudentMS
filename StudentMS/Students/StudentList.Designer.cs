@@ -133,6 +133,7 @@ namespace StudentMS.Students
             this.pictureBox2.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // StudentList
             // 

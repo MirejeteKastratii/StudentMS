@@ -118,7 +118,9 @@ namespace StudentMS.Courses
 
         private void pbHelp_Click(object sender, EventArgs e)
         {
-
+            Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "CourseListAdmin_Help.htm");
         }
+
+     
     }
 }

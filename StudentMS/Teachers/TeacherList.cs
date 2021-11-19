@@ -131,5 +131,10 @@ namespace StudentMS.Teachers
             InitializeComponent();
             TeacherList_Load(sender, e);
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "TeacherListAdmin_Help.htm");
+        }
     }
 }

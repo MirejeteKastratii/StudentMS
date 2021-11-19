@@ -103,6 +103,9 @@ namespace StudentMS.Teachers
             TeacherHome_Load(sender, e);
         }
 
-        
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "TeacherHome_Help.htm");
+        }
     }
 }

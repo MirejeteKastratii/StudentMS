@@ -32,6 +32,7 @@ namespace StudentMS.Teachers
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.btnViewStaff = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbHelp = new System.Windows.Forms.PictureBox();
             this.lblAdmin = new System.Windows.Forms.Label();
             this.btnManageUsers = new System.Windows.Forms.Button();
             this.btnAddStudents = new System.Windows.Forms.Button();
@@ -41,12 +42,11 @@ namespace StudentMS.Teachers
             this.btnAddStaff = new System.Windows.Forms.Button();
             this.pnlActive = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.pnlContent = new System.Windows.Forms.Panel();
-            this.pbHelp = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlContent = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,6 +75,14 @@ namespace StudentMS.Teachers
             this.panel1.Controls.Add(this.panel3);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            // 
+            // pbHelp
+            // 
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Name = "pbHelp";
+            this.pbHelp.TabStop = false;
+            this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);
             // 
             // lblAdmin
             // 
@@ -149,26 +157,19 @@ namespace StudentMS.Teachers
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
-            // pnlContent
-            // 
-            this.pnlContent.BackColor = System.Drawing.Color.Thistle;
-            resources.ApplyResources(this.pnlContent, "pnlContent");
-            this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
-            // 
-            // pbHelp
-            // 
-            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
-            resources.ApplyResources(this.pbHelp, "pbHelp");
-            this.pbHelp.Name = "pbHelp";
-            this.pbHelp.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::StudentMS.Properties.Resources.Capture_removebg_preview;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // pnlContent
+            // 
+            this.pnlContent.BackColor = System.Drawing.Color.Thistle;
+            resources.ApplyResources(this.pnlContent, "pnlContent");
+            this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
             // 
             // Home
             // 
@@ -179,8 +180,8 @@ namespace StudentMS.Teachers
             this.Name = "Home";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
+            this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

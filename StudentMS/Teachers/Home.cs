@@ -305,5 +305,10 @@ namespace StudentMS.Teachers
         {
 
         }
+
+        private void pbHelp_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "AdminHome_Help.htm");
+        }
     }
 }

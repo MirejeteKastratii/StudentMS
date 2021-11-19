@@ -47,8 +47,8 @@ namespace StudentMS.Courses
             // 
             // dgvListaKurseve
             // 
-            resources.ApplyResources(this.dgvListaKurseve, "dgvListaKurseve");
             this.dgvListaKurseve.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvListaKurseve, "dgvListaKurseve");
             this.dgvListaKurseve.Name = "dgvListaKurseve";
             this.dgvListaKurseve.RowTemplate.Height = 24;
             // 
@@ -99,11 +99,11 @@ namespace StudentMS.Courses
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -114,8 +114,8 @@ namespace StudentMS.Courses
             // 
             // pbHelp
             // 
-            resources.ApplyResources(this.pbHelp, "pbHelp");
             this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            resources.ApplyResources(this.pbHelp, "pbHelp");
             this.pbHelp.Name = "pbHelp";
             this.pbHelp.TabStop = false;
             this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);

@@ -169,6 +169,7 @@ namespace StudentMS.Users
             this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
             this.pbHelp.Name = "pbHelp";
             this.pbHelp.TabStop = false;
+            this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);
             // 
             // ManageUsers
             // 
