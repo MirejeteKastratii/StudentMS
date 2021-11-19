@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 256</value>
   </data>
@@ -128,23 +125,11 @@
   <data name="lblName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 17</value>
-  </data>
-  <data name="lblSurname.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="lblSurname.Location" type="System.Drawing.Point, System.Drawing">
     <value>28, 304</value>
   </data>
   <data name="lblSurname.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 17</value>
-  </data>
-  <data name="lblGender.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblGender.Location" type="System.Drawing.Point, System.Drawing">
     <value>41, 358</value>
@@ -152,20 +137,11 @@
   <data name="lblGender.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="lblGender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 17</value>
-  </data>
-  <data name="lblEmail.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
     <value>409, 202</value>
   </data>
   <data name="lblEmail.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 17</value>
   </data>
   <data name="btnAddTchImg.Location" type="System.Drawing.Point, System.Drawing">
     <value>121, 208</value>
@@ -176,20 +152,11 @@
   <data name="btnAddTchImg.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 26</value>
   </data>
-  <data name="lblNrTel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="lblNrTel.Location" type="System.Drawing.Point, System.Drawing">
     <value>341, 257</value>
   </data>
   <data name="lblNrTel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblNrTel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 17</value>
-  </data>
-  <data name="lblVendbanimi.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblVendbanimi.Location" type="System.Drawing.Point, System.Drawing">
     <value>369, 145</value>
@@ -197,23 +164,11 @@
   <data name="lblVendbanimi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="lblVendbanimi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 17</value>
-  </data>
-  <data name="lblSpecializim.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="lblSpecializim.Location" type="System.Drawing.Point, System.Drawing">
     <value>370, 305</value>
   </data>
   <data name="lblSpecializim.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblSpecializim.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
-  </data>
-  <data name="lblhr.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblhr.Location" type="System.Drawing.Point, System.Drawing">
     <value>380, 354</value>
@@ -221,20 +176,11 @@
   <data name="lblhr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="lblhr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="lblBirthDate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="lblBirthDate.Location" type="System.Drawing.Point, System.Drawing">
     <value>380, 99</value>
   </data>
   <data name="lblBirthDate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblBirthDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
   </data>
   <data name="txtEmri.Location" type="System.Drawing.Point, System.Drawing">
     <value>121, 260</value>
@@ -326,17 +272,11 @@
   <data name="rdFemale.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 21</value>
   </data>
-  <data name="lblInWeek.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="lblInWeek.Location" type="System.Drawing.Point, System.Drawing">
     <value>580, 358</value>
   </data>
   <data name="lblInWeek.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
-  </data>
-  <data name="lblInWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 17</value>
   </data>
   <data name="btnAddTeacher.Location" type="System.Drawing.Point, System.Drawing">
     <value>451, 428</value>
@@ -371,9 +311,6 @@
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 17</value>
-  </data>
   <data name="pbTchImg.Location" type="System.Drawing.Point, System.Drawing">
     <value>122, 72</value>
   </data>
@@ -385,9 +322,6 @@
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>726, 519</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>

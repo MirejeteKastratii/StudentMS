@@ -195,11 +195,11 @@ namespace StudentMS.Teachers
             // 
             // comboBox1
             // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -210,8 +210,8 @@ namespace StudentMS.Teachers
             // 
             // pbTchImg
             // 
-            this.pbTchImg.Image = global::StudentMS.Properties.Resources.Emblem_person_blue_svg;
             resources.ApplyResources(this.pbTchImg, "pbTchImg");
+            this.pbTchImg.Image = global::StudentMS.Properties.Resources.Emblem_person_blue_svg;
             this.pbTchImg.Name = "pbTchImg";
             this.pbTchImg.TabStop = false;
             // 

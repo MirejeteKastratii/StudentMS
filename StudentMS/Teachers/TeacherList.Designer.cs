@@ -59,11 +59,13 @@ namespace StudentMS.Teachers
             this.dgvTeachers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTeachers.Name = "dgvTeachers";
             this.dgvTeachers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeachers_CellClick);
+            this.dgvTeachers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeachers_CellContentClick);
             // 
             // lblTeacherList
             // 
             resources.ApplyResources(this.lblTeacherList, "lblTeacherList");
             this.lblTeacherList.Name = "lblTeacherList";
+            this.lblTeacherList.Click += new System.EventHandler(this.lblTeacherList_Click);
             // 
             // btnUpdate
             // 

@@ -66,6 +66,7 @@ namespace StudentMS.Students
             resources.ApplyResources(this.btnEditoStudent, "btnEditoStudent");
             this.btnEditoStudent.Name = "btnEditoStudent";
             this.btnEditoStudent.UseVisualStyleBackColor = true;
+            this.btnEditoStudent.Click += new System.EventHandler(this.btnEditoStudent_Click);
             // 
             // btnFshijStudent
             // 

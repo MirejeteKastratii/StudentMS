@@ -58,5 +58,10 @@ namespace StudentMS.Students
             InitializeComponent();
             label1_Click(sender, e);
         }
+
+        private void btnRuajStudent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

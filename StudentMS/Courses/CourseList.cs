@@ -121,6 +121,9 @@ namespace StudentMS.Courses
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "CourseListAdmin_Help.htm");
         }
 
-     
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

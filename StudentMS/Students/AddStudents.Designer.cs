@@ -130,6 +130,7 @@ namespace StudentMS.Students
             resources.ApplyResources(this.btnRuajStudent, "btnRuajStudent");
             this.btnRuajStudent.Name = "btnRuajStudent";
             this.btnRuajStudent.UseVisualStyleBackColor = true;
+            this.btnRuajStudent.Click += new System.EventHandler(this.btnRuajStudent_Click);
             // 
             // btnDilStudent
             // 

@@ -127,5 +127,10 @@ namespace StudentMS.Students
         {
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "StudentListAdmin_Help.htm");
         }
+
+        private void btnEditoStudent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

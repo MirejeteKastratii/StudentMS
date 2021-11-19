@@ -141,7 +141,13 @@
     <EmbeddedResource Include="Courses\CourseList.sq-XK.resx">
       <DependentUpon>CourseList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Courses\Vleresimet.en-US.resx">
+      <DependentUpon>Vleresimet.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Courses\Vleresimet.resx">
+      <DependentUpon>Vleresimet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\Vleresimet.sq-XK.resx">
       <DependentUpon>Vleresimet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIN.en-UM.resx">

@@ -101,7 +101,28 @@ namespace StudentMS.Teachers
 
         private void btnExcel_Click(object sender, EventArgs e)
         {
+            if (dgvTeachers.Rows.Count > 0)
+            {
+                Microsoft.Office.Interop.Excel.Application exlApp = new Microsoft.Office.Interop.Excel.Application();
+                exlApp.Application.Workbooks.Add(Type.Missing);
 
+                for (int i = 1; i < dgvTeachers.Columns.Count + 1; i++)
+                {
+                    exlApp.Cells[1, i] = dgvTeachers.Columns[i - 1].HeaderText;
+
+                }
+
+                for (int i = 0; i < dgvTeachers.Rows.Count - 1; i++)
+                {
+                    for (int j = 3; j < dgvTeachers.Columns.Count; j++)
+                    {
+                        exlApp.Cells[i + 2, j + 1] = dgvTeachers.Rows[i].Cells[j].Value.ToString();
+                    }
+                }
+
+                exlApp.Columns.AutoFit();
+                exlApp.Visible = true;
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e)
@@ -135,6 +156,16 @@ namespace StudentMS.Teachers
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "TeacherListAdmin_Help.htm");
+        }
+
+        private void lblTeacherList_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvTeachers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
