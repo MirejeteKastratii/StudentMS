@@ -118,79 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblShtimiStudent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 20</value>
-  </data>
-  <data name="lblShtimiStudent.Text" xml:space="preserve">
-    <value>Add students  :</value>
-  </data>
-  <data name="lblEmri.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 134</value>
-  </data>
-  <data name="lblEmri.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 17</value>
-  </data>
-  <data name="lblEmri.Text" xml:space="preserve">
-    <value>Name :</value>
-  </data>
-  <data name="lblMbiemri.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 184</value>
-  </data>
-  <data name="lblMbiemri.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
-  </data>
-  <data name="lblMbiemri.Text" xml:space="preserve">
-    <value>Surname :</value>
-  </data>
-  <data name="lblDataLindjes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
-  </data>
-  <data name="lblDataLindjes.Text" xml:space="preserve">
-    <value>Date of birth :</value>
-  </data>
-  <data name="lblGjinia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 283</value>
-  </data>
-  <data name="lblGjinia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 17</value>
-  </data>
-  <data name="lblGjinia.Text" xml:space="preserve">
-    <value>Gender :</value>
-  </data>
-  <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 323</value>
-  </data>
-  <data name="lblNumriTell.Location" type="System.Drawing.Point, System.Drawing">
-    <value>164, 365</value>
-  </data>
-  <data name="lblNumriTell.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 17</value>
-  </data>
-  <data name="lblNumriTell.Text" xml:space="preserve">
-    <value>Phone number :</value>
-  </data>
-  <data name="btnRuajStudent.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="btnDilStudent.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 430</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 13</value>
+    <value>136, 430</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Select the language:</value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Alb</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Eng</value>
+    <value>Zgjedh gjuhën: </value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 427</value>
+    <value>237, 427</value>
   </data>
 </root>

@@ -39,7 +39,6 @@ namespace StudentMS.Courses
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnDil = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).BeginInit();
             this.SuspendLayout();
             // 
@@ -105,17 +104,11 @@ namespace StudentMS.Courses
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
             // CourseList
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -145,6 +138,5 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnDil;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label2;
     }
 }

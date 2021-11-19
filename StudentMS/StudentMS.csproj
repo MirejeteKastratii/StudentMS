@@ -178,6 +178,9 @@
     <EmbeddedResource Include="Students\AddStudents.resx">
       <DependentUpon>AddStudents.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Students\AddStudents.sq-XK.resx">
+      <DependentUpon>AddStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Students\StudentList.en-US.resx">
       <DependentUpon>StudentList.cs</DependentUpon>
     </EmbeddedResource>

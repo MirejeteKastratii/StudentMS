@@ -133,6 +133,9 @@
   <data name="button3.Text" xml:space="preserve">
     <value>Delete the record</value>
   </data>
+  <data name="btnPrinto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 459</value>
+  </data>
   <data name="btnPrinto.Text" xml:space="preserve">
     <value>Print</value>
   </data>
@@ -146,7 +149,7 @@
     <value>Eng</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>599, 462</value>
+    <value>35, 476</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 23</value>

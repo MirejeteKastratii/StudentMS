@@ -128,7 +128,7 @@
     <value>Edit record</value>
   </data>
   <data name="btnDelete.Text" xml:space="preserve">
-    <value>Delete the record</value>
+    <value>Delete record</value>
   </data>
   <data name="brnRefresh.Text" xml:space="preserve">
     <value>Refresh</value>
@@ -140,10 +140,10 @@
     <value>Exit</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>603, 460</value>
+    <value>36, 474</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 13</value>
+    <value>160, 20</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Select the language : </value>
@@ -153,5 +153,11 @@
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Eng</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 474</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
   </data>
 </root>

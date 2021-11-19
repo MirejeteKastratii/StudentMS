@@ -118,26 +118,47 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblListaStudenteve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 52</value>
+  </data>
   <data name="lblListaStudenteve.Size" type="System.Drawing.Size, System.Drawing">
     <value>126, 20</value>
   </data>
   <data name="lblListaStudenteve.Text" xml:space="preserve">
     <value>List of students :</value>
   </data>
+  <data name="btnRifreskoStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 40</value>
+  </data>
   <data name="btnRifreskoStudent.Text" xml:space="preserve">
     <value>Refresh</value>
+  </data>
+  <data name="btnEditoStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 40</value>
   </data>
   <data name="btnEditoStudent.Text" xml:space="preserve">
     <value>Edit record</value>
   </data>
+  <data name="btnFshijStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 40</value>
+  </data>
   <data name="btnFshijStudent.Text" xml:space="preserve">
     <value>Delete the record</value>
+  </data>
+  <data name="dgvListaStudenteve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 96</value>
+  </data>
+  <data name="btn_PrintStudentList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 453</value>
+  </data>
+  <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>581, 453</value>
   </data>
   <data name="btnDil.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>606, 460</value>
+    <value>84, 470</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>108, 13</value>
@@ -150,5 +171,8 @@
   </data>
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Eng</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 467</value>
   </data>
 </root>
