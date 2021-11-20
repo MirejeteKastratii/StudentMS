@@ -63,6 +63,12 @@
     <Compile Include="Courses\CourseList.Designer.cs">
       <DependentUpon>CourseList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Courses\Lesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Courses\Lesson.Designer.cs">
+      <DependentUpon>Lesson.cs</DependentUpon>
+    </Compile>
     <Compile Include="Courses\Vleresimi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Courses\CourseList.sq-XK.resx">
       <DependentUpon>CourseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\Lesson.resx">
+      <DependentUpon>Lesson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Courses\Vleresimi.en-US.resx">
       <DependentUpon>Vleresimi.cs</DependentUpon>

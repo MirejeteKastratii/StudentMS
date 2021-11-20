@@ -48,7 +48,6 @@ namespace StudentMS.Students
             this.btnDilStudent = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.btnEdit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblShtimiStudent
@@ -155,12 +154,6 @@ namespace StudentMS.Students
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // btnEdit
-            // 
-            resources.ApplyResources(this.btnEdit, "btnEdit");
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            // 
             // AddStudents
             // 
             resources.ApplyResources(this, "$this");
@@ -169,7 +162,6 @@ namespace StudentMS.Students
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnDilStudent);
-            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnRuajStudent);
             this.Controls.Add(this.rbtnM);
             this.Controls.Add(this.rbtnF);
@@ -211,6 +203,5 @@ namespace StudentMS.Students
         private System.Windows.Forms.Button btnDilStudent;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button btnEdit;
     }
 }

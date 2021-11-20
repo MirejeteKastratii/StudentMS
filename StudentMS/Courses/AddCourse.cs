@@ -71,5 +71,10 @@ namespace StudentMS.Courses
         {
 
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

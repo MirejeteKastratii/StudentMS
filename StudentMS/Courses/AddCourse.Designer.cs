@@ -43,7 +43,6 @@ namespace StudentMS.Courses
             this.btnDil = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnUpdate = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitulli
@@ -121,12 +120,6 @@ namespace StudentMS.Courses
             this.label1.Name = "label1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // btnUpdate
-            // 
-            resources.ApplyResources(this.btnUpdate, "btnUpdate");
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.UseVisualStyleBackColor = true;
-            // 
             // AddCourse
             // 
             resources.ApplyResources(this, "$this");
@@ -135,7 +128,6 @@ namespace StudentMS.Courses
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnDil);
-            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnRuaj);
             this.Controls.Add(this.lblShtimiKurseve);
             this.Controls.Add(this.txtCourseDescription);
@@ -168,6 +160,5 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Button btnDil;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnUpdate;
     }
 }
