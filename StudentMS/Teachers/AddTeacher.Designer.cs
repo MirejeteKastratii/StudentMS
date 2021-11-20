@@ -51,11 +51,12 @@ namespace StudentMS.Teachers
             this.rdMale = new System.Windows.Forms.RadioButton();
             this.rdFemale = new System.Windows.Forms.RadioButton();
             this.lblInWeek = new System.Windows.Forms.Label();
-            this.btnAddTeacher = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.pbTchImg = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbTchImg)).BeginInit();
             this.SuspendLayout();
             // 
@@ -179,12 +180,12 @@ namespace StudentMS.Teachers
             this.lblInWeek.Name = "lblInWeek";
             this.lblInWeek.Click += new System.EventHandler(this.lblInWeek_Click);
             // 
-            // btnAddTeacher
+            // btnUpdate
             // 
-            resources.ApplyResources(this.btnAddTeacher, "btnAddTeacher");
-            this.btnAddTeacher.Name = "btnAddTeacher";
-            this.btnAddTeacher.UseVisualStyleBackColor = true;
-            this.btnAddTeacher.Click += new System.EventHandler(this.btnAddTeacher_Click);
+            resources.ApplyResources(this.btnUpdate, "btnUpdate");
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnClose
             // 
@@ -195,11 +196,11 @@ namespace StudentMS.Teachers
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -210,10 +211,17 @@ namespace StudentMS.Teachers
             // 
             // pbTchImg
             // 
-            resources.ApplyResources(this.pbTchImg, "pbTchImg");
             this.pbTchImg.Image = global::StudentMS.Properties.Resources.Emblem_person_blue_svg;
+            resources.ApplyResources(this.pbTchImg, "pbTchImg");
             this.pbTchImg.Name = "pbTchImg";
             this.pbTchImg.TabStop = false;
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnAddTeacher_Click);
             // 
             // AddTeacher
             // 
@@ -223,7 +231,8 @@ namespace StudentMS.Teachers
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnAddTeacher);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.rdFemale);
             this.Controls.Add(this.rdMale);
             this.Controls.Add(this.dtDitelindja);
@@ -279,9 +288,10 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.RadioButton rdMale;
         private System.Windows.Forms.RadioButton rdFemale;
         private System.Windows.Forms.Label lblInWeek;
-        private System.Windows.Forms.Button btnAddTeacher;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }

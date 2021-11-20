@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;dataGridView1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;pbHelp.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -133,9 +130,6 @@
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="btnExcel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
   </data>
   <data name="&gt;&gt;label5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -153,8 +147,8 @@
   <data name="btnSave.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;cbLenda.ZOrder" xml:space="preserve">
     <value>15</value>
@@ -195,9 +189,6 @@
   <data name="comboBox3.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="txtTesti1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -207,23 +198,23 @@
   <data name="comboBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 21</value>
   </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="btnExcel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnClose.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
   </data>
   <data name="&gt;&gt;pbHelp.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
+  </data>
+  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 41</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 8.25pt</value>
@@ -267,17 +258,17 @@
   <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 350</value>
-  </data>
   <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
     <value>561, 431</value>
   </data>
   <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="btnDelete.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+  <data name="&gt;&gt;cbLenda.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="txtNota.Location" type="System.Drawing.Point, System.Drawing">
     <value>64, 311</value>
@@ -297,8 +288,8 @@
   <data name="&gt;&gt;txtNota.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>426, 48</value>
+  <data name="btnDelete.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -309,14 +300,11 @@
   <data name="btnEdit.Text" xml:space="preserve">
     <value>Edito rekordin</value>
   </data>
-  <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>283, 114</value>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
   </data>
   <data name="txtTesti2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;cbLenda.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.Parent" xml:space="preserve">
     <value>$this</value>
@@ -354,14 +342,14 @@
   <data name="btnEdit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 233</value>
+  <data name="dGvVlersimet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 293</value>
   </data>
   <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 75</value>
+  <data name="cbStudenti.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
   </data>
   <data name="cbStudenti.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -375,17 +363,17 @@
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>415, 302</value>
-  </data>
   <data name="&gt;&gt;btnExcel.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="&gt;&gt;cbLenda.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.Name" xml:space="preserve">
-    <value>dataGridView1</value>
+  <data name="&gt;&gt;btnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnRefresh.Text" xml:space="preserve">
+    <value>Rifresko</value>
   </data>
   <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 47</value>
@@ -408,23 +396,14 @@
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 17</value>
-  </data>
-  <data name="cbLenda.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 17</value>
   </data>
   <data name="btnClose.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="btnExcel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>95, 287</value>
@@ -440,9 +419,6 @@
   </data>
   <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>18</value>
   </data>
   <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 47</value>
@@ -462,6 +438,9 @@
   <data name="&gt;&gt;pbHelp.Name" xml:space="preserve">
     <value>pbHelp</value>
   </data>
+  <data name="dGvVlersimet.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="txtTesti2.Location" type="System.Drawing.Point, System.Drawing">
     <value>64, 256</value>
   </data>
@@ -477,23 +456,20 @@
   <data name="btnClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;btnPrint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="btnRefresh.Location" type="System.Drawing.Point, System.Drawing">
     <value>287, 48</value>
   </data>
   <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
     <value>btnEdit</value>
   </data>
-  <data name="&gt;&gt;comboBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Studenti:</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 233</value>
   </data>
   <data name="&gt;&gt;txtTesti1.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
-    <value>btnClose</value>
   </data>
   <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
     <value>$this</value>
@@ -501,8 +477,8 @@
   <data name="&gt;&gt;comboBox3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="btnExcel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="cbLenda.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="btnSave.Text" xml:space="preserve">
     <value>Ruaj</value>
@@ -528,17 +504,23 @@
   <data name="btnPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="txtTesti1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 20</value>
+  </data>
   <data name="&gt;&gt;txtTesti1.ZOrder" xml:space="preserve">
     <value>13</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Testi i dytë:</value>
   </data>
   <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnRefresh.Text" xml:space="preserve">
-    <value>Rifresko</value>
+  <data name="btnExcel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="btnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -561,14 +543,17 @@
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
   </data>
-  <data name="&gt;&gt;dataGridView1.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="btnExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Studenti:</value>
+  <data name="&gt;&gt;btnRefresh.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dGvVlersimet.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -582,9 +567,6 @@
   <data name="&gt;&gt;txtNota.Name" xml:space="preserve">
     <value>txtNota</value>
   </data>
-  <data name="txtTesti1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 208</value>
-  </data>
   <data name="comboBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>121, 457</value>
   </data>
@@ -597,8 +579,8 @@
   <data name="&gt;&gt;txtTesti2.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="btnClose.Text" xml:space="preserve">
-    <value>Dil</value>
+  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
+    <value>btnClose</value>
   </data>
   <data name="btnPrint.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -609,11 +591,8 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
-  <data name="cbStudenti.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 21</value>
-  </data>
-  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 350</value>
   </data>
   <data name="&gt;&gt;cbStudenti.Name" xml:space="preserve">
     <value>cbStudenti</value>
@@ -633,14 +612,14 @@
   <data name="&gt;&gt;txtTesti2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 17</value>
+  <data name="txtTesti1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 208</value>
   </data>
   <data name="&gt;&gt;cbStudenti.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 48</value>
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -663,14 +642,14 @@
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>97, 130</value>
   </data>
-  <data name="&gt;&gt;txtTesti2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>726, 519</value>
   </data>
   <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="comboBox3.Items" xml:space="preserve">
     <value>Alb</value>
@@ -678,29 +657,32 @@
   <data name="cbLenda.Size" type="System.Drawing.Size, System.Drawing">
     <value>135, 21</value>
   </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="btnPrint.Location" type="System.Drawing.Point, System.Drawing">
     <value>283, 431</value>
   </data>
   <data name="cbLenda.Location" type="System.Drawing.Point, System.Drawing">
     <value>64, 104</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 47</value>
   </data>
-  <data name="txtTesti1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>135, 20</value>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="dGvVlersimet.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>Dil</value>
   </data>
   <data name="pbHelp.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
-  </data>
-  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 17</value>
@@ -732,20 +714,20 @@
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btnRefresh.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 75</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 456</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Testi i dytë:</value>
+  <data name="&gt;&gt;txtTesti2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 41</value>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

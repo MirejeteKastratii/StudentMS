@@ -35,5 +35,14 @@ namespace StudentMS_BLL
         {
             return teacherDAL.DeleteTeacher(TeacherID);
         }
+        public bool UpdateTeachers(TeacherBO model)
+        {
+            return teacherDAL.UpdateTeacher(model);
+        }
+
+        public bool UpdateTeachersPaFoto(TeacherBO model)
+        {
+            return teacherDAL.UpdateTeachersPaFoto(model);
+        }
     }
 }

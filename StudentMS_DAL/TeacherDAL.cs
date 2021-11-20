@@ -122,5 +122,83 @@ namespace StudentMS_DAL
                 return false;
             }
         }
+        public bool UpdateTeacher(TeacherBO model)
+        {
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_EditTeachers", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+
+                    DbConn.cmd.Parameters.AddWithValue("@ID", model.TeacherID);
+                    DbConn.cmd.Parameters.AddWithValue("@Foto", model.Foto);
+                    DbConn.cmd.Parameters.AddWithValue("@Emri", model.Emri);
+                    DbConn.cmd.Parameters.AddWithValue("@Mbiemri", model.Mbiemri);
+                    DbConn.cmd.Parameters.AddWithValue("@Gjinia", model.Gjinia);
+                    DbConn.cmd.Parameters.AddWithValue("@BirthDate", model.Birthdate);
+                    DbConn.cmd.Parameters.AddWithValue("@Email", model.Email);
+                    DbConn.cmd.Parameters.AddWithValue("@NumriTelefonit", model.NrTel);
+                    DbConn.cmd.Parameters.AddWithValue("@VendBanimi", model.Vendbanimi);
+                    DbConn.cmd.Parameters.AddWithValue("@Specializimi", model.Specializimi);
+                    DbConn.cmd.Parameters.AddWithValue("@WeeklyWorkingHours", model.WeeklyWorkingHr);
+                    DbConn.cmd.Parameters.AddWithValue("@LUB", 1);
+                    DbConn.cmd.Parameters.AddWithValue("@LUD", model.LUN);
+                    DbConn.cmd.ExecuteNonQuery();
+                    DbConn.conn.Close();
+                    return true;
+                   
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+                return false;
+            }
+        }
+
+        public bool UpdateTeachersPaFoto(TeacherBO model)
+        {
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_EditTeachersPaFoto", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+
+                    DbConn.cmd.Parameters.AddWithValue("@ID", model.TeacherID);
+                  //  DbConn.cmd.Parameters.AddWithValue("@Foto", model.Foto);
+                    DbConn.cmd.Parameters.AddWithValue("@Emri", model.Emri);
+                    DbConn.cmd.Parameters.AddWithValue("@Mbiemri", model.Mbiemri);
+                    DbConn.cmd.Parameters.AddWithValue("@Gjinia", model.Gjinia);
+                    DbConn.cmd.Parameters.AddWithValue("@BirthDate", model.Birthdate);
+                    DbConn.cmd.Parameters.AddWithValue("@Email", model.Email);
+                    DbConn.cmd.Parameters.AddWithValue("@NumriTelefonit", model.NrTel);
+                    DbConn.cmd.Parameters.AddWithValue("@VendBanimi", model.Vendbanimi);
+                    DbConn.cmd.Parameters.AddWithValue("@Specializimi", model.Specializimi);
+                    DbConn.cmd.Parameters.AddWithValue("@WeeklyWorkingHours", model.WeeklyWorkingHr);
+                    DbConn.cmd.Parameters.AddWithValue("@LUB", "1");
+                    DbConn.cmd.Parameters.AddWithValue("@LUD", DateTime.Now);
+                    DbConn.cmd.Parameters.AddWithValue("@LUN", 1);
+                    DbConn.cmd.ExecuteNonQuery();
+                    DbConn.conn.Close();
+                    return true;
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+                return false;
+            }
+        }
     }
 }

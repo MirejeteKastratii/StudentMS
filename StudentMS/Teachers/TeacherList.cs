@@ -26,6 +26,7 @@ namespace StudentMS.Teachers
             InitializeComponent();
             LoadStaffData(StaffID);
         }
+        //kqyre per me e hek
         private void LoadStaffData(int StaffID)
         {
             TeacherBO tchBO = teacherBLL.GetTeacherData(StaffID);
@@ -53,7 +54,7 @@ namespace StudentMS.Teachers
         }
 
         //kthehu qetu 
-        int TeacherID;
+       public int TeacherID;
         private void dgvTeachers_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             /*var vID = int.Parse(dgvTeachers.Rows[e.RowIndex].Cells[0].Value.ToString());   //kthen id te rreshtit te selektuar     }
@@ -166,6 +167,13 @@ namespace StudentMS.Teachers
         private void dgvTeachers_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            AddTeacher addTch = new AddTeacher();
+            addTch.Show();
+           // TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
         }
     }
 }

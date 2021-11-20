@@ -23,30 +23,30 @@ namespace StudentMS.Courses
         {
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "VleresimetTeacher_Help.htm");
         }
+        CultureInfo culture = new CultureInfo("en-US");
+        /* private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+         {
 
-        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
-        {
+             CultureInfo culture = new CultureInfo("sq-XK");
+             switch (comboBox3 .SelectedIndex)
+             {
+                 case 0:
+                     culture = new CultureInfo("sq-XK");
+                     break;
+                 case 1:
+                     culture = new CultureInfo("en-US");
+                     break;
 
-            CultureInfo culture = new CultureInfo("en-US");
-            switch (comboBox3 .SelectedIndex)
-            {
-                case 0:
-                    culture = new CultureInfo("sq-XK");
-                    break;
-                case 1:
-                    culture = new CultureInfo("en-US");
-                    break;
-
-                default:
-                    culture = new CultureInfo("sq-XK");
-                    break;
-            }
-            CultureInfo.DefaultThreadCurrentCulture = culture;
-            CultureInfo.DefaultThreadCurrentUICulture = culture;
-            this.Controls.Clear();
-            InitializeComponent();
-            comboBox3_SelectedIndexChanged(sender, e);
-        }
+                 default:
+                     culture = new CultureInfo("sq-XK");
+                     break;
+             }
+             CultureInfo.DefaultThreadCurrentCulture = culture;
+             CultureInfo.DefaultThreadCurrentUICulture = culture;
+             this.Controls.Clear();
+             InitializeComponent();
+             comboBox3_SelectedIndexChanged(sender, e);
+         }*/
 
         private void btnRefresh_Click(object sender, EventArgs e)
         {

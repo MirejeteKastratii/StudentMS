@@ -123,5 +123,18 @@ namespace StudentMS.Teachers
         {
 
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            string gender;
+            if (rdFemale.Checked)
+            {
+                gender = "F";
+            }
+            else
+                gender = "M";
+            TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
+            teacherService.UpdateTeachersPaFoto(teacherBO);
+        }
     }
 }
