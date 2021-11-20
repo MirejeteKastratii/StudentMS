@@ -126,6 +126,7 @@ namespace StudentMS.Courses
         {
             AddCourse addCourse = new AddCourse();
             addCourse.Show();
+    
         }
     }
 }

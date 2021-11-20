@@ -139,18 +139,21 @@ namespace StudentMS.Courses
             resources.ApplyResources(this.btnPrint, "btnPrint");
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // btnExcel
             // 
             resources.ApplyResources(this.btnExcel, "btnExcel");
             this.btnExcel.Name = "btnExcel";
             this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // btnDil
             // 
             resources.ApplyResources(this.btnDil, "btnDil");
             this.btnDil.Name = "btnDil";
             this.btnDil.UseVisualStyleBackColor = true;
+            this.btnDil.Click += new System.EventHandler(this.btnDil_Click);
             // 
             // btnRuaj
             // 

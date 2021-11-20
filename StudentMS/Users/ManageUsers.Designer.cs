@@ -100,8 +100,8 @@ namespace StudentMS.Users
             // 
             // dgvUsers
             // 
-            resources.ApplyResources(this.dgvUsers, "dgvUsers");
             this.dgvUsers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvUsers, "dgvUsers");
             this.dgvUsers.Name = "dgvUsers";
             this.dgvUsers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvUsers_CellClick);
             // 
@@ -140,11 +140,11 @@ namespace StudentMS.Users
             // 
             // cbRoles
             // 
-            resources.ApplyResources(this.cbRoles, "cbRoles");
             this.cbRoles.FormattingEnabled = true;
             this.cbRoles.Items.AddRange(new object[] {
             resources.GetString("cbRoles.Items"),
             resources.GetString("cbRoles.Items1")});
+            resources.ApplyResources(this.cbRoles, "cbRoles");
             this.cbRoles.Name = "cbRoles";
             this.cbRoles.SelectedIndexChanged += new System.EventHandler(this.cbRoles_SelectedIndexChanged);
             // 
@@ -155,18 +155,18 @@ namespace StudentMS.Users
             // 
             // comboBox1
             // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // pbHelp
             // 
-            resources.ApplyResources(this.pbHelp, "pbHelp");
             this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
+            resources.ApplyResources(this.pbHelp, "pbHelp");
             this.pbHelp.Name = "pbHelp";
             this.pbHelp.TabStop = false;
             this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);

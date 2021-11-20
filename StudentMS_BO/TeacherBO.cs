@@ -24,10 +24,10 @@ namespace StudentMS_BO
         {
 
         }
-        public TeacherBO(byte[] foto, string emri, string mbiemri, string gjinia, string email, string nrTel,
+        public TeacherBO(int id, string emri, string mbiemri, string gjinia, string email, string nrTel,
             string vendbanimi, string specializimi, int orePune, DateTime birthdate)
         {
-            Foto = foto;
+            TeacherID = id;
             Emri = emri;
             Mbiemri = mbiemri;
             Gjinia = gjinia;

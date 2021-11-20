@@ -119,35 +119,25 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblTitulli.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 126</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblTitulli.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 0, 5, 0</value>
+    <value>61, 87</value>
   </data>
   <data name="lblTitulli.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 20</value>
+    <value>43, 17</value>
   </data>
   <data name="lblTitulli.Text" xml:space="preserve">
     <value>Tittle:</value>
   </data>
   <data name="txtCourseTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 122</value>
-  </data>
-  <data name="txtCourseTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>133, 84</value>
   </data>
   <data name="txtCourseTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 26</value>
+    <value>168, 23</value>
   </data>
   <data name="lblPershkrimi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 241</value>
-  </data>
-  <data name="lblPershkrimi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 0, 5, 0</value>
+    <value>21, 142</value>
   </data>
   <data name="lblPershkrimi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>83, 17</value>
   </data>
   <data name="lblPershkrimi.Text" xml:space="preserve">
     <value>Description:</value>
@@ -156,88 +146,61 @@
     <value>TopCenter</value>
   </data>
   <data name="lblSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 344</value>
-  </data>
-  <data name="lblSyllabusi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 0, 5, 0</value>
+    <value>35, 214</value>
   </data>
   <data name="lblSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 20</value>
+    <value>69, 17</value>
   </data>
   <data name="lblSyllabusi.Text" xml:space="preserve">
     <value>Syllabus :</value>
   </data>
   <data name="lblSesionet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 439</value>
-  </data>
-  <data name="lblSesionet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 0, 5, 0</value>
+    <value>39, 285</value>
   </data>
   <data name="lblSesionet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 20</value>
+    <value>65, 17</value>
   </data>
   <data name="lblSesionet.Text" xml:space="preserve">
     <value>Sessions</value>
   </data>
   <data name="txtSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 301</value>
-  </data>
-  <data name="txtSyllabusi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>133, 211</value>
   </data>
   <data name="txtSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 92</value>
+    <value>168, 57</value>
   </data>
   <data name="txtSessions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 435</value>
-  </data>
-  <data name="txtSessions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>133, 285</value>
   </data>
   <data name="txtSessions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 26</value>
+    <value>168, 23</value>
   </data>
   <data name="txtCourseDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 191</value>
-  </data>
-  <data name="txtCourseDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>133, 139</value>
   </data>
   <data name="txtCourseDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>362, 85</value>
+    <value>168, 52</value>
   </data>
   <data name="lblShtimiKurseve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>69, 42</value>
-  </data>
-  <data name="lblShtimiKurseve.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 0, 5, 0</value>
+    <value>86, 26</value>
   </data>
   <data name="lblShtimiKurseve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 26</value>
+    <value>140, 22</value>
   </data>
   <data name="lblShtimiKurseve.Text" xml:space="preserve">
     <value>Add of courses :</value>
   </data>
   <data name="btnRuaj.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 498</value>
-  </data>
-  <data name="btnRuaj.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
-  </data>
-  <data name="btnRuaj.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 65</value>
+    <value>14, 339</value>
   </data>
   <data name="btnRuaj.Text" xml:space="preserve">
     <value>Save</value>
   </data>
   <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>682, 498</value>
-  </data>
-  <data name="btnDil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+    <value>257, 397</value>
   </data>
   <data name="btnDil.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 65</value>
+    <value>65, 51</value>
   </data>
   <data name="btnDil.Text" xml:space="preserve">
     <value>Exit</value>
@@ -249,33 +212,34 @@
     <value>Eng</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 439</value>
-  </data>
-  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>150, 411</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 28</value>
+    <value>100, 24</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>702, 400</value>
-  </data>
-  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>6, 414</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 20</value>
+    <value>138, 17</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Select the language:</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>10, 20</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnUpdate.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>908, 576</value>
+  <data name="btnUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 339</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 5, 5, 5</value>
+  <data name="btnUpdate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 52</value>
+  </data>
+  <data name="btnUpdate.Text" xml:space="preserve">
+    <value>Update</value>
   </data>
 </root>

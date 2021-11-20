@@ -18,10 +18,11 @@ namespace StudentMS.Teachers
     {
         TeacherBLL teacherBLL = new TeacherBLL();
         AddTeacher addtch = new AddTeacher();
+        
         public TeacherList()
         {
             InitializeComponent();
-    
+
         }
         public TeacherList(int StaffID)
         {
@@ -35,11 +36,11 @@ namespace StudentMS.Teachers
         }
         private void TeacherList_Load(object sender, EventArgs e)
         {
-        
+
             DataTable list = teacherBLL.ShowTeachers();
             dgvTeachers.DataSource = list;
-            dgvTeachers.Columns["TeacherID"].Visible = false;    
-        
+            dgvTeachers.Columns["TeacherID"].Visible = false;
+
         }
 
         private void btnAddTeacher_Click(object sender, EventArgs e)
@@ -56,17 +57,16 @@ namespace StudentMS.Teachers
         }
 
         //kthehu qetu 
-       public int TeacherID;
+        public int TeacherID;
         private void dgvTeachers_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            /*var vID = int.Parse(dgvTeachers.Rows[e.RowIndex].Cells[0].Value.ToString());   //kthen id te rreshtit te selektuar     }
-            TeacherList tchListFrm = new TeacherList(vID);
-            tchListFrm.teacherBLL.GetTeacherData(vID);*/
+
             var SelectedRow = dgvTeachers.Rows[dgvTeachers.SelectedCells[0].RowIndex];
 
             TeacherID = int.Parse(Convert.ToString(SelectedRow.Cells["TeacherID"].Value));
-          
+
         }
+      
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
@@ -166,11 +166,6 @@ namespace StudentMS.Teachers
 
         }
 
-        private void dgvTeachers_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             AddTeacher addTch = new AddTeacher();
@@ -178,5 +173,9 @@ namespace StudentMS.Teachers
 
             // TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
         }
+
+        private void dgvTeachers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+                  }
     }
 }

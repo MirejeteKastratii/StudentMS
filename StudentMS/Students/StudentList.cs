@@ -86,13 +86,20 @@ namespace StudentMS.Students
         private void btnDil_Click(object sender, EventArgs e)
         {
             this.Hide();
-           
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                {
+                    ((TextBox)c).Text = String.Empty;
+                }
+            }
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _ = new CultureInfo("en-US");
-            CultureInfo culture;
+            
+            CultureInfo culture = new CultureInfo("en-US");
             switch (comboBox1.SelectedIndex)
             {
                 case 0:

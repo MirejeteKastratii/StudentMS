@@ -138,7 +138,7 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblDataLindjes.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="rbtnM.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -183,7 +183,7 @@
     <value>Email :</value>
   </data>
   <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;lblGjinia.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -201,7 +201,7 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AddStudents</value>
@@ -233,6 +233,9 @@
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>580, 486</value>
   </data>
+  <data name="&gt;&gt;btnDilStudent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -240,7 +243,10 @@
     <value>6, 13</value>
   </data>
   <data name="&gt;&gt;lblShtimiStudent.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 20</value>
@@ -302,6 +308,9 @@
   <data name="lblNumriTell.Location" type="System.Drawing.Point, System.Drawing">
     <value>167, 365</value>
   </data>
+  <data name="lblShtimiStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>327, 133</value>
   </data>
@@ -346,7 +355,7 @@
     <value>Sqi</value>
   </data>
   <data name="&gt;&gt;lblEmri.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="&gt;&gt;lblDataLindjes.Parent" xml:space="preserve">
     <value>$this</value>
@@ -355,7 +364,7 @@
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="&gt;&gt;lblNumriTell.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="lblDataLindjes.Location" type="System.Drawing.Point, System.Drawing">
     <value>179, 235</value>
@@ -381,6 +390,9 @@
   <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
   <data name="lblEmri.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
   </data>
@@ -388,7 +400,7 @@
     <value>14</value>
   </data>
   <data name="&gt;&gt;dateTimePicker1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;lblMbiemri.Name" xml:space="preserve">
     <value>lblMbiemri</value>
@@ -418,22 +430,22 @@
     <value>lblEmri</value>
   </data>
   <data name="&gt;&gt;lblGjinia.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="btnRuajStudent.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 42</value>
   </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
   <data name="lblDataLindjes.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="&gt;&gt;lblShtimiStudent.Name" xml:space="preserve">
     <value>lblShtimiStudent</value>
   </data>
   <data name="&gt;&gt;btnRuajStudent.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
     <value>textBox4</value>
@@ -466,7 +478,7 @@
     <value>327, 323</value>
   </data>
   <data name="&gt;&gt;lblMbiemri.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="btnDilStudent.Location" type="System.Drawing.Point, System.Drawing">
     <value>588, 415</value>
@@ -493,7 +505,7 @@
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Zgjedh gjuhen: </value>
@@ -504,14 +516,14 @@
   <data name="&gt;&gt;dateTimePicker1.Type" xml:space="preserve">
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnDilStudent.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
     <value>textBox5</value>
   </data>
   <data name="&gt;&gt;rbtnM.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;lblNumriTell.Name" xml:space="preserve">
     <value>lblNumriTell</value>
@@ -519,11 +531,17 @@
   <data name="&gt;&gt;lblEmail.Name" xml:space="preserve">
     <value>lblEmail</value>
   </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="rbtnM.Location" type="System.Drawing.Point, System.Drawing">
     <value>383, 285</value>
   </data>
-  <data name="btnDilStudent.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>172, 387</value>
+  </data>
+  <data name="&gt;&gt;lblEmail.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lblMbiemri.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -579,14 +597,17 @@
   <data name="&gt;&gt;lblNumriTell.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblShtimiStudent.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lblMbiemri.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 17</value>
   </data>
+  <data name="btnDilStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
   <data name="&gt;&gt;lblEmail.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -598,7 +619,7 @@
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -619,7 +640,7 @@
     <value>F</value>
   </data>
   <data name="&gt;&gt;rbtnF.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>211, 20</value>

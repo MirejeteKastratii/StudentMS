@@ -113,7 +113,11 @@ namespace StudentMS.Teachers
         {
 
         }
-
+        int ID;
+        public void GetID(int id)
+        {
+            ID = id;
+        }
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             string gender;
@@ -123,8 +127,8 @@ namespace StudentMS.Teachers
             }
             else
                 gender = "M";
-            TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
-            teacherService.UpdateTeachersPaFoto(teacherBO);
+            TeacherBO teacherBO = new TeacherBO(ID,txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
+            teacherService.UpdateTeachers(teacherBO);
         }
 
         private void txtVendbanimi_TextChanged(object sender, EventArgs e)

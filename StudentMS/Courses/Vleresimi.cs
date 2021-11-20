@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DGVPrinterHelper;
 using StudentMS_BLL;
 using StudentMS_BO;
 namespace StudentMS.Courses
@@ -26,7 +27,6 @@ namespace StudentMS.Courses
         }
         
 
-        //mbushja e comboboxave me vlerat nga db
         public void LoadStudentData()
         {
             cbStudenti.DataSource = stBLL.ShowStudentList();
@@ -120,6 +120,58 @@ namespace StudentMS.Courses
             this.Controls.Clear();
             InitializeComponent();
             Vleresimi_Load(sender, e);
+        }
+
+        private void btnDil_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                {
+                    ((TextBox)c).Text = String.Empty;
+                }
+            }
+        }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            if (dgvVleresimet.Rows.Count > 0)
+            {
+                Microsoft.Office.Interop.Excel.Application exlApp = new Microsoft.Office.Interop.Excel.Application();
+                exlApp.Application.Workbooks.Add(Type.Missing);
+
+                for (int i = 1; i < dgvVleresimet.Columns.Count + 1; i++)
+                {
+                    exlApp.Cells[1, i] = dgvVleresimet.Columns[i - 1].HeaderText;
+
+                }
+
+                for (int i = 0; i < dgvVleresimet.Rows.Count - 1; i++)
+                {
+                    for (int j = 3; j < dgvVleresimet.Columns.Count; j++)
+                    {
+                        exlApp.Cells[i + 2, j + 1] = dgvVleresimet.Rows[i].Cells[j].Value.ToString();
+                    }
+                }
+
+                exlApp.Columns.AutoFit();
+                exlApp.Visible = true;
+            }
+        }
+        private void btnPrint_Click(object sender, EventArgs e)
+        {
+            DGVPrinter dGVPrinter = new DGVPrinter();
+            dGVPrinter.Title = "Lista e studentëve";
+            dGVPrinter.SubTitle = "Lista e studentëve me të dhënat personale !";
+            dGVPrinter.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
+            dGVPrinter.PageNumbers = true;
+            dGVPrinter.PageNumberInHeader = false;
+            dGVPrinter.PorportionalColumns = true;
+            dGVPrinter.HeaderCellAlignment = StringAlignment.Near;
+            dGVPrinter.Footer = "Education";
+            dGVPrinter.FooterSpacing = 15;
+            dGVPrinter.PrintDataGridView(dgvVleresimet);
         }
     }
 }
