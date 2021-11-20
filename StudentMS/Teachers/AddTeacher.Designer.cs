@@ -55,6 +55,7 @@ namespace StudentMS.Teachers
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.lblProfList = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblName
@@ -187,11 +188,11 @@ namespace StudentMS.Teachers
             // 
             // comboBox1
             // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -207,11 +208,17 @@ namespace StudentMS.Teachers
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.btnAddTeacher_Click);
             // 
+            // lblProfList
+            // 
+            resources.ApplyResources(this.lblProfList, "lblProfList");
+            this.lblProfList.Name = "lblProfList";
+            // 
             // AddTeacher
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
+            this.Controls.Add(this.lblProfList);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btnClose);
@@ -271,5 +278,6 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblProfList;
     }
 }

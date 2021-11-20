@@ -119,94 +119,88 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 249</value>
+    <value>135, 152</value>
   </data>
   <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 20</value>
+    <value>58, 20</value>
   </data>
   <data name="lblName.Text" xml:space="preserve">
     <value>Name:</value>
   </data>
   <data name="lblSurname.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblSurname.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 288</value>
+    <value>112, 204</value>
   </data>
   <data name="lblSurname.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 20</value>
+    <value>81, 20</value>
   </data>
   <data name="lblSurname.Text" xml:space="preserve">
     <value>Surname:</value>
   </data>
   <data name="lblGender.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblGender.Location" type="System.Drawing.Point, System.Drawing">
-    <value>61, 331</value>
+    <value>124, 261</value>
   </data>
   <data name="lblGender.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 20</value>
+    <value>69, 20</value>
   </data>
   <data name="lblGender.Text" xml:space="preserve">
     <value>Gender:</value>
   </data>
   <data name="lblEmail.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>400, 208</value>
-  </data>
-  <data name="lblEmail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 20</value>
-  </data>
-  <data name="btnAddTchImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 204</value>
+    <value>137, 422</value>
   </data>
   <data name="lblNrTel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblNrTel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>335, 251</value>
+    <value>71, 473</value>
   </data>
   <data name="lblNrTel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>117, 20</value>
+    <value>122, 20</value>
   </data>
   <data name="lblNrTel.Text" xml:space="preserve">
     <value>Phone number:</value>
   </data>
   <data name="lblVendbanimi.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblVendbanimi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>361, 161</value>
+    <value>99, 366</value>
   </data>
   <data name="lblVendbanimi.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 20</value>
+    <value>94, 20</value>
   </data>
   <data name="lblVendbanimi.Text" xml:space="preserve">
     <value>Settelment:</value>
   </data>
   <data name="lblSpecializim.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblSpecializim.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 288</value>
+    <value>124, 521</value>
   </data>
   <data name="lblSpecializim.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 20</value>
+    <value>69, 20</value>
   </data>
   <data name="lblSpecializim.Text" xml:space="preserve">
     <value>Degree:</value>
   </data>
   <data name="lblhr.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblhr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 331</value>
+    <value>123, 575</value>
   </data>
   <data name="lblhr.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 20</value>
@@ -215,91 +209,97 @@
     <value>Working</value>
   </data>
   <data name="lblBirthDate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblBirthDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 118</value>
+    <value>111, 308</value>
   </data>
   <data name="lblBirthDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 20</value>
+    <value>82, 20</value>
   </data>
   <data name="lblBirthDate.Text" xml:space="preserve">
     <value>Birthdate:</value>
   </data>
   <data name="txtEmri.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 249</value>
+    <value>214, 152</value>
+  </data>
+  <data name="txtEmri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
   </data>
   <data name="txtMbiemri.Location" type="System.Drawing.Point, System.Drawing">
-    <value>149, 288</value>
+    <value>213, 204</value>
+  </data>
+  <data name="txtMbiemri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
   </data>
   <data name="txtVendbanimi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 161</value>
+    <value>214, 366</value>
+  </data>
+  <data name="txtVendbanimi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
   </data>
   <data name="txtEmail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 208</value>
+    <value>213, 420</value>
+  </data>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
   </data>
   <data name="txtNrTel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 252</value>
+    <value>211, 471</value>
+  </data>
+  <data name="txtNrTel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
   </data>
   <data name="txtSpecializimi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 288</value>
+    <value>214, 519</value>
+  </data>
+  <data name="txtSpecializimi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
   </data>
   <data name="txtOrePune.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 331</value>
+    <value>223, 575</value>
+  </data>
+  <data name="txtOrePune.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 22</value>
   </data>
   <data name="dtDitelindja.Location" type="System.Drawing.Point, System.Drawing">
-    <value>488, 118</value>
+    <value>211, 308</value>
+  </data>
+  <data name="dtDitelindja.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 22</value>
   </data>
   <data name="rdMale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="rdMale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 329</value>
+    <value>270, 259</value>
   </data>
   <data name="rdMale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 24</value>
+    <value>44, 24</value>
   </data>
   <data name="rdFemale.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="rdFemale.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 329</value>
+    <value>224, 259</value>
   </data>
   <data name="rdFemale.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 24</value>
+    <value>40, 24</value>
   </data>
   <data name="lblInWeek.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="lblInWeek.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 331</value>
+    <value>341, 575</value>
   </data>
   <data name="lblInWeek.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
+    <value>80, 20</value>
   </data>
   <data name="lblInWeek.Text" xml:space="preserve">
     <value>per week.</value>
   </data>
-  <data name="btnAddTeacher.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
-  </data>
-  <data name="btnAddTeacher.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 410</value>
-  </data>
-  <data name="btnAddTeacher.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 46</value>
-  </data>
-  <data name="btnAddTeacher.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
   <data name="btnClose.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
-  </data>
-  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>563, 410</value>
-  </data>
-  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 46</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="btnClose.Text" xml:space="preserve">
     <value>Close</value>
@@ -311,24 +311,24 @@
     <value>Eng</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>269, 424</value>
+    <value>214, 89</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 21</value>
+    <value>204, 24</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 424</value>
+    <value>60, 89</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 20</value>
+    <value>133, 20</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Select language:</value>
   </data>
-  <data name="pbTchImg.Location" type="System.Drawing.Point, System.Drawing">
-    <value>148, 101</value>
+  <data name="lblProfList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 18</value>
   </data>
 </root>
