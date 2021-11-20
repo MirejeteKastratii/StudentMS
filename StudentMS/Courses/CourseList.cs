@@ -127,5 +127,10 @@ namespace StudentMS.Courses
             AddCourse addCourse = new AddCourse();
             addCourse.Show();
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
