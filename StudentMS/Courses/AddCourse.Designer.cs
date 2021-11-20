@@ -106,11 +106,11 @@ namespace StudentMS.Courses
             // 
             // comboBox1
             // 
+            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             resources.GetString("comboBox1.Items"),
             resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -118,6 +118,7 @@ namespace StudentMS.Courses
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // AddCourse
             // 
@@ -137,7 +138,6 @@ namespace StudentMS.Courses
             this.Controls.Add(this.lblPershkrimi);
             this.Controls.Add(this.txtCourseTitle);
             this.Controls.Add(this.lblTitulli);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddCourse";
             this.ResumeLayout(false);
             this.PerformLayout();

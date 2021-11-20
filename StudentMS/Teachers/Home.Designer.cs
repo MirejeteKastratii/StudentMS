@@ -35,11 +35,8 @@ namespace StudentMS.Teachers
             this.pbHelp = new System.Windows.Forms.PictureBox();
             this.lblAdmin = new System.Windows.Forms.Label();
             this.btnManageUsers = new System.Windows.Forms.Button();
-            this.btnAddStudents = new System.Windows.Forms.Button();
             this.btnViewStudents = new System.Windows.Forms.Button();
-            this.btnAddCourses = new System.Windows.Forms.Button();
             this.btnViewCourses = new System.Windows.Forms.Button();
-            this.btnAddStaff = new System.Windows.Forms.Button();
             this.pnlActive = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -65,11 +62,8 @@ namespace StudentMS.Teachers
             this.panel1.Controls.Add(this.pbHelp);
             this.panel1.Controls.Add(this.lblAdmin);
             this.panel1.Controls.Add(this.btnManageUsers);
-            this.panel1.Controls.Add(this.btnAddStudents);
             this.panel1.Controls.Add(this.btnViewStudents);
-            this.panel1.Controls.Add(this.btnAddCourses);
             this.panel1.Controls.Add(this.btnViewCourses);
-            this.panel1.Controls.Add(this.btnAddStaff);
             this.panel1.Controls.Add(this.btnViewStaff);
             this.panel1.Controls.Add(this.pnlActive);
             this.panel1.Controls.Add(this.panel3);
@@ -99,15 +93,6 @@ namespace StudentMS.Teachers
             this.btnManageUsers.UseVisualStyleBackColor = true;
             this.btnManageUsers.Click += new System.EventHandler(this.btnManageUsers_Click);
             // 
-            // btnAddStudents
-            // 
-            this.btnAddStudents.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnAddStudents, "btnAddStudents");
-            this.btnAddStudents.ForeColor = System.Drawing.Color.White;
-            this.btnAddStudents.Name = "btnAddStudents";
-            this.btnAddStudents.UseVisualStyleBackColor = true;
-            this.btnAddStudents.Click += new System.EventHandler(this.btnAddStudents_Click);
-            // 
             // btnViewStudents
             // 
             this.btnViewStudents.FlatAppearance.BorderSize = 0;
@@ -117,15 +102,6 @@ namespace StudentMS.Teachers
             this.btnViewStudents.UseVisualStyleBackColor = true;
             this.btnViewStudents.Click += new System.EventHandler(this.btnViewStudents_Click);
             // 
-            // btnAddCourses
-            // 
-            this.btnAddCourses.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnAddCourses, "btnAddCourses");
-            this.btnAddCourses.ForeColor = System.Drawing.Color.White;
-            this.btnAddCourses.Name = "btnAddCourses";
-            this.btnAddCourses.UseVisualStyleBackColor = true;
-            this.btnAddCourses.Click += new System.EventHandler(this.btnAddCourses_Click);
-            // 
             // btnViewCourses
             // 
             this.btnViewCourses.FlatAppearance.BorderSize = 0;
@@ -134,15 +110,6 @@ namespace StudentMS.Teachers
             this.btnViewCourses.Name = "btnViewCourses";
             this.btnViewCourses.UseVisualStyleBackColor = true;
             this.btnViewCourses.Click += new System.EventHandler(this.btnViewCourses_Click);
-            // 
-            // btnAddStaff
-            // 
-            this.btnAddStaff.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.btnAddStaff, "btnAddStaff");
-            this.btnAddStaff.ForeColor = System.Drawing.Color.White;
-            this.btnAddStaff.Name = "btnAddStaff";
-            this.btnAddStaff.UseVisualStyleBackColor = true;
-            this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
             // 
             // pnlActive
             // 
@@ -169,7 +136,6 @@ namespace StudentMS.Teachers
             this.pnlContent.BackColor = System.Drawing.Color.Thistle;
             resources.ApplyResources(this.pnlContent, "pnlContent");
             this.pnlContent.Name = "pnlContent";
-            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
             // 
             // Home
             // 
@@ -194,11 +160,8 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel pnlActive;
-        private System.Windows.Forms.Button btnAddStudents;
         private System.Windows.Forms.Button btnViewStudents;
-        private System.Windows.Forms.Button btnAddCourses;
         private System.Windows.Forms.Button btnViewCourses;
-        private System.Windows.Forms.Button btnAddStaff;
         private System.Windows.Forms.Button btnManageUsers;
         private System.Windows.Forms.Label lblAdmin;
         private System.Windows.Forms.Panel pnlContent;

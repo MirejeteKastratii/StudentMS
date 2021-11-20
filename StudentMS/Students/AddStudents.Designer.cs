@@ -177,7 +177,6 @@ namespace StudentMS.Students
             this.Controls.Add(this.lblMbiemri);
             this.Controls.Add(this.lblEmri);
             this.Controls.Add(this.lblShtimiStudent);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddStudents";
             this.ResumeLayout(false);
             this.PerformLayout();

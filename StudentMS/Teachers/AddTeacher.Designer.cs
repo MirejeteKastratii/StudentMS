@@ -34,7 +34,6 @@ namespace StudentMS.Teachers
             this.lblSurname = new System.Windows.Forms.Label();
             this.lblGender = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.btnAddTchImg = new System.Windows.Forms.Button();
             this.lblNrTel = new System.Windows.Forms.Label();
             this.lblVendbanimi = new System.Windows.Forms.Label();
             this.lblSpecializim = new System.Windows.Forms.Label();
@@ -55,9 +54,7 @@ namespace StudentMS.Teachers
             this.btnClose = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pbTchImg = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTchImg)).BeginInit();
             this.SuspendLayout();
             // 
             // lblName
@@ -84,12 +81,6 @@ namespace StudentMS.Teachers
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Click += new System.EventHandler(this.lblEmail_Click);
             // 
-            // btnAddTchImg
-            // 
-            resources.ApplyResources(this.btnAddTchImg, "btnAddTchImg");
-            this.btnAddTchImg.Name = "btnAddTchImg";
-            this.btnAddTchImg.UseVisualStyleBackColor = true;
-            // 
             // lblNrTel
             // 
             resources.ApplyResources(this.lblNrTel, "lblNrTel");
@@ -100,13 +91,11 @@ namespace StudentMS.Teachers
             // 
             resources.ApplyResources(this.lblVendbanimi, "lblVendbanimi");
             this.lblVendbanimi.Name = "lblVendbanimi";
-            this.lblVendbanimi.Click += new System.EventHandler(this.lblVendbanimi_Click);
             // 
             // lblSpecializim
             // 
             resources.ApplyResources(this.lblSpecializim, "lblSpecializim");
             this.lblSpecializim.Name = "lblSpecializim";
-            this.lblSpecializim.Click += new System.EventHandler(this.lblSpecializim_Click);
             // 
             // lblhr
             // 
@@ -134,6 +123,7 @@ namespace StudentMS.Teachers
             // 
             resources.ApplyResources(this.txtVendbanimi, "txtVendbanimi");
             this.txtVendbanimi.Name = "txtVendbanimi";
+            this.txtVendbanimi.TextChanged += new System.EventHandler(this.txtVendbanimi_TextChanged);
             // 
             // txtEmail
             // 
@@ -149,6 +139,7 @@ namespace StudentMS.Teachers
             // 
             resources.ApplyResources(this.txtSpecializimi, "txtSpecializimi");
             this.txtSpecializimi.Name = "txtSpecializimi";
+            this.txtSpecializimi.TextChanged += new System.EventHandler(this.txtSpecializimi_TextChanged);
             // 
             // txtOrePune
             // 
@@ -209,13 +200,6 @@ namespace StudentMS.Teachers
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // pbTchImg
-            // 
-            this.pbTchImg.Image = global::StudentMS.Properties.Resources.Emblem_person_blue_svg;
-            resources.ApplyResources(this.pbTchImg, "pbTchImg");
-            this.pbTchImg.Name = "pbTchImg";
-            this.pbTchImg.TabStop = false;
-            // 
             // button1
             // 
             resources.ApplyResources(this.button1, "button1");
@@ -243,8 +227,6 @@ namespace StudentMS.Teachers
             this.Controls.Add(this.txtVendbanimi);
             this.Controls.Add(this.txtMbiemri);
             this.Controls.Add(this.txtEmri);
-            this.Controls.Add(this.btnAddTchImg);
-            this.Controls.Add(this.pbTchImg);
             this.Controls.Add(this.lblInWeek);
             this.Controls.Add(this.lblhr);
             this.Controls.Add(this.lblSpecializim);
@@ -255,10 +237,8 @@ namespace StudentMS.Teachers
             this.Controls.Add(this.lblGender);
             this.Controls.Add(this.lblSurname);
             this.Controls.Add(this.lblName);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddTeacher";
             this.Load += new System.EventHandler(this.AddTeacher_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pbTchImg)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -270,8 +250,6 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Label lblSurname;
         private System.Windows.Forms.Label lblGender;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.PictureBox pbTchImg;
-        private System.Windows.Forms.Button btnAddTchImg;
         private System.Windows.Forms.Label lblNrTel;
         private System.Windows.Forms.Label lblVendbanimi;
         private System.Windows.Forms.Label lblSpecializim;

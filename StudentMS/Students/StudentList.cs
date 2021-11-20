@@ -130,7 +130,8 @@ namespace StudentMS.Students
 
         private void btnEditoStudent_Click(object sender, EventArgs e)
         {
-
+            AddStudents addStd = new AddStudents();
+            addStd.Show();
         }
     }
 }

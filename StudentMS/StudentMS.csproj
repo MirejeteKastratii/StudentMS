@@ -114,6 +114,12 @@
     <Compile Include="Teachers\TeacherList.Designer.cs">
       <DependentUpon>TeacherList.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teachers\UpdateTeachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teachers\UpdateTeachers.Designer.cs">
+      <DependentUpon>UpdateTeachers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Users\ManageUsers.cs">
       <SubType>Form</SubType>
     </Compile>

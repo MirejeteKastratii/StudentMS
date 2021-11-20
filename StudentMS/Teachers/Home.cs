@@ -16,46 +16,30 @@ namespace StudentMS.Teachers
         {
             InitializeComponent();
         }
+
         TeacherList tchList = new TeacherList();
-        AddTeacher addTch = new AddTeacher();
-        Students.AddStudents addStudents = new Students.AddStudents();
-        Students.StudentList stList = new Students.StudentList();
-        Courses.AddCourse addCourse = new Courses.AddCourse();
-        Courses.CourseList courseList = new Courses.CourseList();
-        Users.ManageUsers addUsers = new Users.ManageUsers();
+          Students.StudentList stList = new Students.StudentList();
+          Courses.CourseList courseList = new Courses.CourseList();
         Users.ManageUsers mngUsers = new Users.ManageUsers();
 
         private void btnViewStaff_Click(object sender, EventArgs e)
         {
             pnlActive.Height = btnViewStaff.Height;
             pnlActive.Top = btnViewStaff.Top;
-            if (pnlContent.Contains(addCourse))
-            {
-                addCourse.Hide();
-            }
-            if (pnlContent.Contains(courseList))
-            {
-                addTch.Hide();
-            }
-            if (pnlContent.Contains(addStudents))
-            {
-                addStudents.Hide();
-            }
+          
+                    
             if (pnlContent.Contains(stList))
             {
                 stList.Hide();
             }
-            if (pnlContent.Contains(addUsers))
-            {
-                addUsers.Hide();
-            }
+         
             if (pnlContent.Contains(mngUsers))
             {
                 mngUsers.Hide();
             }
-            if (pnlContent.Contains(addTch))
+            if (pnlContent.Contains(courseList))
             {
-                addTch.Hide();
+                courseList.Hide();
             }
             tchList.TopLevel = false;
             tchList.Parent = pnlContent;
@@ -64,44 +48,7 @@ namespace StudentMS.Teachers
 
         }
 
-        private void btnAddStaff_Click(object sender, EventArgs e)
-        {
-            pnlActive.Height = btnAddStaff.Height;
-            pnlActive.Top = btnAddStaff.Top;
-            if (pnlContent.Contains(tchList))
-            {
-                tchList.Hide();
-            }
-            if (pnlContent.Contains(courseList))
-            {
-                addTch.Hide();
-            }
-            if (pnlContent.Contains(addStudents))
-            {
-                addStudents.Hide();
-            }
-            if (pnlContent.Contains(stList))
-            {
-                stList.Hide();
-            }
-            if (pnlContent.Contains(addUsers))
-            {
-                addUsers.Hide();
-            }
-            if (pnlContent.Contains(mngUsers))
-            {
-                mngUsers.Hide();
-            }
-            if (pnlContent.Contains(addCourse))
-            {
-                addCourse.Hide();
-            }
-            addTch.TopLevel = false;
-            addTch.Parent = pnlContent;
-            addTch.Dock = DockStyle.Fill;
-            addTch.Show();
-        }
-
+        
         private void btnViewCourses_Click(object sender, EventArgs e)
         {
             pnlActive.Height = btnViewCourses.Height;
@@ -110,75 +57,24 @@ namespace StudentMS.Teachers
             {
                 tchList.Hide();
             }
-            if (pnlContent.Contains(addTch))
-            {
-                addTch.Hide();
-            }
-            if (pnlContent.Contains(addStudents))
-            {
-                addStudents.Hide();
-            }
+           
             if (pnlContent.Contains(stList))
             {
                 stList.Hide();
             }
-            if (pnlContent.Contains(addUsers))
-            {
-                addUsers.Hide();
-            }
+           
             if (pnlContent.Contains(mngUsers))
             {
                 mngUsers.Hide();
             }
-            if (pnlContent.Contains(addCourse))
-            {
-                addCourse.Hide();
-            }
+        
             courseList.TopLevel = false;
             courseList.Parent = pnlContent;
             courseList.Dock = DockStyle.Fill;
             courseList.Show();
         }
 
-        private void btnAddCourses_Click(object sender, EventArgs e)
-        {
-            pnlActive.Height = btnAddCourses.Height;
-            pnlActive.Top = btnAddCourses.Top;
-            if (pnlContent.Contains(tchList))
-            {
-                tchList.Hide();
-            }
-            if (pnlContent.Contains(courseList))
-            {
-                courseList.Hide();
-            }
-            if (pnlContent.Contains(addStudents))
-            {
-                addStudents.Hide();
-            }
-            if (pnlContent.Contains(stList))
-            {
-                stList.Hide();
-            }
-            if (pnlContent.Contains(addUsers))
-            {
-                addUsers.Hide();
-            }
-            if (pnlContent.Contains(mngUsers))
-            {
-                mngUsers.Hide();
-            }
-            if (pnlContent.Contains(addTch))
-            {
-                addTch.Hide();
-            }
-           
-            addCourse.TopLevel = false;
-            addCourse.Parent = pnlContent;
-            addCourse.Dock = DockStyle.Fill;
-            addCourse.Show();
-        }
-
+       
         private void btnViewStudents_Click(object sender, EventArgs e)
         {
             pnlActive.Height = btnViewStudents.Height;
@@ -191,70 +87,19 @@ namespace StudentMS.Teachers
             {
                 courseList.Hide();
             }
-            if (pnlContent.Contains(addStudents))
-            {
-                addStudents.Hide();
-            }
+         
             if (pnlContent.Contains(mngUsers))
             {
                 mngUsers.Hide();
             }
-            if (pnlContent.Contains(addUsers))
-            {
-                addUsers.Hide();
-            }
-            if (pnlContent.Contains(addTch))
-            {
-                addTch.Hide();
-            }
-            if (pnlContent.Contains(addCourse))
-            {
-                addCourse.Hide();
-            }
+         
             stList.TopLevel = false;
             stList.Parent = pnlContent;
             stList.Dock = DockStyle.Fill;
             stList.Show();
         }
 
-        private void btnAddStudents_Click(object sender, EventArgs e)
-        {
-            pnlActive.Height = btnAddStudents.Height;
-            pnlActive.Top = btnAddStudents.Top;
-            if (pnlContent.Contains(tchList))
-            {
-                tchList.Hide();
-            }
-            if (pnlContent.Contains(courseList))
-            {
-                courseList.Hide();
-            }
-            if (pnlContent.Contains(stList))
-            {
-                stList.Hide();
-            }
-            if (pnlContent.Contains(mngUsers))
-            {
-                mngUsers.Hide();
-            }
-            if (pnlContent.Contains(addUsers))
-            {
-                addUsers.Hide();
-            }
-            if (pnlContent.Contains(addTch))
-            {
-                addTch.Hide();
-            }
-            if (pnlContent.Contains(addCourse))
-            {
-                addCourse.Hide();
-            }
-
-            addStudents.TopLevel = false;
-            addStudents.Parent = pnlContent;
-            addStudents.Dock = DockStyle.Fill;
-            addStudents.Show();
-        }
+       
 
         private void btnManageUsers_Click(object sender, EventArgs e)
         {
@@ -273,22 +118,7 @@ namespace StudentMS.Teachers
                 stList.Hide();
             }
             
-            if (pnlContent.Contains(addUsers))
-            {
-                addUsers.Hide();
-            }
-            if (pnlContent.Contains(addTch))
-            {
-                addTch.Hide();
-            }
-            if (pnlContent.Contains(addCourse))
-            {
-                addCourse.Hide();
-            }
-            if (pnlContent.Contains(addStudents))
-            {
-                addStudents.Hide();
-            }
+            
 
             mngUsers.TopLevel = false;
             mngUsers.Parent = pnlContent;
@@ -296,10 +126,7 @@ namespace StudentMS.Teachers
             mngUsers.Show();
         }
 
-        private void pnlContent_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+       
 
         private void cbLanguage_SelectedIndexChanged(object sender, EventArgs e)
         {

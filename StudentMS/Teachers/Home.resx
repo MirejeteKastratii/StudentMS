@@ -154,7 +154,112 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;btnViewStaff.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.Name" xml:space="preserve">
+    <value>pbHelp</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pbHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblAdmin.Name" xml:space="preserve">
+    <value>lblAdmin</value>
+  </data>
+  <data name="&gt;&gt;lblAdmin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAdmin.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;lblAdmin.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnManageUsers.Name" xml:space="preserve">
+    <value>btnManageUsers</value>
+  </data>
+  <data name="&gt;&gt;btnManageUsers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnManageUsers.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnManageUsers.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnViewStudents.Name" xml:space="preserve">
+    <value>btnViewStudents</value>
+  </data>
+  <data name="&gt;&gt;btnViewStudents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnViewStudents.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnViewStudents.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnViewCourses.Name" xml:space="preserve">
+    <value>btnViewCourses</value>
+  </data>
+  <data name="&gt;&gt;btnViewCourses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnViewCourses.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;btnViewCourses.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlActive.Name" xml:space="preserve">
+    <value>pnlActive</value>
+  </data>
+  <data name="&gt;&gt;pnlActive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlActive.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;pnlActive.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 2</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 519</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="pbHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -226,7 +331,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnManageUsers.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 376</value>
+    <value>11, 343</value>
   </data>
   <data name="btnManageUsers.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 46</value>
@@ -249,39 +354,6 @@
   <data name="&gt;&gt;btnManageUsers.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="btnAddStudents.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnAddStudents.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnAddStudents.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnAddStudents.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 335</value>
-  </data>
-  <data name="btnAddStudents.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 46</value>
-  </data>
-  <data name="btnAddStudents.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnAddStudents.Text" xml:space="preserve">
-    <value>Shto Nxenes</value>
-  </data>
-  <data name="&gt;&gt;btnAddStudents.Name" xml:space="preserve">
-    <value>btnAddStudents</value>
-  </data>
-  <data name="&gt;&gt;btnAddStudents.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAddStudents.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnAddStudents.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="btnViewStudents.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -292,7 +364,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnViewStudents.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 294</value>
+    <value>11, 237</value>
   </data>
   <data name="btnViewStudents.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 46</value>
@@ -313,40 +385,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;btnViewStudents.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnAddCourses.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnAddCourses.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnAddCourses.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnAddCourses.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 252</value>
-  </data>
-  <data name="btnAddCourses.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 46</value>
-  </data>
-  <data name="btnAddCourses.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnAddCourses.Text" xml:space="preserve">
-    <value>Shto Kurs</value>
-  </data>
-  <data name="&gt;&gt;btnAddCourses.Name" xml:space="preserve">
-    <value>btnAddCourses</value>
-  </data>
-  <data name="&gt;&gt;btnAddCourses.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAddCourses.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnAddCourses.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="btnViewCourses.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -358,7 +397,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnViewCourses.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 211</value>
+    <value>15, 185</value>
   </data>
   <data name="btnViewCourses.Size" type="System.Drawing.Size, System.Drawing">
     <value>184, 46</value>
@@ -379,40 +418,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;btnViewCourses.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnAddStaff.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnAddStaff.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
-  </data>
-  <data name="btnAddStaff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="btnAddStaff.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 170</value>
-  </data>
-  <data name="btnAddStaff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>184, 46</value>
-  </data>
-  <data name="btnAddStaff.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnAddStaff.Text" xml:space="preserve">
-    <value>Shto Profesor</value>
-  </data>
-  <data name="&gt;&gt;btnAddStaff.Name" xml:space="preserve">
-    <value>btnAddStaff</value>
-  </data>
-  <data name="&gt;&gt;btnAddStaff.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAddStaff.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;btnAddStaff.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>4</value>
   </data>
   <data name="pnlActive.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 133</value>
@@ -433,22 +439,7 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;pnlActive.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, -3</value>
-  </data>
-  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>191, 96</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
@@ -481,28 +472,34 @@
     <value>panel1</value>
   </data>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>7</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 2</value>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 519</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, -3</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 96</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="pnlContent.Location" type="System.Drawing.Point, System.Drawing">
     <value>206, 2</value>

@@ -94,22 +94,12 @@ namespace StudentMS.Teachers
 
         }
 
-        private void lblSpecializim_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void lblNrTel_Click(object sender, EventArgs e)
         {
 
         }
 
         private void lblEmail_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblVendbanimi_Click(object sender, EventArgs e)
         {
 
         }
@@ -135,6 +125,16 @@ namespace StudentMS.Teachers
                 gender = "M";
             TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
             teacherService.UpdateTeachersPaFoto(teacherBO);
+        }
+
+        private void txtVendbanimi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSpecializimi_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

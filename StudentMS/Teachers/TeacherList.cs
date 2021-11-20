@@ -17,9 +17,11 @@ namespace StudentMS.Teachers
     public partial class TeacherList : Form
     {
         TeacherBLL teacherBLL = new TeacherBLL();
+        AddTeacher addtch = new AddTeacher();
         public TeacherList()
         {
             InitializeComponent();
+    
         }
         public TeacherList(int StaffID)
         {
@@ -173,7 +175,8 @@ namespace StudentMS.Teachers
         {
             AddTeacher addTch = new AddTeacher();
             addTch.Show();
-           // TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
+
+            // TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
         }
     }
 }
