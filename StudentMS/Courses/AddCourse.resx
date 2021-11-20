@@ -127,18 +127,12 @@
   <data name="&gt;&gt;txtCourseTitle.Name" xml:space="preserve">
     <value>txtCourseTitle</value>
   </data>
-<<<<<<< HEAD
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="txtCourseDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-=======
   <data name="label1.Text" xml:space="preserve">
     <value>Zgjedh gjuhen: </value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnDil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
     <value>comboBox1</value>
@@ -146,22 +140,6 @@
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-<<<<<<< HEAD
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>Ang</value>
-  </data>
-  <data name="btnEdito.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 336</value>
-  </data>
-  <data name="&gt;&gt;lblShtimiKurseve.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblTitulli.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtSyllabusi.ZOrder" xml:space="preserve">
-    <value>8</value>
-=======
   <data name="&gt;&gt;lblShtimiKurseve.Name" xml:space="preserve">
     <value>lblShtimiKurseve</value>
   </data>
@@ -183,15 +161,10 @@
   </data>
   <data name="lblTitulli.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblTitulli.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-<<<<<<< HEAD
-  <data name="btnRuaj.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-=======
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -200,36 +173,10 @@
   </data>
   <data name="txtCourseTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>116, 120</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="txtSyllabusi.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-<<<<<<< HEAD
-  <data name="txtCourseDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 57</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;lblSesionet.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;btnRuaj.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="btnDil.Text" xml:space="preserve">
-    <value>Dil</value>
-  </data>
-  <data name="lblSyllabusi.Text" xml:space="preserve">
-    <value>Syllabusi :</value>
-  </data>
-  <data name="lblTitulli.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-=======
   <data name="comboBox1.Items" xml:space="preserve">
     <value>Sqi</value>
   </data>
@@ -244,7 +191,6 @@
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AddCourse</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="btnRuaj.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 396</value>
@@ -267,13 +213,8 @@
   <data name="&gt;&gt;txtSessions.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-<<<<<<< HEAD
-  <data name="btnRuaj.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 357</value>
-=======
   <data name="&gt;&gt;lblShtimiKurseve.ZOrder" xml:space="preserve">
     <value>4</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 24</value>
@@ -281,39 +222,20 @@
   <data name="txtSyllabusi.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;btnDil.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="txtSyllabusi.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtCourseTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-=======
   <data name="&gt;&gt;btnRuaj.Parent" xml:space="preserve">
     <value>$this</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="txtCourseDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;txtCourseTitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-<<<<<<< HEAD
-  <data name="btnRuaj.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 52</value>
-=======
   <data name="lblShtimiKurseve.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;txtCourseDescription.Name" xml:space="preserve">
     <value>txtCourseDescription</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;lblTitulli.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -321,19 +243,11 @@
   <data name="&gt;&gt;lblPershkrimi.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-<<<<<<< HEAD
-  <data name="lblSesionet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 290</value>
-  </data>
-  <data name="lblShtimiKurseve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 22</value>
-=======
   <data name="&gt;&gt;btnDil.Name" xml:space="preserve">
     <value>btnDil</value>
   </data>
   <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
     <value>172, 396</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;txtSessions.Name" xml:space="preserve">
     <value>txtSessions</value>
@@ -341,19 +255,6 @@
   <data name="lblPershkrimi.Text" xml:space="preserve">
     <value>Pershkrimi :</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;btnRuaj.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 423</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-=======
   <data name="txtCourseDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>116, 175</value>
   </data>
@@ -365,7 +266,6 @@
   </data>
   <data name="lblSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 240</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblTitulli.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -373,16 +273,8 @@
   <data name="lblShtimiKurseve.Location" type="System.Drawing.Point, System.Drawing">
     <value>87, 61</value>
   </data>
-<<<<<<< HEAD
-  <data name="btnDil.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lblTitulli.ZOrder" xml:space="preserve">
-    <value>13</value>
-=======
   <data name="&gt;&gt;txtSyllabusi.Name" xml:space="preserve">
     <value>txtSyllabusi</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 17</value>
@@ -393,34 +285,12 @@
   <data name="txtSyllabusi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-<<<<<<< HEAD
-  <data name="lblPershkrimi.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="&gt;&gt;btnEdito.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;txtCourseTitle.ZOrder" xml:space="preserve">
-    <value>12</value>
-=======
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblShtimiKurseve.Text" xml:space="preserve">
     <value>Shtimi i kurseve :</value>
   </data>
-<<<<<<< HEAD
-  <data name="lblShtimiKurseve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="&gt;&gt;lblSesionet.Name" xml:space="preserve">
-    <value>lblSesionet</value>
-  </data>
-  <data name="&gt;&gt;lblPershkrimi.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-=======
   <data name="&gt;&gt;lblSesionet.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
@@ -442,23 +312,11 @@
   <data name="&gt;&gt;lblTitulli.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   <data name="&gt;&gt;txtSessions.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;btnDil.Name" xml:space="preserve">
-    <value>btnDil</value>
-  </data>
-<<<<<<< HEAD
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="txtCourseDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 136</value>
-=======
   <data name="txtCourseDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 57</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;btnDil.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -466,16 +324,11 @@
   <data name="txtSessions.Location" type="System.Drawing.Point, System.Drawing">
     <value>116, 329</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;txtCourseTitle.Parent" xml:space="preserve">
-    <value>$this</value>
-=======
   <data name="lblPershkrimi.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 17</value>
   </data>
   <data name="btnDil.Text" xml:space="preserve">
     <value>Dil</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblSesionet.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
@@ -495,35 +348,20 @@
   <data name="&gt;&gt;lblSesionet.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-<<<<<<< HEAD
-  <data name="txtSessions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 290</value>
-  </data>
-  <data name="&gt;&gt;btnRuaj.Parent" xml:space="preserve">
-=======
   <data name="lblTitulli.Location" type="System.Drawing.Point, System.Drawing">
     <value>59, 123</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
     <value>$this</value>
   </data>
   <data name="lblSesionet.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 329</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;lblSyllabusi.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="lblPershkrimi.Text" xml:space="preserve">
-    <value>Pershkrimi :</value>
-=======
   <data name="&gt;&gt;lblTitulli.Name" xml:space="preserve">
     <value>lblTitulli</value>
   </data>
   <data name="&gt;&gt;txtSyllabusi.ZOrder" xml:space="preserve">
     <value>7</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -534,33 +372,20 @@
   <data name="lblSyllabusi.Text" xml:space="preserve">
     <value>Syllabusi :</value>
   </data>
-<<<<<<< HEAD
-  <data name="txtSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 201</value>
-  </data>
-  <data name="btnRuaj.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-=======
   <data name="&gt;&gt;btnRuaj.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="lblSyllabusi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblSesionet.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-<<<<<<< HEAD
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-=======
   <data name="btnRuaj.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;lblShtimiKurseve.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -586,13 +411,8 @@
   <data name="txtSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
     <value>116, 240</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;lblPershkrimi.ZOrder" xml:space="preserve">
-    <value>11</value>
-=======
   <data name="txtCourseDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;txtCourseTitle.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -603,58 +423,32 @@
   <data name="lblPershkrimi.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 178</value>
   </data>
-<<<<<<< HEAD
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 426</value>
-=======
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="lblSyllabusi.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="txtCourseTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 23</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;btnEdito.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="lblPershkrimi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 139</value>
-=======
   <data name="lblPershkrimi.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblPershkrimi.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-<<<<<<< HEAD
-  <data name="lblShtimiKurseve.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-=======
   <data name="&gt;&gt;txtCourseTitle.Parent" xml:space="preserve">
     <value>$this</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 17</value>
   </data>
-<<<<<<< HEAD
-  <data name="lblPershkrimi.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txtCourseTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 81</value>
-=======
   <data name="lblSesionet.Text" xml:space="preserve">
     <value>Sesionet :</value>
   </data>
   <data name="txtCourseDescription.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>346, 461</value>
@@ -662,36 +456,17 @@
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Ang</value>
   </data>
-<<<<<<< HEAD
-  <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>172, 357</value>
-=======
   <data name="lblTitulli.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
-  <data name="txtCourseDescription.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="lblShtimiKurseve.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;txtCourseDescription.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="lblTitulli.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnEdito.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblSyllabusi.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 201</value>
-=======
   <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="txtCourseTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblPershkrimi.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -699,27 +474,14 @@
   <data name="&gt;&gt;lblSyllabusi.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;btnEdito.Name" xml:space="preserve">
-    <value>btnEdito</value>
-=======
   <data name="btnDil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;txtSyllabusi.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-<<<<<<< HEAD
-  <data name="&gt;&gt;btnEdito.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtSessions.Name" xml:space="preserve">
-    <value>txtSessions</value>
-=======
   <data name="&gt;&gt;btnDil.Parent" xml:space="preserve">
     <value>$this</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblSyllabusi.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -727,19 +489,8 @@
   <data name="&gt;&gt;lblSyllabusi.Name" xml:space="preserve">
     <value>lblSyllabusi</value>
   </data>
-<<<<<<< HEAD
-  <data name="lblTitulli.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>346, 461</value>
-  </data>
-  <data name="&gt;&gt;lblTitulli.Parent" xml:space="preserve">
-    <value>$this</value>
-=======
   <data name="&gt;&gt;lblPershkrimi.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="&gt;&gt;btnRuaj.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -759,22 +510,11 @@
   <data name="txtSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
     <value>170, 62</value>
   </data>
-<<<<<<< HEAD
-  <data name="lblTitulli.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 84</value>
-  </data>
-  <data name="&gt;&gt;lblSesionet.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="lblSyllabusi.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-=======
   <data name="&gt;&gt;txtCourseDescription.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
   <data name="lblSyllabusi.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
->>>>>>> a96023fb9724de2eaf1bffd72c78b33f524fd3fb
   </data>
   <data name="lblShtimiKurseve.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>

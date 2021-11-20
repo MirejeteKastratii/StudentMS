@@ -67,9 +67,7 @@ namespace StudentMS.Courses
             AddCourse_Load(sender, e);
         }
 
-         
-
-        private void btnEdito_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
