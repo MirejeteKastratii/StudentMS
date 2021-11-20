@@ -72,7 +72,7 @@ namespace StudentMS.Teachers
             if (dialogResult == DialogResult.Yes)
             {
                 bool isDeleted = teacherBLL.DeleteTeachers(TeacherID);
-                if (isDeleted)
+                if (isDeleted == true)
                 {
                     MessageBox.Show("Rekordi është fshi.");
                 }

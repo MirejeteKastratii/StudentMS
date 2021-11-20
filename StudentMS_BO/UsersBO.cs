@@ -16,7 +16,7 @@ namespace StudentMS_BO
         {
             UserName = uName;
             UserPassword = uPass;
-            RoleID = RoleID;
+            RoleID = role;
         }
     }
 

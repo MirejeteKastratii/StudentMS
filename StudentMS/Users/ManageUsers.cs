@@ -11,15 +11,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using StudentMS_BLL;
 
 namespace StudentMS.Users
 {
     public partial class ManageUsers : Form
     {
         UsersBLL usersService = new UsersBLL();
+        RoleBLL roleBLL = new RoleBLL();
         public ManageUsers()
         {
             InitializeComponent();
+            LoadUserRoles();
+        }
+        private void LoadUserRoles()
+        {
+            cbRoles.DataSource = roleBLL.GetRoles();
+            cbRoles.DisplayMember = "RoleName";
+            cbRoles.ValueMember = "RoleID";
         }
 
  
@@ -128,7 +137,7 @@ namespace StudentMS.Users
 
         private void btnRuaj_Click(object sender, EventArgs e)
         {
-            UsersBO userBO = new UsersBO(txtUserName.Text, txtPass.Text, role);
+            UsersBO userBO = new UsersBO(txtUserName.Text, txtPass.Text, Convert.ToInt32(cbRoles.SelectedValue));
             usersService.AddUsers(userBO);
         }
 

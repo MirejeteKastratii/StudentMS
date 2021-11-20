@@ -48,9 +48,11 @@
   <ItemGroup>
     <Compile Include="CoursesBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoleBLL.cs" />
     <Compile Include="StudentBLL.cs" />
     <Compile Include="TeacherBLL.cs" />
     <Compile Include="UsersBLL.cs" />
+    <Compile Include="VleresimetBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

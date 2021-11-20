@@ -155,9 +155,6 @@
   <data name="btnPrint.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 41</value>
-  </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -297,17 +294,11 @@
   <data name="&gt;&gt;btnExcel.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;dgvUsers.Name" xml:space="preserve">
     <value>dgvUsers</value>
   </data>
   <data name="btnRifreskoManage.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 48</value>
-  </data>
-  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnExcel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -351,11 +342,17 @@
   <data name="cbRoles.Items" xml:space="preserve">
     <value>Administrator</value>
   </data>
+  <data name="&gt;&gt;btnEditUsers.Name" xml:space="preserve">
+    <value>btnEditUsers</value>
+  </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="lblUsername.Location" type="System.Drawing.Point, System.Drawing">
     <value>93, 198</value>
+  </data>
+  <data name="&gt;&gt;btnRifreskoManage.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;txtUserName.Parent" xml:space="preserve">
     <value>$this</value>
@@ -390,17 +387,14 @@
   <data name="&gt;&gt;txtUserName.Name" xml:space="preserve">
     <value>txtUserName</value>
   </data>
-  <data name="btnEditUsers.Text" xml:space="preserve">
-    <value>Edito rekordon</value>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>16</value>
   </data>
   <data name="btnPrint.Text" xml:space="preserve">
     <value>Printo</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
-  </data>
-  <data name="&gt;&gt;dgvUsers.ZOrder" xml:space="preserve">
-    <value>4</value>
   </data>
   <data name="pbHelp.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -510,8 +504,8 @@
   <data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 65</value>
   </data>
   <data name="btnExcel.Location" type="System.Drawing.Point, System.Drawing">
     <value>414, 420</value>
@@ -567,8 +561,8 @@
   <data name="btnRifreskoManage.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 47</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 65</value>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;cbRoles.Name" xml:space="preserve">
     <value>cbRoles</value>
@@ -579,8 +573,8 @@
   <data name="dgvUsers.RowHeadersWidth" type="System.Int32, mscorlib">
     <value>51</value>
   </data>
-  <data name="&gt;&gt;btnEditUsers.Name" xml:space="preserve">
-    <value>btnEditUsers</value>
+  <data name="&gt;&gt;dgvUsers.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="btnPrint.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 420</value>
@@ -597,8 +591,8 @@
   <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 47</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="btnEditUsers.Text" xml:space="preserve">
+    <value>Edito rekordon</value>
   </data>
   <data name="btnClose.Text" xml:space="preserve">
     <value>Dil</value>
@@ -606,8 +600,11 @@
   <data name="pbHelp.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;btnRifreskoManage.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="txtUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>173, 20</value>
@@ -627,25 +624,25 @@
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;btnFshij.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="lblUsername.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="btnRifreskoManage.Text" xml:space="preserve">
     <value>Rifresko</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Zgjedh gjuhën: </value>
   </data>
-  <data name="&gt;&gt;btnFshij.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 41</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>en-US</value>
   </metadata>
 </root>

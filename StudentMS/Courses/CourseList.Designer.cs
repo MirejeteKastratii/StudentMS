@@ -34,13 +34,14 @@ namespace StudentMS.Courses
             this.lblListaKurseve = new System.Windows.Forms.Label();
             this.btnRifreskoKurset = new System.Windows.Forms.Button();
             this.btnEditoKurset = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
             this.btnPrinto = new System.Windows.Forms.Button();
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnDil = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.txtGjuha = new System.Windows.Forms.Label();
             this.pbHelp = new System.Windows.Forms.PictureBox();
+            this.btnEdit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaKurseve)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.SuspendLayout();
@@ -70,12 +71,12 @@ namespace StudentMS.Courses
             this.btnEditoKurset.Name = "btnEditoKurset";
             this.btnEditoKurset.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnDelete
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            resources.ApplyResources(this.btnDelete, "btnDelete");
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnPrinto
             // 
@@ -121,6 +122,13 @@ namespace StudentMS.Courses
             this.pbHelp.TabStop = false;
             this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);
             // 
+            // btnEdit
+            // 
+            resources.ApplyResources(this.btnEdit, "btnEdit");
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnRifreskoKurset_Click);
+            // 
             // CourseList
             // 
             resources.ApplyResources(this, "$this");
@@ -129,11 +137,12 @@ namespace StudentMS.Courses
             this.Controls.Add(this.pbHelp);
             this.Controls.Add(this.txtGjuha);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEditoKurset);
             this.Controls.Add(this.btnDil);
             this.Controls.Add(this.btnExcel);
             this.Controls.Add(this.btnPrinto);
+            this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnRifreskoKurset);
             this.Controls.Add(this.lblListaKurseve);
             this.Controls.Add(this.dgvListaKurseve);
@@ -153,12 +162,13 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Label lblListaKurseve;
         private System.Windows.Forms.Button btnRifreskoKurset;
         private System.Windows.Forms.Button btnEditoKurset;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnPrinto;
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnDil;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label txtGjuha;
         private System.Windows.Forms.PictureBox pbHelp;
+        private System.Windows.Forms.Button btnEdit;
     }
 }

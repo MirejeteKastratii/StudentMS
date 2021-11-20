@@ -55,7 +55,7 @@ namespace StudentMS_DAL
                     DbConn.cmd = new SqlCommand("usp_InsertUsers", DbConn.conn);
                     DbConn.cmd.CommandType = CommandType.StoredProcedure;
                     DbConn.cmd.Parameters.AddWithValue("@UserName", model.UserName);
-                    DbConn.cmd.Parameters.AddWithValue("@UserPass", model.UserPassword);
+                    DbConn.cmd.Parameters.AddWithValue("@UserPassword", model.UserPassword);
                     DbConn.cmd.Parameters.AddWithValue("@RoleID", model.RoleID);
                     DbConn.cmd.Parameters.AddWithValue("@InsertBy", "1");
                     DbConn.cmd.Parameters.AddWithValue("@InsertDate", DateTime.Now);

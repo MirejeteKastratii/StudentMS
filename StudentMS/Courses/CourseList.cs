@@ -19,14 +19,13 @@ namespace StudentMS.Courses
         {
             InitializeComponent();
         }
-        //refresh
         private void btnRifreskoKurset_Click(object sender, EventArgs e)
         {
             CoursesBLL coursesBLL = new CoursesBLL();
             DataTable list = coursesBLL.ShowCourses();
             dgvListaKurseve.DataSource = list;
         }
-        //
+        
         private void CourseList_Load(object sender, EventArgs e)
         {
 
@@ -92,8 +91,8 @@ namespace StudentMS.Courses
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _ = new CultureInfo("en-US");
-            CultureInfo culture;
+            CultureInfo culture = new CultureInfo("en-US");
+          
             switch (comboBox1.SelectedIndex)
             {
                 case 0:

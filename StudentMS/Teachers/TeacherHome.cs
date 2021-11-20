@@ -18,7 +18,7 @@ namespace StudentMS.Teachers
 
         }
         Courses.CourseList courseList = new Courses.CourseList();
-        Courses.Vleresimet vleresimet = new Courses.Vleresimet();
+        Courses.Vleresimi vleresimet = new Courses.Vleresimi();
         Students.StudentList studentList = new Students.StudentList();
         public TeacherHome()
         {

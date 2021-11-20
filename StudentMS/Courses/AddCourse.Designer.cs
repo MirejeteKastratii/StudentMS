@@ -139,7 +139,6 @@ namespace StudentMS.Courses
             this.Controls.Add(this.lblTitulli);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddCourse";
-            this.Load += new System.EventHandler(this.AddCourse_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

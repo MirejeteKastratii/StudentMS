@@ -141,7 +141,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dgvListaKurseve.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="lblListaKurseve.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -175,7 +175,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblListaKurseve.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="btnRifreskoKurset.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -208,7 +208,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnRifreskoKurset.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="btnEditoKurset.Location" type="System.Drawing.Point, System.Drawing">
     <value>589, 47</value>
@@ -231,37 +231,37 @@
   <data name="&gt;&gt;btnEditoKurset.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="button3.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="btnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="btnDelete.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
-  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
     <value>581, 36</value>
   </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnDelete.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 47</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+  <data name="btnDelete.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
+  <data name="btnDelete.Text" xml:space="preserve">
     <value>Fshij rekordin</value>
   </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
+  <data name="&gt;&gt;btnDelete.Name" xml:space="preserve">
+    <value>btnDelete</value>
   </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnDelete.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;btnDelete.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="btnPrinto.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
@@ -449,6 +449,39 @@
   </data>
   <data name="&gt;&gt;pbHelp.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="btnEdit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnEdit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="btnEdit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>442, 35</value>
+  </data>
+  <data name="btnEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 47</value>
+  </data>
+  <data name="btnEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>Edito</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Name" xml:space="preserve">
+    <value>btnEdit</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEdit.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

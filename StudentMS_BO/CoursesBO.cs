@@ -9,6 +9,7 @@ namespace StudentMS_BO
     public class CoursesBO:Base
     {
         public int ID { get; set; }
+
         public string Titulli { get; set; }
         public string Pershkrimi { get; set; }
         public string Syllabusi { get; set; }
