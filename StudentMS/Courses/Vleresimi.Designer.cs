@@ -51,6 +51,8 @@ namespace StudentMS.Courses
             this.label2 = new System.Windows.Forms.Label();
             this.cbGjuha = new System.Windows.Forms.ComboBox();
             this.pbHelp = new System.Windows.Forms.PictureBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvVleresimet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.SuspendLayout();
@@ -82,14 +84,14 @@ namespace StudentMS.Courses
             // 
             // cbLenda
             // 
-            this.cbLenda.FormattingEnabled = true;
             resources.ApplyResources(this.cbLenda, "cbLenda");
+            this.cbLenda.FormattingEnabled = true;
             this.cbLenda.Name = "cbLenda";
             // 
             // cbStudenti
             // 
-            this.cbStudenti.FormattingEnabled = true;
             resources.ApplyResources(this.cbStudenti, "cbStudenti");
+            this.cbStudenti.FormattingEnabled = true;
             this.cbStudenti.Name = "cbStudenti";
             // 
             // txtTesti1
@@ -109,8 +111,8 @@ namespace StudentMS.Courses
             // 
             // dgvVleresimet
             // 
-            this.dgvVleresimet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             resources.ApplyResources(this.dgvVleresimet, "dgvVleresimet");
+            this.dgvVleresimet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVleresimet.Name = "dgvVleresimet";
             this.dgvVleresimet.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVleresimet_CellContentClick_1);
             // 
@@ -126,6 +128,7 @@ namespace StudentMS.Courses
             resources.ApplyResources(this.btnEditoRekordin, "btnEditoRekordin");
             this.btnEditoRekordin.Name = "btnEditoRekordin";
             this.btnEditoRekordin.UseVisualStyleBackColor = true;
+            this.btnEditoRekordin.Click += new System.EventHandler(this.btnEditoRekordin_Click);
             // 
             // btnFshij
             // 
@@ -169,27 +172,39 @@ namespace StudentMS.Courses
             // 
             // cbGjuha
             // 
+            resources.ApplyResources(this.cbGjuha, "cbGjuha");
             this.cbGjuha.FormattingEnabled = true;
             this.cbGjuha.Items.AddRange(new object[] {
             resources.GetString("cbGjuha.Items"),
             resources.GetString("cbGjuha.Items1")});
-            resources.ApplyResources(this.cbGjuha, "cbGjuha");
             this.cbGjuha.Name = "cbGjuha";
             this.cbGjuha.SelectedIndexChanged += new System.EventHandler(this.cbGjuha_SelectedIndexChanged);
             // 
             // pbHelp
             // 
-            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608822;
             resources.ApplyResources(this.pbHelp, "pbHelp");
+            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608822;
             this.pbHelp.Name = "pbHelp";
             this.pbHelp.TabStop = false;
             this.pbHelp.Click += new System.EventHandler(this.pbHelp_Click);
+            // 
+            // label7
+            // 
+            resources.ApplyResources(this.label7, "label7");
+            this.label7.Name = "label7";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.Name = "label8";
             // 
             // Vleresimi
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.pbHelp);
             this.Controls.Add(this.cbGjuha);
             this.Controls.Add(this.label2);
@@ -244,5 +259,7 @@ namespace StudentMS.Courses
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbGjuha;
         private System.Windows.Forms.PictureBox pbHelp;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }

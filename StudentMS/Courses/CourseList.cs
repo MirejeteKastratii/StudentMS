@@ -1,5 +1,6 @@
 ﻿using DGVPrinterHelper;
 using StudentMS_BLL;
+using StudentMS_BO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +16,7 @@ namespace StudentMS.Courses
 {
     public partial class CourseList : Form
     {
+        CoursesBLL courseService = new CoursesBLL();
         public CourseList()
         {
             InitializeComponent();
@@ -83,9 +85,10 @@ namespace StudentMS.Courses
             foreach (var c in this.Controls)
             {
                 if (c is TextBox)
-                {
-                    ((TextBox)c).Text = String.Empty;
-                }
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
             }
         }
 
@@ -120,13 +123,57 @@ namespace StudentMS.Courses
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "CourseListAdmin_Help.htm");
         }
 
-      
+        private void btnADD_Click(object sender, EventArgs e)
+        {
+            CoursesBO courseBo = new CoursesBO(txtCourseTitle.Text, txtCourseDescription.Text, txtSyllabusi.Text, Convert.ToInt32(txtSessions.Text));
+            courseService.AddCourses(courseBo);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+                else if (c is RichTextBox)
+                    ((RichTextBox)c).Clear();
 
+            }
+        }
+        //per implementim
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            AddCourse addCourse = new AddCourse();
-            addCourse.Show();
-    
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("A dëshironi ta fshini rekordin e selektuar.", "Paralajmërim për fshirje.", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                bool isDeleted = courseService.DeleteCourse(ID);
+                if (isDeleted)
+                {
+                    MessageBox.Show("Rekordi është fshi.");
+                }
+                else
+                {
+                    MessageBox.Show("Rekordi nuk është fshi.");
+
+                }
+            }
+        }
+        int ID;
+        private void dgvListaKurseve_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var SelectedRow = dgvListaKurseve.Rows[dgvListaKurseve.SelectedCells[0].RowIndex];
+
+            ID = int.Parse(Convert.ToString(SelectedRow.Cells["CourseID"].Value));
         }
     }
 }

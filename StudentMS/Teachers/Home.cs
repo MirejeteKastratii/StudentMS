@@ -41,6 +41,10 @@ namespace StudentMS.Teachers
             {
                 courseList.Hide();
             }
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
+            pictureBox2.Hide();
             tchList.TopLevel = false;
             tchList.Parent = pnlContent;
             tchList.Dock = DockStyle.Fill;
@@ -67,7 +71,10 @@ namespace StudentMS.Teachers
             {
                 mngUsers.Hide();
             }
-        
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
+            pictureBox2.Hide();
             courseList.TopLevel = false;
             courseList.Parent = pnlContent;
             courseList.Dock = DockStyle.Fill;
@@ -92,7 +99,10 @@ namespace StudentMS.Teachers
             {
                 mngUsers.Hide();
             }
-         
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
+            pictureBox2.Hide();
             stList.TopLevel = false;
             stList.Parent = pnlContent;
             stList.Dock = DockStyle.Fill;
@@ -117,9 +127,12 @@ namespace StudentMS.Teachers
             {
                 stList.Hide();
             }
-            
-            
 
+
+            label1.Hide();
+            label2.Hide();
+            label3.Hide();
+            pictureBox2.Hide();
             mngUsers.TopLevel = false;
             mngUsers.Parent = pnlContent;
             mngUsers.Dock = DockStyle.Fill;
@@ -136,6 +149,11 @@ namespace StudentMS.Teachers
         private void pbHelp_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "AdminHome_Help.htm");
+        }
+
+        private void pnlContent_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

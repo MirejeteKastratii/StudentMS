@@ -28,5 +28,9 @@ namespace StudentMS_BLL
         {
             coursesDAL.InsertCourse(model);
         }
+        public bool DeleteCourse(int ID)
+        {
+            return coursesDAL.DeleteCourses(ID);
+        }
     }
 }

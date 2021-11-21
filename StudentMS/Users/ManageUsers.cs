@@ -139,6 +139,14 @@ namespace StudentMS.Users
         {
             UsersBO userBO = new UsersBO(txtUserName.Text, txtPass.Text, Convert.ToInt32(cbRoles.SelectedValue));
             usersService.AddUsers(userBO);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
+            }
         }
 
         private void btnClose_Click(object sender, EventArgs e)

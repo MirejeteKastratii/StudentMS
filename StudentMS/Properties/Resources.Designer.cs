@@ -63,6 +63,16 @@ namespace StudentMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5315392_middle_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("5315392-middle-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap book {
             get {
                 object obj = ResourceManager.GetObject("book", resourceCulture);
@@ -133,9 +143,39 @@ namespace StudentMS.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap help_question_icon_13201613888629608823 {
+            get {
+                object obj = ResourceManager.GetObject("help+question+icon-13201613888629608823", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap help_question_icon_13201613888629608824 {
+            get {
+                object obj = ResourceManager.GetObject("help+question+icon-13201613888629608824", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap KEY0_CC_Vector_Transparent_Library_Svg_Definition_Teacher_Teacher_Icon_Png {
             get {
                 object obj = ResourceManager.GetObject("KEY0.CC-Vector-Transparent-Library-Svg-Definition-Teacher-Teacher-Icon-Png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap professor_icon_png_10 {
+            get {
+                object obj = ResourceManager.GetObject("professor-icon-png-10", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

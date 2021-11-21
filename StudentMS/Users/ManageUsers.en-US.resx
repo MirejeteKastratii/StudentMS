@@ -117,45 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 20</value>
+  </data>
   <data name="lblUsername.Text" xml:space="preserve">
     <value>Password :</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 123</value>
+    <value>52, 168</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 17</value>
+    <value>48, 20</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>User :</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnRifreskoManage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
   <data name="btnRifreskoManage.Text" xml:space="preserve">
     <value>Refresh</value>
   </data>
+  <data name="btnFshij.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="btnFshij.Text" xml:space="preserve">
     <value>Delete</value>
+  </data>
+  <data name="btnRuaj.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="btnRuaj.Text" xml:space="preserve">
     <value>Save</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
+    <value>47, 20</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Role :</value>
   </data>
+  <data name="btnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="btnPrint.Text" xml:space="preserve">
     <value>Print</value>
+  </data>
+  <data name="btnExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="btnEditUsers.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="btnEditUsers.Text" xml:space="preserve">
     <value>Edit record</value>
   </data>
+  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <data name="btnClose.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
+  <data name="cbRoles.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 434</value>
+    <value>38, 465</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>156, 20</value>
@@ -170,6 +201,30 @@
     <value>Eng</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>158, 434</value>
+    <value>200, 465</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 51</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 27</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Users list:</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 100</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 27</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Add users:</value>
   </data>
 </root>

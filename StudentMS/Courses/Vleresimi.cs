@@ -46,6 +46,14 @@ namespace StudentMS.Courses
                Convert.ToInt32(txtTesti1.Text), Convert.ToInt32(txtTesti2.Text), 
                 Convert.ToInt32(txtNota.Text) );
             vleresimiBLL.InsertoVleresime(vleresimet);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
+            }
         }
 
 
@@ -128,9 +136,10 @@ namespace StudentMS.Courses
             foreach (var c in this.Controls)
             {
                 if (c is TextBox)
-                {
-                    ((TextBox)c).Text = String.Empty;
-                }
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
             }
         }
 
@@ -172,6 +181,18 @@ namespace StudentMS.Courses
             dGVPrinter.Footer = "Education";
             dGVPrinter.FooterSpacing = 15;
             dGVPrinter.PrintDataGridView(dgvVleresimet);
+        }
+
+        private void btnEditoRekordin_Click(object sender, EventArgs e)
+        {
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
+            }
         }
     }
 }

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DGVPrinterHelper;
 using StudentMS_BLL;
+using StudentMS_BO;
 
 namespace StudentMS.Students
 {
@@ -20,7 +21,7 @@ namespace StudentMS.Students
         {
             InitializeComponent();
         }
-        
+
         private void StudentList_Load(object sender, EventArgs e)
         {
             DataTable list = stBLL.ShowStudentList();
@@ -29,10 +30,7 @@ namespace StudentMS.Students
 
         }
 
-        private void lblListaStudenteve_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void btnRifreskoStudent_Click(object sender, EventArgs e)
         {
@@ -76,11 +74,11 @@ namespace StudentMS.Students
             dGVPrinter.PageNumbers = true;
             dGVPrinter.PageNumberInHeader = false;
             dGVPrinter.PorportionalColumns = true;
-            dGVPrinter.HeaderCellAlignment=StringAlignment.Near;
+            dGVPrinter.HeaderCellAlignment = StringAlignment.Near;
             dGVPrinter.Footer = "Education";
             dGVPrinter.FooterSpacing = 15;
             dGVPrinter.PrintDataGridView(dgvListaStudenteve);
-                
+
         }
 
         private void btnDil_Click(object sender, EventArgs e)
@@ -89,16 +87,17 @@ namespace StudentMS.Students
             foreach (var c in this.Controls)
             {
                 if (c is TextBox)
-                {
-                    ((TextBox)c).Text = String.Empty;
-                }
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
             }
 
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+
             CultureInfo culture = new CultureInfo("en-US");
             switch (comboBox1.SelectedIndex)
             {
@@ -120,16 +119,8 @@ namespace StudentMS.Students
             StudentList_Load(sender, e);
         }
 
-        private void pbHelp_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        //shtoje helpin
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "StudentListAdmin_Help.htm");
@@ -137,8 +128,63 @@ namespace StudentMS.Students
 
         private void btnEditoStudent_Click(object sender, EventArgs e)
         {
-            AddStudents addStd = new AddStudents();
-            addStd.Show();
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
+            }
         }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            if (dgvListaStudenteve.Rows.Count > 0)
+            {
+                Microsoft.Office.Interop.Excel.Application exlApp = new Microsoft.Office.Interop.Excel.Application();
+                exlApp.Application.Workbooks.Add(Type.Missing);
+
+                for (int i = 1; i < dgvListaStudenteve.Columns.Count + 1; i++)
+                {
+                    exlApp.Cells[1, i] = dgvListaStudenteve.Columns[i - 1].HeaderText;
+
+                }
+
+                for (int i = 0; i < dgvListaStudenteve.Rows.Count - 1; i++)
+                {
+                    for (int j = 3; j < dgvListaStudenteve.Columns.Count; j++)
+                    {
+                        exlApp.Cells[i + 2, j + 1] = dgvListaStudenteve.Rows[i].Cells[j].Value.ToString();
+                    }
+                }
+
+                exlApp.Columns.AutoFit();
+                exlApp.Visible = true;
+            }
+        }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            string gender;
+            if (rbtnF.Checked)
+            {
+                gender = "F";
+            }
+            else
+                gender = "M";
+            StudentsBO studentsBO = new StudentsBO(txtEmri.Text, txtMbiemri.Text, dtDataLindjes.Value, gender, txtEmail.Text, txtNrTel.Text);
+            stBLL.InsertStudents(studentsBO);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+       
+            }
+        }
+
+
     }
 }

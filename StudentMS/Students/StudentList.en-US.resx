@@ -123,10 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lblListaStudenteve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>83, 52</value>
+    <value>292, 41</value>
   </data>
   <data name="lblListaStudenteve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 20</value>
+    <value>189, 27</value>
   </data>
   <data name="lblListaStudenteve.Text" xml:space="preserve">
     <value>List of students :</value>
@@ -135,7 +135,11 @@
     <value>NoControl</value>
   </data>
   <data name="btnRifreskoStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 40</value>
+    <value>494, 40</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnRifreskoStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="btnRifreskoStudent.Text" xml:space="preserve">
     <value>Refresh</value>
@@ -144,7 +148,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnEditoStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>442, 40</value>
+    <value>185, 367</value>
+  </data>
+  <data name="btnEditoStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="btnEditoStudent.Text" xml:space="preserve">
     <value>Edit record</value>
@@ -153,37 +160,43 @@
     <value>NoControl</value>
   </data>
   <data name="btnFshijStudent.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 40</value>
+    <value>604, 40</value>
+  </data>
+  <data name="btnFshijStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="btnFshijStudent.Text" xml:space="preserve">
-    <value>Delete the record</value>
+    <value>Delete</value>
   </data>
   <data name="dgvListaStudenteve.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 96</value>
+    <value>297, 82</value>
   </data>
   <data name="btn_PrintStudentList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btn_PrintStudentList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>433, 453</value>
+    <value>384, 453</value>
+  </data>
+  <data name="btn_PrintStudentList.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="btnDil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
-    <value>581, 453</value>
+    <value>604, 453</value>
+  </data>
+  <data name="btnDil.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="btnDil.Text" xml:space="preserve">
     <value>Exit</value>
   </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
-  </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 468</value>
+    <value>52, 462</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 17</value>
+    <value>156, 20</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Select the language :</value>
@@ -195,24 +208,105 @@
     <value>Eng</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 467</value>
+    <value>214, 464</value>
   </data>
-  <data name="pbHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="btnExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>494, 453</value>
+  </data>
+  <data name="btnExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 41</value>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 40</value>
   </data>
-  <data name="pbHelp.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 27</value>
   </data>
-  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label1.Text" xml:space="preserve">
+    <value>Add students:</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 41</value>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 132</value>
   </data>
-  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 168</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 201</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 243</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 280</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 319</value>
+  </data>
+  <data name="txtEmri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="txtEmri.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtMbiemri.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="txtMbiemri.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtEmail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="txtEmail.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtNrTel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="txtNrTel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rbtnF.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rbtnF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 243</value>
+  </data>
+  <data name="rbtnF.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rdM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rdM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="rdM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="rdM.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rdM.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="dtDataLindjes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 20</value>
+  </data>
+  <data name="dtDataLindjes.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnInsert.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 367</value>
+  </data>
+  <data name="btnInsert.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
 </root>

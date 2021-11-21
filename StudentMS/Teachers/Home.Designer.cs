@@ -41,10 +41,16 @@ namespace StudentMS.Teachers
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlContent = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlContent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnViewStaff
@@ -134,8 +140,35 @@ namespace StudentMS.Teachers
             // pnlContent
             // 
             this.pnlContent.BackColor = System.Drawing.Color.Thistle;
+            this.pnlContent.Controls.Add(this.pictureBox2);
+            this.pnlContent.Controls.Add(this.label3);
+            this.pnlContent.Controls.Add(this.label2);
+            this.pnlContent.Controls.Add(this.label1);
             resources.ApplyResources(this.pnlContent, "pnlContent");
             this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::StudentMS.Properties.Resources._5315392_middle_removebg_preview;
+            resources.ApplyResources(this.pictureBox2, "pictureBox2");
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.TabStop = false;
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
             // 
             // Home
             // 
@@ -149,6 +182,9 @@ namespace StudentMS.Teachers
             ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlContent.ResumeLayout(false);
+            this.pnlContent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -166,5 +202,9 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Label lblAdmin;
         private System.Windows.Forms.Panel pnlContent;
         private System.Windows.Forms.PictureBox pbHelp;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

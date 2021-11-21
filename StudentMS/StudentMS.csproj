@@ -51,17 +51,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Courses\AddCourse.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Courses\AddCourse.Designer.cs">
-      <DependentUpon>AddCourse.cs</DependentUpon>
-    </Compile>
     <Compile Include="Courses\CourseList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Courses\CourseList.Designer.cs">
       <DependentUpon>CourseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Courses\Courses_Teachers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Courses\Courses_Teachers.Designer.cs">
+      <DependentUpon>Courses_Teachers.cs</DependentUpon>
     </Compile>
     <Compile Include="Courses\Lesson.cs">
       <SubType>Form</SubType>
@@ -84,23 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Students\AddStudents.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Students\AddStudents.Designer.cs">
-      <DependentUpon>AddStudents.cs</DependentUpon>
-    </Compile>
     <Compile Include="Students\StudentList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Students\StudentList.Designer.cs">
       <DependentUpon>StudentList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teachers\AddTeacher.cs">
+    <Compile Include="Students\Students_Teacher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Teachers\AddTeacher.Designer.cs">
-      <DependentUpon>AddTeacher.cs</DependentUpon>
+    <Compile Include="Students\Students_Teacher.Designer.cs">
+      <DependentUpon>Students_Teacher.cs</DependentUpon>
     </Compile>
     <Compile Include="Teachers\Home.cs">
       <SubType>Form</SubType>
@@ -120,27 +114,12 @@
     <Compile Include="Teachers\TeacherList.Designer.cs">
       <DependentUpon>TeacherList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Teachers\UpdateTeachers.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Teachers\UpdateTeachers.Designer.cs">
-      <DependentUpon>UpdateTeachers.cs</DependentUpon>
-    </Compile>
     <Compile Include="Users\ManageUsers.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Users\ManageUsers.Designer.cs">
       <DependentUpon>ManageUsers.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Courses\AddCourse.en-US.resx">
-      <DependentUpon>AddCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Courses\AddCourse.resx">
-      <DependentUpon>AddCourse.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Courses\AddCourse.sq-XK.resx">
-      <DependentUpon>AddCourse.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Courses\CourseList.en-GB.resx">
       <DependentUpon>CourseList.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +131,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Courses\CourseList.sq-XK.resx">
       <DependentUpon>CourseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\Courses_Teachers.en-US.resx">
+      <DependentUpon>Courses_Teachers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Courses\Courses_Teachers.resx">
+      <DependentUpon>Courses_Teachers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Courses\Lesson.resx">
       <DependentUpon>Lesson.cs</DependentUpon>
@@ -187,18 +172,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Students\AddStudents.en-GB.resx">
-      <DependentUpon>AddStudents.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Students\AddStudents.en-US.resx">
-      <DependentUpon>AddStudents.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Students\AddStudents.resx">
-      <DependentUpon>AddStudents.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Students\AddStudents.sq-XK.resx">
-      <DependentUpon>AddStudents.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Students\StudentList.en-US.resx">
       <DependentUpon>StudentList.cs</DependentUpon>
     </EmbeddedResource>
@@ -208,20 +181,14 @@
     <EmbeddedResource Include="Students\StudentList.sq-XK.resx">
       <DependentUpon>StudentList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teachers\AddTeacher.en-GB.resx">
-      <DependentUpon>AddTeacher.cs</DependentUpon>
+    <EmbeddedResource Include="Students\Students_Teacher.en-US.resx">
+      <DependentUpon>Students_Teacher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teachers\AddTeacher.en-US.resx">
-      <DependentUpon>AddTeacher.cs</DependentUpon>
+    <EmbeddedResource Include="Students\Students_Teacher.resx">
+      <DependentUpon>Students_Teacher.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Teachers\AddTeacher.resx">
-      <DependentUpon>AddTeacher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Teachers\AddTeacher.sq-XK.resx">
-      <DependentUpon>AddTeacher.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Teachers\AddTeacher.sq.resx">
-      <DependentUpon>AddTeacher.cs</DependentUpon>
+    <EmbeddedResource Include="Students\Students_Teacher.sq-XK.resx">
+      <DependentUpon>Students_Teacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teachers\Home.en-US.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -257,6 +224,9 @@
       <DependentUpon>ManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Users\ManageUsers.resx">
+      <DependentUpon>ManageUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users\ManageUsers.sq-XK.resx">
       <DependentUpon>ManageUsers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -312,6 +282,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\help+question+icon-13201613888629608822.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5315392-middle-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\professor-icon-png-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help+question+icon-13201613888629608823.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help+question+icon-13201613888629608824.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

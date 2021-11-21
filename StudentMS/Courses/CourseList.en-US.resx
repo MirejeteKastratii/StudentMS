@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblListaKurseve.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="lblListaKurseve.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 50</value>
+  </data>
   <data name="lblListaKurseve.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 20</value>
+    <value>142, 25</value>
   </data>
   <data name="lblListaKurseve.Text" xml:space="preserve">
     <value>List of curses  :</value>
@@ -127,14 +133,8 @@
   <data name="btnRifreskoKurset.Text" xml:space="preserve">
     <value>Refresh</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Edit record</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Delete the record</value>
-  </data>
-  <data name="btnPrinto.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 459</value>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
   <data name="btnPrinto.Text" xml:space="preserve">
     <value>Print</value>
@@ -148,13 +148,81 @@
   <data name="comboBox1.Items1" xml:space="preserve">
     <value>Eng</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 476</value>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 470</value>
   </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 23</value>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>Edit</value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Select the language :</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tittle:</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 259</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Lession plan:</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 20</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Sessions</value>
+  </data>
+  <data name="txtCourseTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="txtCourseDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 56</value>
+  </data>
+  <data name="txtSyllabusi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 56</value>
+  </data>
+  <data name="txtSessions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>166, 20</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15pt</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 51</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 25</value>
+  </data>
+  <data name="btnADD.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Description:</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 470</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 20</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Language:</value>
   </data>
 </root>

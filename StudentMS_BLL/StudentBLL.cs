@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using StudentMS_DAL;
 using System.Data;
+using StudentMS_BO;
 
 namespace StudentMS_BLL
 {
@@ -23,6 +24,10 @@ namespace StudentMS_BLL
         public bool DeleteStudents(int StudentID)
         {
             return stDAL.DeleteStudent(StudentID);
+        }
+        public void InsertStudents(StudentsBO model)
+        {
+            stDAL.InsertStudents(model);
         }
     }
 }

@@ -80,8 +80,27 @@ namespace StudentMS_DAL
                 throw ex;
             }
         }
-        public bool DeleteCourses() {
-            return true;
-        }//te implementohet
+        public bool DeleteCourses(int ID) {
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_DeleteCourses", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+
+                    DbConn.cmd.Parameters.AddWithValue("@ID", ID);
+
+                    DbConn.cmd.ExecuteNonQuery();
+                    DbConn.conn.Close();
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return false;
+            }
+        }
     }
 }

@@ -31,11 +31,14 @@ namespace StudentMS.Teachers
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeacherHome));
             this.pnlContent = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pbHelp = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnOra = new System.Windows.Forms.Button();
             this.btnStudent = new System.Windows.Forms.Button();
             this.btnVleresimet = new System.Windows.Forms.Button();
             this.btnCourses = new System.Windows.Forms.Button();
@@ -43,9 +46,9 @@ namespace StudentMS.Teachers
             this.lblTeacher = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlContent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -54,16 +57,42 @@ namespace StudentMS.Teachers
             // 
             resources.ApplyResources(this.pnlContent, "pnlContent");
             this.pnlContent.BackColor = System.Drawing.Color.LightGreen;
+            this.pnlContent.Controls.Add(this.pictureBox3);
+            this.pnlContent.Controls.Add(this.label3);
+            this.pnlContent.Controls.Add(this.label2);
+            this.pnlContent.Controls.Add(this.label4);
             this.pnlContent.Name = "pnlContent";
+            this.pnlContent.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContent_Paint);
+            // 
+            // pictureBox3
+            // 
+            resources.ApplyResources(this.pictureBox3, "pictureBox3");
+            this.pictureBox3.Image = global::StudentMS.Properties.Resources.professor_icon_png_10;
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.TabStop = false;
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
             // 
             // panel2
             // 
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.pbHelp);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.btnOra);
             this.panel2.Controls.Add(this.btnStudent);
             this.panel2.Controls.Add(this.btnVleresimet);
             this.panel2.Controls.Add(this.btnCourses);
@@ -71,21 +100,6 @@ namespace StudentMS.Teachers
             this.panel2.Controls.Add(this.lblTeacher);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Name = "panel2";
-            // 
-            // pictureBox2
-            // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pbHelp
-            // 
-            resources.ApplyResources(this.pbHelp, "pbHelp");
-            this.pbHelp.Image = global::StudentMS.Properties.Resources.help_question_icon_13201613888629608821;
-            this.pbHelp.Name = "pbHelp";
-            this.pbHelp.TabStop = false;
             // 
             // label1
             // 
@@ -102,6 +116,15 @@ namespace StudentMS.Teachers
             resources.GetString("comboBox1.Items1")});
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // btnOra
+            // 
+            resources.ApplyResources(this.btnOra, "btnOra");
+            this.btnOra.FlatAppearance.BorderSize = 0;
+            this.btnOra.ForeColor = System.Drawing.Color.White;
+            this.btnOra.Name = "btnOra";
+            this.btnOra.UseVisualStyleBackColor = true;
+            this.btnOra.Click += new System.EventHandler(this.btnOra_Click);
             // 
             // btnStudent
             // 
@@ -163,10 +186,11 @@ namespace StudentMS.Teachers
             this.Controls.Add(this.pnlContent);
             this.Name = "TeacherHome";
             this.Load += new System.EventHandler(this.TeacherHome_Load);
+            this.pnlContent.ResumeLayout(false);
+            this.pnlContent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHelp)).EndInit();
             this.panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -186,7 +210,10 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.Button btnVleresimet;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pbHelp;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnOra;
     }
 }

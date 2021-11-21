@@ -17,7 +17,7 @@ namespace StudentMS.Teachers
     public partial class TeacherList : Form
     {
         TeacherBLL teacherBLL = new TeacherBLL();
-        AddTeacher addtch = new AddTeacher();
+       
         
         public TeacherList()
         {
@@ -43,11 +43,7 @@ namespace StudentMS.Teachers
 
         }
 
-        private void btnAddTeacher_Click(object sender, EventArgs e)
-        {
-            AddTeacher addTeacherForm = new AddTeacher();
-            addTeacherForm.Show();
-        }
+        
 
         private void brnRefresh_Click(object sender, EventArgs e)
         {
@@ -57,13 +53,13 @@ namespace StudentMS.Teachers
         }
 
         //kthehu qetu 
-        public int TeacherID;
+        public int ID;
         private void dgvTeachers_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
             var SelectedRow = dgvTeachers.Rows[dgvTeachers.SelectedCells[0].RowIndex];
 
-            TeacherID = int.Parse(Convert.ToString(SelectedRow.Cells["TeacherID"].Value));
+            ID = int.Parse(Convert.ToString(SelectedRow.Cells["TeacherID"].Value));
 
         }
       
@@ -73,7 +69,7 @@ namespace StudentMS.Teachers
             DialogResult dialogResult = MessageBox.Show("A dëshironi ta fshini rekordin e selektuar.", "Paralajmërim për fshirje.", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
-                bool isDeleted = teacherBLL.DeleteTeachers(TeacherID);
+                bool isDeleted = teacherBLL.DeleteTeachers(ID);
                 if (isDeleted == true)
                 {
                     MessageBox.Show("Rekordi është fshi.");
@@ -131,6 +127,13 @@ namespace StudentMS.Teachers
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Hide();
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                {
+                    ((TextBox)c).Text = String.Empty;
+                }
+            }
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -161,21 +164,50 @@ namespace StudentMS.Teachers
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "TeacherListAdmin_Help.htm");
         }
 
-        private void lblTeacherList_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            AddTeacher addTch = new AddTeacher();
-            addTch.Show();
+            string gender;
+            if (rdFemale.Checked)
+            {
+                gender = "F";
+            }
+            else
+                gender = "M";
+            TeacherBO teacherBO = new TeacherBO(ID, txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
+            teacherBLL.UpdateTeachers(teacherBO);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
 
-            // TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
+            }
+
+
         }
 
-        private void dgvTeachers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnInsert_Click(object sender, EventArgs e)
         {
-                  }
+            string gender;
+            if (rdFemale.Checked)
+            {
+                gender = "F";
+            }
+            else
+                gender = "M";
+            TeacherBO teacherBO = new TeacherBO(txtEmri.Text, txtMbiemri.Text, gender, txtEmail.Text, txtNrTel.Text, txtVendbanimi.Text, txtSpecializimi.Text, int.Parse(txtOrePune.Text), dtDitelindja.Value);
+            teacherBLL.AddTeachers(teacherBO);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
+            }
+        }
     }
 }
