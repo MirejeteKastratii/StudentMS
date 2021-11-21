@@ -128,6 +128,17 @@ namespace StudentMS.Students
 
         private void btnEditoStudent_Click(object sender, EventArgs e)
         {
+            string gender;
+            if (rbtnF.Checked)
+            {
+                gender = "F";
+            }
+            else
+                gender = "M";
+            StudentsBO studentsBO = new StudentsBO(StudentID,txtEmri.Text, txtMbiemri.Text, dtDataLindjes.Value, gender, txtEmail.Text, txtNrTel.Text);
+            stBLL.EditoStudentin(studentsBO);
+
+
             foreach (var c in this.Controls)
             {
                 if (c is TextBox)
@@ -136,6 +147,7 @@ namespace StudentMS.Students
                     ((RadioButton)c).Checked = false;
 
             }
+            dtDataLindjes.Value = DateTimePicker.MaximumDateTime;
         }
 
         private void btnExcel_Click(object sender, EventArgs e)
@@ -181,10 +193,39 @@ namespace StudentMS.Students
                     ((TextBox)c).Clear();
                 else if (c is RadioButton)
                     ((RadioButton)c).Checked = false;
-       
+
             }
+            dtDataLindjes.Value = DateTimePicker.MaximumDateTime;
         }
 
+        private void dgvListaStudenteve_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            StudentsBO stBo = stBLL.GetStudentByID(StudentID);
+            FillData(stBo);
+        }
 
+        public void FillData(StudentsBO stBO)
+        {
+            txtEmri.Text = stBO.Emri;
+            txtMbiemri.Text = stBO.Mbiemri;
+            dtDataLindjes.Value = stBO.DataLindjes;
+            if (stBO.Gjinia == "F")
+            {
+                rbtnF.Checked = true;
+            }
+            else
+            {
+                rdM.Checked = true;
+            }
+            txtEmail.Text = stBO.Email;
+            txtNrTel.Text = stBO.NumriTel;
+        }
+
+        private void btnRaportet_Click(object sender, EventArgs e)
+        {
+            Students.StudentsRaport  raportet = new Students.StudentsRaport();
+            raportet.Show();
+
+        }
     }
 }

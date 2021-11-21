@@ -115,6 +115,7 @@ namespace StudentMS.Courses
             this.dgvVleresimet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvVleresimet.Name = "dgvVleresimet";
             this.dgvVleresimet.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVleresimet_CellContentClick_1);
+            this.dgvVleresimet.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvVleresimet_CellContentDoubleClick);
             // 
             // btnRifresko
             // 

@@ -21,7 +21,7 @@ namespace StudentMS_DAL
                 return dt;
             }
         }
-        //procedura per deletekrijon konfilkt me role id
+        
         public bool DeleteUsers(int ID)
         {
             try
@@ -44,7 +44,7 @@ namespace StudentMS_DAL
                 throw ex;
             }
         }
-        //procedura per insert krijon konfilkt me role id
+      
         public void InsertUsers(UsersBO model)
         {
             try
@@ -70,6 +70,69 @@ namespace StudentMS_DAL
                 throw ex;
             }
         }
-        public void UpdateUsers() { }//te implementohet
+        public void UpdateUsers(UsersBO model) {
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_UpdateUsers", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+
+                    DbConn.cmd.Parameters.AddWithValue("@ID", model.ID);
+                    DbConn.cmd.Parameters.AddWithValue("@UserName", model.UserName);
+                    DbConn.cmd.Parameters.AddWithValue("@UserPassword", model.UserPassword);
+                    DbConn.cmd.Parameters.AddWithValue("@RoleID", model.RoleID);
+                     DbConn.cmd.Parameters.AddWithValue("@LUB", "1");
+                    DbConn.cmd.Parameters.AddWithValue("@LUD", DateTime.Now);
+                    DbConn.cmd.Parameters.AddWithValue("@LUN", (model.LUN + 1));
+
+                    DbConn.cmd.ExecuteNonQuery();
+                    DbConn.conn.Close();
+
+
+
+                }
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+
+            }
+        }
+
+        public UsersBO GetUserByID(int ID)
+        {
+            DataSet ds;
+            UsersBO usersBO = new UsersBO();
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("usp_GetUsersByID", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+
+                    DbConn.cmd.Parameters.AddWithValue("@ID", ID);
+                    DbConn.dataAdapter = new SqlDataAdapter(DbConn.cmd);
+                    ds = new DataSet();
+                    DbConn.dataAdapter.Fill(ds);
+                    usersBO.UserName = Convert.ToString(ds.Tables[0].Rows[0]["UserName"]);
+                    usersBO.UserPassword = Convert.ToString(ds.Tables[0].Rows[0]["UserPASS"]);
+                    usersBO.RoleID = Convert.ToInt32((Convert.ToString(ds.Tables[0].Rows[0]["RoleID"])));
+                    
+
+                    DbConn.conn.Close();
+                    return usersBO;
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+        }
     }
 }

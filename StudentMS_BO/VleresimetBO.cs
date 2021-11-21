@@ -13,7 +13,6 @@ namespace StudentMS_BO
           public int StudentsID { get; set; }
         public int Testi1 { get; set; }
         public int Testi2 { get; set; }
-        public int Homeworks { get; set; }
         public int FinaleGrade { get; set; }
 
         public VleresimetBO(int courseID, int studentID, int test1, int test2, int notaFinale)
@@ -23,6 +22,19 @@ namespace StudentMS_BO
             Testi1 = test1;
             Testi2 = test2;
             FinaleGrade = notaFinale;
+        }
+        public VleresimetBO(int id, int courseID, int studentID, int test1, int test2, int notaFinale)
+        {
+            ID = id;
+            CoursesID = courseID;
+            StudentsID = studentID;
+            Testi1 = test1;
+            Testi2 = test2;
+            FinaleGrade = notaFinale;
+        }
+        public VleresimetBO()
+        {
+
         }
     }
 }

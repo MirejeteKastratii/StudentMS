@@ -18,6 +18,17 @@ namespace StudentMS_BO
             UserPassword = uPass;
             RoleID = role;
         }
+        public UsersBO()
+        {
+
+        }
+        public UsersBO(int id,string uName, string uPass, int role)
+        {
+            ID = id;
+            UserName = uName;
+            UserPassword = uPass;
+            RoleID = role;
+        }
     }
 
 

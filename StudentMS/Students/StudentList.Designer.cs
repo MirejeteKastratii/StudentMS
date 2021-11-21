@@ -56,6 +56,7 @@ namespace StudentMS.Students
             this.dtDataLindjes = new System.Windows.Forms.DateTimePicker();
             this.btnInsert = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnRaportet = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListaStudenteve)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -93,6 +94,7 @@ namespace StudentMS.Students
             this.dgvListaStudenteve.Name = "dgvListaStudenteve";
             this.dgvListaStudenteve.RowTemplate.Height = 24;
             this.dgvListaStudenteve.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaStudenteve_CellClick);
+            this.dgvListaStudenteve.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaStudenteve_CellContentDoubleClick);
             // 
             // btn_PrintStudentList
             // 
@@ -218,6 +220,13 @@ namespace StudentMS.Students
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             // 
+            // btnRaportet
+            // 
+            resources.ApplyResources(this.btnRaportet, "btnRaportet");
+            this.btnRaportet.Name = "btnRaportet";
+            this.btnRaportet.UseVisualStyleBackColor = true;
+            this.btnRaportet.Click += new System.EventHandler(this.btnRaportet_Click);
+            // 
             // StudentList
             // 
             resources.ApplyResources(this, "$this");
@@ -247,6 +256,7 @@ namespace StudentMS.Students
             this.Controls.Add(this.btnFshijStudent);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnEditoStudent);
+            this.Controls.Add(this.btnRaportet);
             this.Controls.Add(this.btnRifreskoStudent);
             this.Controls.Add(this.lblListaStudenteve);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -287,5 +297,6 @@ namespace StudentMS.Students
         private System.Windows.Forms.DateTimePicker dtDataLindjes;
         private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnRaportet;
     }
 }

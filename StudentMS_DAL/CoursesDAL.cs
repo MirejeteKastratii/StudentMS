@@ -21,6 +21,32 @@ namespace StudentMS_DAL
                 return dt;
             }
         }
+        public void EditCourses(CoursesBO model)
+        {
+            try
+            {
+                using (DbConn.conn = new SqlConnection(DbConn.connString))
+                {
+                    DbConn.conn.Open();
+                    DbConn.cmd = new SqlCommand("Update_Courses", DbConn.conn);
+                    DbConn.cmd.CommandType = CommandType.StoredProcedure;
+                    DbConn.cmd.Parameters.AddWithValue("@CourseID", model.ID) ;
+                    DbConn.cmd.Parameters.AddWithValue("Titulli", model.Titulli);
+                    DbConn.cmd.Parameters.AddWithValue("Pershkrimi", model.Pershkrimi);
+                    DbConn.cmd.Parameters.AddWithValue("Syllabusi", model.Syllabusi);
+                    DbConn.cmd.Parameters.AddWithValue("Sessionet", model.Sesionet);
+                   
+
+                    DbConn.cmd.ExecuteNonQuery();
+                    DbConn.conn.Close();
+                }
+            }
+
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void InsertCourse(CoursesBO model)
         {
             try

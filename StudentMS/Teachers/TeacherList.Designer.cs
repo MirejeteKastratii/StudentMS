@@ -59,7 +59,7 @@ namespace StudentMS.Teachers
             this.txtNrTel = new System.Windows.Forms.TextBox();
             this.txtOrePune = new System.Windows.Forms.TextBox();
             this.rdFemale = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rdMale = new System.Windows.Forms.RadioButton();
             this.dtDitelindja = new System.Windows.Forms.DateTimePicker();
             this.label12 = new System.Windows.Forms.Label();
             this.txtSpecializimi = new System.Windows.Forms.TextBox();
@@ -73,6 +73,7 @@ namespace StudentMS.Teachers
             this.dgvTeachers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTeachers.Name = "dgvTeachers";
             this.dgvTeachers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeachers_CellClick);
+            this.dgvTeachers.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTeachers_CellContentDoubleClick);
             // 
             // lblTeacherList
             // 
@@ -238,12 +239,12 @@ namespace StudentMS.Teachers
             this.rdFemale.TabStop = true;
             this.rdFemale.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rdMale
             // 
-            resources.ApplyResources(this.radioButton2, "radioButton2");
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.TabStop = true;
-            this.radioButton2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.rdMale, "rdMale");
+            this.rdMale.Name = "rdMale";
+            this.rdMale.TabStop = true;
+            this.rdMale.UseVisualStyleBackColor = true;
             // 
             // dtDitelindja
             // 
@@ -266,7 +267,7 @@ namespace StudentMS.Teachers
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Thistle;
             this.Controls.Add(this.dtDitelindja);
-            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.rdMale);
             this.Controls.Add(this.rdFemale);
             this.Controls.Add(this.txtOrePune);
             this.Controls.Add(this.txtNrTel);
@@ -339,7 +340,7 @@ namespace StudentMS.Teachers
         private System.Windows.Forms.TextBox txtNrTel;
         private System.Windows.Forms.TextBox txtOrePune;
         private System.Windows.Forms.RadioButton rdFemale;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rdMale;
         private System.Windows.Forms.DateTimePicker dtDitelindja;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtSpecializimi;

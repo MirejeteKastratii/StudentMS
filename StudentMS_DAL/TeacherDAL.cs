@@ -61,7 +61,6 @@ namespace StudentMS_DAL
 
 
         }
-        //kthehu kur t merresh me edit + krijo proceduren per editim
         public TeacherBO GetTeacherByID(int TchID)
         {
             DataSet ds;
@@ -81,12 +80,13 @@ namespace StudentMS_DAL
                     tchBo.Emri = Convert.ToString(ds.Tables[0].Rows[0]["Emri"]);
                     tchBo.Mbiemri = Convert.ToString(ds.Tables[0].Rows[0]["Mbiemri"]);
                     tchBo.Gjinia = Convert.ToString(ds.Tables[0].Rows[0]["Gjinia"]);
+                    tchBo.Birthdate = Convert.ToDateTime(ds.Tables[0].Rows[0]["Birthdate"]);
                     tchBo.Email = Convert.ToString(ds.Tables[0].Rows[0]["Email"]);
                     tchBo.NrTel = Convert.ToString(ds.Tables[0].Rows[0]["NrTel"]);
                     tchBo.Vendbanimi = Convert.ToString(ds.Tables[0].Rows[0]["Vendbanimi"]);
                     tchBo.Specializimi = Convert.ToString(ds.Tables[0].Rows[0]["Specializimi"]);
                     tchBo.WeeklyWorkingHr = Convert.ToInt32(ds.Tables[0].Rows[0]["WeeklyWorkingHr"]);
-                    tchBo.Birthdate = Convert.ToDateTime(ds.Tables[0].Rows[0]["Birthdate"]);
+                    
                     DbConn.conn.Close();
                     return tchBo;
                 }

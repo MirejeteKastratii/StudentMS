@@ -174,8 +174,8 @@
   <data name="btnDelete.Text" xml:space="preserve">
     <value>Fshij rekordin</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="btnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;txtCourseDescription.Name" xml:space="preserve">
     <value>txtCourseDescription</value>
@@ -330,14 +330,14 @@
   <data name="&gt;&gt;txtSessions.Name" xml:space="preserve">
     <value>txtSessions</value>
   </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
   <data name="btnDil.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 36</value>
   </data>
   <data name="&gt;&gt;btnExcel.ZOrder" xml:space="preserve">
     <value>13</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="btnPrinto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -387,9 +387,6 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CourseList</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>Sqi</value>
-  </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -411,8 +408,8 @@
   <data name="btnDil.Location" type="System.Drawing.Point, System.Drawing">
     <value>610, 458</value>
   </data>
-  <data name="&gt;&gt;btnPrinto.Name" xml:space="preserve">
-    <value>btnPrinto</value>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>Sqi</value>
   </data>
   <data name="&gt;&gt;txtCourseTitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -428,6 +425,9 @@
   </data>
   <data name="&gt;&gt;btnDelete.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPrinto.Name" xml:space="preserve">
+    <value>btnPrinto</value>
   </data>
   <data name="btnRifreskoKurset.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -576,8 +576,8 @@
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="btnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -702,8 +702,8 @@
   <data name="btnDil.Text" xml:space="preserve">
     <value>Dil</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
   </data>
   <data name="&gt;&gt;btnRifreskoKurset.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

@@ -24,5 +24,14 @@ namespace StudentMS_BLL
         {
             return vleresimiDAL.DeleteVleresimi(ID);
         }
+    public VleresimetBO GetVleresimetByID(int ID)
+        {
+            return vleresimiDAL.GetVleresimetByID(ID);
+
+        }
+        public void EditoVleresimet(VleresimetBO model)
+        {
+            vleresimiDAL.EditoVleresimet(model);
+        }
     }
 }

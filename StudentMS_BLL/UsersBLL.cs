@@ -29,5 +29,13 @@ namespace StudentMS_BLL
         {
              usersDAL.InsertUsers(model);
         }
+        public UsersBO GetUserByID(int id)
+        {
+            return usersDAL.GetUserByID(id);
+        }
+        public void EditUsers(UsersBO model)
+        {
+            usersDAL.UpdateUsers(model);
+        }
     }
 }

@@ -141,12 +141,16 @@ namespace StudentMS.Courses
         //per implementim
         private void btnEdit_Click(object sender, EventArgs e)
         {
+            CoursesBO courseBo = new CoursesBO(ID,txtCourseTitle.Text, txtCourseDescription.Text, txtSyllabusi.Text, Convert.ToInt32(txtSessions.Text));
+            courseService.EditCourses(courseBo);
             foreach (var c in this.Controls)
             {
                 if (c is TextBox)
                     ((TextBox)c).Clear();
                 else if (c is RadioButton)
                     ((RadioButton)c).Checked = false;
+                else if (c is RichTextBox)
+                    ((RichTextBox)c).Clear();
 
             }
         }
@@ -174,6 +178,24 @@ namespace StudentMS.Courses
             var SelectedRow = dgvListaKurseve.Rows[dgvListaKurseve.SelectedCells[0].RowIndex];
 
             ID = int.Parse(Convert.ToString(SelectedRow.Cells["CourseID"].Value));
+        }
+        public void FillData(CoursesBO kursi)
+        {
+            txtCourseTitle.Text = kursi.Titulli;
+            txtSessions.Text = Convert.ToString(kursi.Sesionet);
+            txtCourseDescription.Text = kursi.Pershkrimi;
+            txtSyllabusi.Text = kursi.Syllabusi;
+                }
+        private void dgvListaKurseve_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dgvListaKurseve_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            CoursesBLL cBLL = new CoursesBLL();
+            CoursesBO kursi = cBLL.GetCourseData(ID);
+            FillData(kursi);
         }
     }
 }

@@ -29,5 +29,17 @@ namespace StudentMS_BLL
         {
             stDAL.InsertStudents(model);
         }
+    public StudentsBO GetStudentByID(int ID)
+        {
+            return stDAL.GetStudentByID(ID);
+        }
+        public void EditoStudentin(StudentsBO stBO)
+        {
+            stDAL.EditoStudentin(stBO);
+        }
+     public DataSet StudentsByGender(string gjinia)
+        {
+            return stDAL.GetStudentByGender(gjinia);
+        }
     }
 }

@@ -132,6 +132,7 @@
             this.cmbLenda.Name = "cmbLenda";
             this.cmbLenda.Size = new System.Drawing.Size(144, 21);
             this.cmbLenda.TabIndex = 2;
+            this.cmbLenda.SelectedIndexChanged += new System.EventHandler(this.cmbLenda_SelectedIndexChanged);
             // 
             // cmbMesuesi
             // 
@@ -199,6 +200,8 @@
             this.dgvLessons.RowTemplate.Height = 24;
             this.dgvLessons.Size = new System.Drawing.Size(411, 353);
             this.dgvLessons.TabIndex = 14;
+            this.dgvLessons.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLessons_CellClick);
+            this.dgvLessons.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLessons_CellContentDoubleClick);
             // 
             // label8
             // 
@@ -324,6 +327,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Lesson";
             this.Text = "Lesson";
+            this.Load += new System.EventHandler(this.Lesson_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLessons)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

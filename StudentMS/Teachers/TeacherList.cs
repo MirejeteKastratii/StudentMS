@@ -168,6 +168,7 @@ namespace StudentMS.Teachers
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+
             string gender;
             if (rdFemale.Checked)
             {
@@ -183,8 +184,9 @@ namespace StudentMS.Teachers
                     ((TextBox)c).Clear();
                 else if (c is RadioButton)
                     ((RadioButton)c).Checked = false;
-
+                
             }
+            dtDitelindja.Value = DateTimePicker.MaximumDateTime;
 
 
         }
@@ -208,6 +210,32 @@ namespace StudentMS.Teachers
                     ((RadioButton)c).Checked = false;
 
             }
+            dtDitelindja.Value = DateTimePicker.MaximumDateTime;
+        }
+
+        private void dgvTeachers_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            TeacherBO model = teacherBLL.GetTeacherData(ID);
+            FillData(model);
+        }
+        public void FillData(TeacherBO msusi)
+        {
+            txtEmri.Text = msusi.Emri;
+            txtMbiemri.Text = msusi.Mbiemri;
+            if (msusi.Gjinia == "F")
+            {
+                rdFemale.Checked = true;
+            }
+            else
+            {
+                rdMale.Checked = true;
+            }
+            dtDitelindja.Value = msusi.Birthdate;
+            txtSpecializimi.Text = msusi.Specializimi;
+            txtVendbanimi.Text = msusi.Vendbanimi;
+            txtEmail.Text = msusi.Vendbanimi;
+            txtNrTel.Text = msusi.NrTel;
+            txtOrePune.Text = Convert.ToString( msusi.WeeklyWorkingHr);
         }
     }
 }

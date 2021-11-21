@@ -132,7 +132,18 @@ namespace StudentMS.Users
         }
         private void btnEditUsers_Click(object sender, EventArgs e)
         {
-           
+            UsersBO userBO = new UsersBO(Convert.ToInt32(userID), txtUserName.Text, txtPass.Text, Convert.ToInt32(cbRoles.SelectedValue));
+            usersService.EditUsers(userBO);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+                else if (c is RichTextBox)
+                    ((RichTextBox)c).Clear();
+
+            }
         }
 
         private void btnRuaj_Click(object sender, EventArgs e)
@@ -187,6 +198,19 @@ namespace StudentMS.Users
         private void pbHelp_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, @"C:\Users\Mirejeta\source\repos\StudentMS\StudentMS\Help\UserManuali.chm", HelpNavigator.Topic, "ManageUsersAdmin_Help.htm");
+        }
+
+        public void FillData(UsersBO user)
+        {
+            cbRoles.SelectedItem = Convert.ToString(user.RoleID);
+            txtUserName.Text = user.UserName;
+            txtPass.Text = user.UserPassword;
+        }
+        private void dgvUsers_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            UsersBLL uBLL = new UsersBLL();
+            UsersBO uBO = uBLL.GetUserByID(userID);
+            FillData(uBO);
         }
     }
 }

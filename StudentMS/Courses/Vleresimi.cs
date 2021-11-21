@@ -18,14 +18,14 @@ namespace StudentMS.Courses
         StudentBLL stBLL = new StudentBLL();
         CoursesBLL courseBLL = new CoursesBLL();
         VleresimetBLL vleresimiBLL = new VleresimetBLL();
-      
+
         public Vleresimi()
         {
             InitializeComponent();
             LoadCourseData();
             LoadStudentData();
         }
-        
+
 
         public void LoadStudentData()
         {
@@ -39,35 +39,20 @@ namespace StudentMS.Courses
             cbLenda.DisplayMember = "Titulli";
             cbLenda.ValueMember = "CourseID";
         }
+
        
-        private void btnRuaj_Click(object sender, EventArgs e)
-        {
-            VleresimetBO vleresimet = new VleresimetBO(Convert.ToInt32(cbLenda.SelectedValue), Convert.ToInt32(cbStudenti.SelectedValue),
-               Convert.ToInt32(txtTesti1.Text), Convert.ToInt32(txtTesti2.Text), 
-                Convert.ToInt32(txtNota.Text) );
-            vleresimiBLL.InsertoVleresime(vleresimet);
-            foreach (var c in this.Controls)
-            {
-                if (c is TextBox)
-                    ((TextBox)c).Clear();
-                else if (c is RadioButton)
-                    ((RadioButton)c).Checked = false;
-
-            }
-        }
-
 
 
         public int ID;
-  
 
-      
 
-         private void dgvVleresimet_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+
+
+        private void dgvVleresimet_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             var SelectedRow = dgvVleresimet.Rows[dgvVleresimet.SelectedCells[0].RowIndex];
 
-            ID =  int.Parse(Convert.ToString(SelectedRow.Cells["VleresimiID"].Value));
+            ID = int.Parse(Convert.ToString(SelectedRow.Cells["VleresimiID"].Value));
         }
 
         private void btnFshij_Click(object sender, EventArgs e)
@@ -183,8 +168,14 @@ namespace StudentMS.Courses
             dGVPrinter.PrintDataGridView(dgvVleresimet);
         }
 
+
+       
         private void btnEditoRekordin_Click(object sender, EventArgs e)
         {
+            VleresimetBO vleresimet = new VleresimetBO(Convert.ToInt32(ID),Convert.ToInt32(cbLenda.SelectedValue), Convert.ToInt32(cbStudenti.SelectedValue),
+               Convert.ToInt32(txtTesti1.Text), Convert.ToInt32(txtTesti2.Text),
+                Convert.ToInt32(txtNota.Text));
+            vleresimiBLL.EditoVleresimet(vleresimet);
             foreach (var c in this.Controls)
             {
                 if (c is TextBox)
@@ -193,6 +184,38 @@ namespace StudentMS.Courses
                     ((RadioButton)c).Checked = false;
 
             }
+        }
+        private void btnRuaj_Click(object sender, EventArgs e)
+        {
+            VleresimetBO vleresimet = new VleresimetBO(Convert.ToInt32(cbLenda.SelectedValue), Convert.ToInt32(cbStudenti.SelectedValue),
+               Convert.ToInt32(txtTesti1.Text), Convert.ToInt32(txtTesti2.Text),
+                Convert.ToInt32(txtNota.Text));
+            vleresimiBLL.InsertoVleresime(vleresimet);
+            foreach (var c in this.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else if (c is RadioButton)
+                    ((RadioButton)c).Checked = false;
+
+            }
+        }
+
+        private void dgvVleresimet_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            VleresimetBLL vleresimetBLL = new VleresimetBLL();
+            VleresimetBO vleresimiBO = vleresimetBLL.GetVleresimetByID(ID);
+            FillData(vleresimiBO);
+
+        }
+        public void FillData(VleresimetBO vleresimi)
+        {
+            cbLenda.SelectedItem = Convert.ToString(vleresimi.CoursesID);
+            cbStudenti.SelectedItem = Convert.ToString(vleresimi.StudentsID);
+            txtTesti1.Text =Convert.ToString( vleresimi.Testi1);
+            txtTesti2.Text = Convert.ToString(vleresimi.Testi2);
+            txtNota.Text = Convert.ToString(vleresimi.FinaleGrade);
+
         }
     }
 }

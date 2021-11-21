@@ -29,5 +29,16 @@ namespace StudentMS_BO
             Email = email;
             NumriTel = nrTel;
         }
+        public StudentsBO(int id,string emri, string mbiemri, DateTime data, string gjinia, string email, string nrTel)
+        {
+            ID = id;
+            Emri = emri;
+            Mbiemri = mbiemri;
+            DataLindjes = data;
+            Gjinia = gjinia;
+            Email = email;
+            NumriTel = nrTel;
+        }
+       
     }
 }

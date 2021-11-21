@@ -62,6 +62,8 @@ namespace StudentMS.Courses
             this.dgvListaKurseve.Name = "dgvListaKurseve";
             this.dgvListaKurseve.RowTemplate.Height = 24;
             this.dgvListaKurseve.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaKurseve_CellClick);
+            this.dgvListaKurseve.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaKurseve_CellContentClick);
+            this.dgvListaKurseve.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaKurseve_CellContentDoubleClick);
             // 
             // lblListaKurseve
             // 

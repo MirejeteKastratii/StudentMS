@@ -124,9 +124,6 @@
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 20</value>
-  </data>
   <data name="&gt;&gt;label8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -165,9 +162,6 @@
   <data name="btnPrint.Font" type="System.Drawing.Font, System.Drawing">
     <value>Montserrat, 10pt</value>
   </data>
-  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 50</value>
-  </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Nota finale:</value>
   </data>
@@ -183,6 +177,9 @@
   <data name="&gt;&gt;label2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="txtTesti1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -192,6 +189,9 @@
   <data name="btnExcel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;cbGjuha.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -200,9 +200,6 @@
   </data>
   <data name="&gt;&gt;btnEditoRekordin.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>726, 519</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -224,6 +221,9 @@
   </data>
   <data name="txtNota.Size" type="System.Drawing.Size, System.Drawing">
     <value>143, 20</value>
+  </data>
+  <data name="btnRifresko.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 36</value>
   </data>
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -258,9 +258,6 @@
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;btnRifresko.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="&gt;&gt;dgvVleresimet.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -288,14 +285,14 @@
   <data name="btnDil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnPrint.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
   <data name="txtNota.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 302</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Studenti:</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Testi i dytë:</value>
@@ -326,9 +323,6 @@
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
   </data>
   <data name="btnExcel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Montserrat, 10pt</value>
@@ -408,9 +402,6 @@
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 27</value>
   </data>
-  <data name="btnExcel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 36</value>
-  </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
@@ -426,6 +417,9 @@
   <data name="&gt;&gt;cbStudenti.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
   <data name="btnRuaj.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
@@ -434,6 +428,9 @@
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
+  </data>
+  <data name="dgvVleresimet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 353</value>
   </data>
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>307, 52</value>
@@ -461,6 +458,9 @@
   </data>
   <data name="&gt;&gt;btnDil.Name" xml:space="preserve">
     <value>btnDil</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>20</value>
   </data>
   <data name="btnPrint.Text" xml:space="preserve">
     <value>Printo</value>
@@ -501,8 +501,8 @@
   <data name="btnEditoRekordin.Text" xml:space="preserve">
     <value>Edito rekordin</value>
   </data>
-  <data name="&gt;&gt;cbGjuha.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
   </data>
   <data name="&gt;&gt;cbGjuha.Parent" xml:space="preserve">
     <value>$this</value>
@@ -543,7 +543,7 @@
   <data name="btnRuaj.Text" xml:space="preserve">
     <value>Inserto</value>
   </data>
-  <data name="btnRifresko.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="btnExcel.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 36</value>
   </data>
   <data name="btnPrint.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -551,9 +551,6 @@
   </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="txtTesti1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 20</value>
   </data>
   <data name="&gt;&gt;cbGjuha.Name" xml:space="preserve">
     <value>cbGjuha</value>
@@ -570,8 +567,14 @@
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="label4.Text" xml:space="preserve">
-    <value>Testi i parë:</value>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 20</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnExcel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -591,11 +594,8 @@
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="btnEditoRekordin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 36</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
   </data>
   <data name="&gt;&gt;label3.Name" xml:space="preserve">
     <value>label3</value>
@@ -606,8 +606,8 @@
   <data name="label2.Text" xml:space="preserve">
     <value>Gjuha:</value>
   </data>
-  <data name="&gt;&gt;btnPrint.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="btnEditoRekordin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 36</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -624,14 +624,11 @@
   <data name="&gt;&gt;txtNota.Name" xml:space="preserve">
     <value>txtNota</value>
   </data>
-  <data name="txtTesti1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 220</value>
-  </data>
   <data name="btnExcel.Location" type="System.Drawing.Point, System.Drawing">
     <value>500, 460</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>19</value>
+  <data name="btnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;txtTesti2.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -675,8 +672,8 @@
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 20</value>
+  <data name="txtTesti1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 220</value>
   </data>
   <data name="&gt;&gt;cbStudenti.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -690,29 +687,26 @@
   <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 453</value>
-  </data>
   <data name="&gt;&gt;label2.Name" xml:space="preserve">
     <value>label2</value>
   </data>
   <data name="&gt;&gt;btnEditoRekordin.Name" xml:space="preserve">
     <value>btnEditoRekordin</value>
   </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Montserrat, 10pt</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 453</value>
   </data>
   <data name="&gt;&gt;txtTesti2.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>726, 519</value>
   </data>
   <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Montserrat, 10pt</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;txtNota.Parent" xml:space="preserve">
     <value>$this</value>
@@ -723,14 +717,17 @@
   <data name="cbLenda.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 21</value>
   </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
   <data name="btnPrint.Location" type="System.Drawing.Point, System.Drawing">
     <value>390, 460</value>
   </data>
   <data name="cbLenda.Location" type="System.Drawing.Point, System.Drawing">
     <value>125, 139</value>
   </data>
-  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
-    <value>18</value>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 10pt</value>
   </data>
   <data name="&gt;&gt;cbStudenti.ZOrder" xml:space="preserve">
     <value>16</value>
@@ -738,8 +735,8 @@
   <data name="label7.Text" xml:space="preserve">
     <value>Shto vlerësime:</value>
   </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>20</value>
+  <data name="txtTesti1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 20</value>
   </data>
   <data name="btnEditoRekordin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -750,11 +747,11 @@
   <data name="pbHelp.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 20</value>
   </data>
   <data name="btnPrint.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 36</value>
@@ -792,17 +789,20 @@
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 302</value>
   </data>
-  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;btnFshij.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="dgvVleresimet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>411, 353</value>
+  <data name="&gt;&gt;btnRifresko.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Testi i parë:</value>
   </data>
   <data name="&gt;&gt;dgvVleresimet.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="&gt;&gt;btnFshij.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="pbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 50</value>
   </data>
   <data name="dgvVleresimet.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>

@@ -28,6 +28,15 @@ namespace StudentMS_BO
             Sesionet = sesionet;
 
         }
+        public CoursesBO(int id, string titulli, string pershkrimi, string syllabusi, int sesionet)
+        {
+            ID = id;
+            Titulli = titulli;
+            Pershkrimi = pershkrimi;
+            Syllabusi = syllabusi;
+            Sesionet = sesionet;
+
+        }
     }
 
     

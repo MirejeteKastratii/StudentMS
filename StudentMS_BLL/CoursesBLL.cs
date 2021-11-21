@@ -16,6 +16,10 @@ namespace StudentMS_BLL
         {
             coursesDAL = new CoursesDAL();
         }
+        public void EditCourses(CoursesBO kursi)
+        {
+            coursesDAL.EditCourses(kursi);
+        }
         public DataTable ShowCourses()
         {
             return coursesDAL.GetCoursesList();
